@@ -5,7 +5,7 @@ const Navbar = () => {
     // const navigate = useNavigate();
 
     return (
-        <div className="shadow font-poppins">
+        <div className="border-b border-gray-200 font-poppins">
             {/* <div className="flex-1">
               <img className="w-44" src="public/logo.png" alt="" />
             </div> */}
@@ -36,7 +36,7 @@ const Navbar = () => {
 
 
             <div>
-                <div className="w-9/12 mx-auto py-4 flex justify-between items-center gap-22 ">
+                <div className="w-9/12 mx-auto py-4 text-[16px] flex justify-between items-center gap-22 ">
 
                     <div className=" flex gap-8 ">
                         <div className="border-r border-gray-400 flex gap-8 pr-12 ">
@@ -44,13 +44,13 @@ const Navbar = () => {
                         </div>
                         <div className="flex items-center gap-2">
                             <BiCategory className="text-3xl" />
-                            <p className="text-xl">Category</p>
+                            <p className="text-[18px]">Category</p>
                         </div>
                     </div>
 
                     <div>
                         <div>
-                            <div className="hidden md:flex gap-8 text-[17px] font-poppins">
+                            <div className="hidden md:flex gap-8  font-poppins">
                                 {[
                                     { to: "/", label: "Home" },
                                     { to: "/courses", label: "Courses" },
@@ -63,7 +63,7 @@ const Navbar = () => {
                                         to={to}
                                         className={({ isActive }) =>
                                             `relative pb-1 transition-all duration-300 
-                                           hover:text-[#F79952] 
+                                           hover:text-[#41bfb8] text-[16px]
                                           ${isActive ? "text-[#F79952] after:scale-x-100" : "text-black after:scale-x-0"} 
                                            after:content-[''] after:absolute after:left-0 after:bottom-0 
                                             after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100`
@@ -77,9 +77,9 @@ const Navbar = () => {
                     </div>
 
                     <div>
-                        <div className="flex gap-2 text-xl items-center bg-[#F79952]   px-6 py-3 rounded-md ">
+                        <div className="flex gap-2 text-xl items-center bg-[#F79952]  px-4 py-2  rounded-md ">
                             <LuBookOpenCheck className="text-2xl text-white font-semibold" />
-                            <p className="text-white font-semibold">Get Course</p>
+                            <p className="text-white text-[16px] font-semibold">GetCourse</p>
                         </div>
                     </div>
                 </div>
