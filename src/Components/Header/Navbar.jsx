@@ -77,7 +77,7 @@ const Navbar = () => {
                     </div>
 
                     <div>
-                        <div className="flex gap-2 text-xl items-center bg-[#F79952]  px-4 py-2  rounded-md ">
+                        <div className="flex gap-2 text-xl items-center bg-[#41bfb8]  px-4 py-2  rounded-md ">
                             <LuBookOpenCheck className="text-2xl text-white font-semibold" />
                             <p className="text-white text-[16px] font-semibold">GetCourse</p>
                         </div>

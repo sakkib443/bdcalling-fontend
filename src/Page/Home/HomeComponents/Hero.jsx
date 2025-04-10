@@ -11,12 +11,12 @@ const Hero = () => {
                     <div className="font-poppins">
                         <div className="flex items-center gap-2 mb-2">
                             <FiBookOpen className="text-3xl animate-bounce" />
-                            <p className="text-xl text-[#41bfb8]">Build A Strong Career With</p>
+                            <p className="text-[22px] text-[#41bfb8] work">Build A Strong Career With</p>
                         </div>
-                        <h1 className="text-4xl md:text-6xl font-semibold lobster-regular">
+                        <h1 className="text-4xl md:text-6xl font-semibold outfit">
                             <span className="text-5xl md:text-7xl text-[#F79952]">Betopia </span>Skills Ltd
                         </h1>
-                        <p className="mt-3 mb-3 text-sm md:text-[15px]">
+                        <p className="mt-3 mb-3 text-sm md:text-[15px] work">
                             Get ready to embark on a journey of knowledge with our innovative
                             learning platform. Explore a wide range of courses and interactive
                             lessons designed by industry-expert instructors to help you reach your full potential
@@ -30,7 +30,7 @@ const Hero = () => {
                                     <div>
                                         <div className="stat-title text-sm">Total Courses</div>
                                         <div className="flex items-center gap-2">
-                                            <div className="stat-value text-[#F79952] text-xl">36+</div>
+                                            <div className="stat-value text-[#41bfb8] text-xl">36+</div>
                                         </div>
                                         <div className="stat-desc text-xs">21% more than last month</div>
                                     </div>
@@ -41,7 +41,7 @@ const Hero = () => {
                                     <div>
                                         <div className="stat-title text-sm">Total Students</div>
                                         <div className="flex items-center gap-3">
-                                            <div className="stat-value text-[#F79952] text-xl">4200+</div>
+                                            <div className="stat-value text-[#41bfb8] text-xl">4200+</div>
                                         </div>
                                         <div className="stat-desc text-xs">21% more than last month</div>
                                     </div>
@@ -52,14 +52,14 @@ const Hero = () => {
                                     <div className="stat-figure text-secondary flex-shrink-0 mr-2">
                                         <div className="avatar online">
                                             <div className="w-14 rounded-full">
-                                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                                <img className='border-2 rounded-full border-[#F79952]' src="https://www.creativefabrica.com/wp-content/uploads/2021/03/10/business-success-icon-Graphics-9457042-1-1-580x386.jpg" />
                                             </div>
                                         </div>
                                     </div>
                                     <div>
                                         <div className="stat-value text-xl">86%</div>
                                         <div className="stat-title text-sm">Job Success</div>
-                                        <div className="stat-desc text-secondary text-xs">31 tasks remaining</div>
+                                        <div className="stat-desc text-[#41bfb8] text-xs">31 tasks remaining</div>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const Hero = () => {
 
                         {/* Get Course Buttons */}
                         <div className="flex gap-4 flex-wrap">
-                            <div className="flex gap-2 text-xl items-center bg-[#F79952] px-4 py-2 rounded-md">
+                            <div className="flex gap-2 text-xl items-center bg-[#41bfb8] px-4 py-2 rounded-md">
                                 <LuBookOpenCheck className="text-2xl text-white font-semibold" />
                                 <p className="text-white font-semibold">Get Course</p>
                             </div>
@@ -81,7 +81,7 @@ const Hero = () => {
 
                 {/* Right Section (Video) */}
                 <div className="flex-1 flex justify-center items-center">
-                    <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-xl">
+                    <div className="relative w-full h-0 pb-[60.25%] overflow-hidden rounded-xl">
                         <iframe
                             className="absolute top-0 left-0 w-full h-full"
                             src="https://www.youtube.com/embed/ohRdvaEzpJQ?si=ShAqobFXDT2Xoqag"
