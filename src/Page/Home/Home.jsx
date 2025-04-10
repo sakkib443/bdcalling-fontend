@@ -1,17 +1,20 @@
-
 import React from 'react';
 import Hero from './HomeComponents/Hero';
 import HomeCategory from './HomeComponents/HomeCategory';
 import PopularCourse from './HomeComponents/PopularCourse';
+import bgImage from '../../assets/img/bgg.png'; // ✅ import the image
 
 const Home = () => {
     return (
         <div>
-            <div className="  h-[calc(100vh-12rem)] py-24 bg-[url('../../../../public/Untitled-2.png')] bg-cover" >
-                <Hero></Hero>
+            <div
+                className="h-[calc(100vh-12rem)] py-24 bg-cover bg-center"
+                style={{ backgroundImage: `url(${bgImage})` }} // ✅
+            >
+                <Hero />
             </div>
-            <HomeCategory></HomeCategory>
-            <PopularCourse></PopularCourse>
+            <HomeCategory />
+            <PopularCourse />
         </div>
     );
 };

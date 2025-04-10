@@ -7,7 +7,7 @@ import { FiTwitter } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
 const TopHeader = () => {
     return (
-        <div className=' bg-[#e6eded] font-poppins '>
+        <div className=' bg-[#e6eded] work '>
             <div className='w-9/12 mx-auto '>
                 <div className=' flex items-center justify-between'>
                     <div className='flex items-center gap-5 py-2 '>

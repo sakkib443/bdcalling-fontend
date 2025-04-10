@@ -1,11 +1,13 @@
 import { NavLink } from "react-router-dom";
 import { BiCategory } from "react-icons/bi";
 import { LuBookOpenCheck } from "react-icons/lu";
+
+import logo from '../../assets/img/logo.png';
 const Navbar = () => {
     // const navigate = useNavigate();
 
     return (
-        <div className="border-b border-gray-200 font-poppins">
+        <div className="border-b border-gray-200 font-poppins ">
             {/* <div className="flex-1">
               <img className="w-44" src="public/logo.png" alt="" />
             </div> */}
@@ -40,7 +42,7 @@ const Navbar = () => {
 
                     <div className=" flex gap-8 ">
                         <div className="border-r border-gray-400 flex gap-8 pr-12 ">
-                            <img className="w-44 " src="public/logo.png" alt="" />
+                            <img className="w-44 " src={logo} alt="" />
                         </div>
                         <div className="flex items-center gap-2">
                             <BiCategory className="text-3xl" />
