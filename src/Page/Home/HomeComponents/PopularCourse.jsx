@@ -83,7 +83,7 @@ const PopularCourse = () => {
                             <div className="flex justify-between items-center mt-2 pl-4 mb-2">
                                 <div className="flex gap-2 justify-center  text-xl items-center border border-[#41bfb8] px-2 py-1 rounded-md">
                                     <LuBookOpenCheck className="text-xl text-[#41bfb8] font-semibold" />
-                                    <p className="text-[#41bfb8] work tracking-tight text-md">Course Details</p>
+                                    <p className="text-[#41bfb8] work tracking-tight text-md ">Course Details</p>
                                 </div>
                                 <div className="flex gap-2 justify-center   text-xl items-center border border-[#41bfb8] px-2 py-1 rounded-md">
 
