@@ -5,7 +5,7 @@ import PopularCourseCard from './PopularCourseCard';
 
 const PopularCourse = () => {
     return (
-        <div className='my-24 '>
+        <div className='mb-24 '>
             <div className='bg-[#ecfcfb] py-16 w-11/12 mx-auto rounded-2xl'>
                 <div>
                     <h1 className='text-center csd text-6xl font-semibold outfit-semibold work '>Popular Courses</h1>

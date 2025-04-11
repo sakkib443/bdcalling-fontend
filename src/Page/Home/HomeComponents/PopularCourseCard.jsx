@@ -4,6 +4,7 @@ import { LuBookOpenCheck } from 'react-icons/lu';
 import { BiCategory } from "react-icons/bi";
 import giIdCardImg from '../../../assets/img/GD-Card (1).jpg';
 import mernImg from '../../../assets/img/Mern-card.jpg';
+import dmImg from '../../../assets/img/DM-caed.jpg';
 
 const courseData = [
     {
@@ -29,7 +30,7 @@ const courseData = [
         title: "Certified Digital Marketing Specilist",
         category: "Web Technology",
         type: "Offline Course",
-        image: "https://api.bdcallingacademy.com/adminAsset/image/1397549740.jpg",
+        image: dmImg,
         fee: "25000৳",
         rating: 5
     },
@@ -39,7 +40,7 @@ const courseData = [
 
 const PopularCourseCard = () => {
     return (
-        <div className='mx-auto flex justify-center gap-12 mt-12'>
+        <div className='mx-auto flex flex-col md:flex-row justify-center gap-12 mt-12'>
             <div className='border border-[#d0eae8] rounded-md'>
                 <p className='border-b pl-6 py-3 mb-3 outfit-semibold border-[#d1eae8] text-2xl'>Category</p>
                 <div className='flex flex-col gap-3 work pl-6 pb-8 pr-6'>
@@ -52,9 +53,9 @@ const PopularCourseCard = () => {
                 </div>
             </div>
 
-            <div className='flex gap-6 flex-wrap'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 flex-wrap '>
                 {courseData.map(course => (
-                    <div key={course.id} className="relative w-[400px] cursor-pointer transition-all duration-500 ease-in-out hover:rotate-[0.1deg] hover:scale-[1.03] hover:shadow-xl group perspective rounded-xl">
+                    <div key={course.id} className="relative xl:w-[380px] bg-transparent  cursor-pointer transition-all duration-500 ease-in-out hover:rotate-[0.1deg] hover:scale-[1.03] hover:shadow-xl group perspective rounded-xl">
                         <div className="relative rounded-md border border-gray-200 bg-white p-2 text-gray-800 overflow-hidden transition-all duration-700 ease-in-out">
                             <div className="relative h-52 w-full overflow-visible">
                                 <img
@@ -64,7 +65,7 @@ const PopularCourseCard = () => {
                                 />
                             </div>
 
-                            <div className="mt-5 space-y-2 text-left pl-4">
+                            <div className="mt-5 space-y-1 text-left pl-4 ">
                                 <div className='flex justify-between pr-8'>
                                     <div className='flex items-center gap-1'>
                                         <BiCategory />
@@ -72,7 +73,7 @@ const PopularCourseCard = () => {
                                     </div>
                                     <p className='bg-[#F79952] text-white text-[13px] px-2 py-1 work rounded-[4px]'>{course.type}</p>
                                 </div>
-                                <h2 className="text-[26px] font-bold w-11/12 outfit-semibold csd">{course.title}</h2>
+                                <h2 className="text-[26px] font-bold w-11/12 outfit-semibold csd ">{course.title}</h2>
                                 <div className='flex justify-between pr-8 items-center'>
                                     <p className="text-lg font-semibold text-gray-800 work">Course Fee {course.fee}</p>
                                     <div className="rating text-sm">

@@ -8,37 +8,8 @@ const Navbar = () => {
 
     return (
         <div className="border-b border-gray-200 font-poppins ">
-            {/* <div className="flex-1">
-              <img className="w-44" src="public/logo.png" alt="" />
-            </div> */}
-            {/* <div className="hidden md:flex gap-4">
-                <NavLink to="/" className={({ isActive }) => isActive ? "btn btn-sm btn-primary" : "btn btn-sm btn-ghost"}>
-                    Home
-                </NavLink>
-                <NavLink to="/courses" className={({ isActive }) => isActive ? "btn btn-sm btn-primary" : "btn btn-sm btn-ghost"}>
-                    Courses
-                </NavLink>
-                <NavLink to="/events" className={({ isActive }) => isActive ? "btn btn-sm btn-primary" : "btn btn-sm btn-ghost"}>
-                    Events
-                </NavLink>
-                <NavLink to="/about" className={({ isActive }) => isActive ? "btn btn-sm btn-primary" : "btn btn-sm btn-ghost"}>
-                    About
-                </NavLink>
-                <NavLink to="/contact" className={({ isActive }) => isActive ? "btn btn-sm btn-primary" : "btn btn-sm btn-ghost"}>
-                    Contact
-                </NavLink>
-            </div> */}
-
-            {/* Example of programmatic navigation */}
-            {/* <div className="ml-4 hidden md:block">
-                <button onClick={() => navigate("/courses")} className="btn btn-outline btn-sm">
-                    Explore Courses
-                </button>
-            </div> */}
-
-
             <div>
-                <div className="w-9/12 mx-auto py-4 text-[16px] flex justify-between items-center gap-22 ">
+                <div className="w-9/12 mx-auto py-4 text-[16px] flex flex-col md:flex-row justify-between items-center gap-22 ">
 
                     <div className=" flex gap-8 ">
                         <div className="border-r border-gray-400 flex gap-8 pr-12 ">

@@ -9,7 +9,7 @@ const TopHeader = () => {
     return (
         <div className=' bg-[#e6eded] work '>
             <div className='w-9/12 mx-auto '>
-                <div className=' flex items-center justify-between'>
+                <div className=' flex flex-col md:flex-row items-center justify-between'>
                     <div className='flex items-center gap-5 py-2 '>
                         <div className='flex gap-1 items-center  pr-4 '>
                             <IoMdCall className='text-[20px] text-[#F79952] ' />
