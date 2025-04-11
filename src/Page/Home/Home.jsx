@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <div
-                className="h-[calc(100vh-12rem)] py-24 bg-cover bg-center"
+                className="h-[calc(100vh-13rem)] py-24 bg-cover bg-center"
                 style={{ backgroundImage: `url(${bgImage})` }} // ✅
             >
                 <Hero />
