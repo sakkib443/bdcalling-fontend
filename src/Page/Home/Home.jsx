@@ -3,6 +3,7 @@ import Hero from './HomeComponents/Hero';
 import HomeCategory from './HomeComponents/HomeCategory';
 import PopularCourse from './HomeComponents/PopularCourse';
 import bgImage from '../../assets/img/bgg.png'; // ✅ import the image
+import Concern from './HomeComponents/Concern';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             </div>
             <HomeCategory />
             <PopularCourse />
+            <Concern></Concern>
         </div>
     );
 };

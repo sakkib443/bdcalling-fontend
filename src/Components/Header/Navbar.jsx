@@ -7,7 +7,7 @@ const Navbar = () => {
     // const navigate = useNavigate();
 
     return (
-        <div className="border-b border-gray-200 font-poppins ">
+        <div className="border-b border-gray-200 font-poppins sticky top-0 z-50 bg-white">
             <div>
                 <div className="w-9/12 mx-auto py-4 text-[16px] flex flex-col md:flex-row justify-between items-center gap-22 ">
 
