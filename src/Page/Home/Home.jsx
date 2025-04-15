@@ -3,7 +3,10 @@ import Hero from './HomeComponents/Hero';
 import HomeCategory from './HomeComponents/HomeCategory';
 import PopularCourse from './HomeComponents/PopularCourse';
 import bgImage from '../../assets/img/bgg.png'; // ✅ import the image
+import bgImage2 from '../../assets/img/bg1.png'; // ✅ import the image
 import Concern from './HomeComponents/Concern';
+import SeminarAndEvent from './HomeComponents/seminarAndEvent';
+import SuccesHistory from './HomeComponents/SuccesHistory';
 
 const Home = () => {
     return (
@@ -15,8 +18,13 @@ const Home = () => {
                 <Hero />
             </div>
             <HomeCategory />
-            <PopularCourse />
-            <Concern></Concern>
+            <div  className="  bg-cover bg-center"
+                style={{ backgroundImage: `url(${bgImage2})` }} >
+                <PopularCourse />
+            </div>
+            {/* <Concern></Concern> */}
+            <SeminarAndEvent></SeminarAndEvent>
+            <SuccesHistory></SuccesHistory>
         </div>
     );
 };
