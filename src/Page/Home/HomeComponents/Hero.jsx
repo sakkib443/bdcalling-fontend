@@ -30,7 +30,7 @@ const Hero = () => {
                                     <div>
                                         <div className="stat-title text-sm">Total Courses</div>
                                         <div className="flex items-center gap-2">
-                                            <div className="stat-value text-[#41bfb8] text-xl">36+</div>
+                                            <div className="stat-value text-[#41bfb8] text-xl">50+</div>
                                         </div>
                                         <div className="stat-desc text-xs">21% more than last month</div>
                                     </div>
@@ -57,7 +57,7 @@ const Hero = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="stat-value text-xl">86%</div>
+                                        <div className="stat-value text-xl">90%</div>
                                         <div className="stat-title text-sm">Job Success</div>
                                         <div className="stat-desc text-[#41bfb8] text-xs">31 tasks remaining</div>
                                     </div>
