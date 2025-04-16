@@ -7,6 +7,8 @@ import bgImage2 from '../../assets/img/bg1.png'; // ✅ import the image
 import Concern from './HomeComponents/Concern';
 import SeminarAndEvent from './HomeComponents/seminarAndEvent';
 import SuccesHistory from './HomeComponents/SuccesHistory';
+import WhatWeProvide from './HomeComponents/WhatWeProvide';
+import Employe from './HomeComponents/Employe';
 
 const Home = () => {
     return (
@@ -25,6 +27,10 @@ const Home = () => {
             {/* <Concern></Concern> */}
             <SeminarAndEvent></SeminarAndEvent>
             <SuccesHistory></SuccesHistory>
+            <WhatWeProvide></WhatWeProvide>
+            <div>
+            <Employe></Employe>
+            </div>
         </div>
     );
 };
