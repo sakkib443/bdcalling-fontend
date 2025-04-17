@@ -11,3 +11,4 @@ const SectionHeading = ({ title, discription }) => {
 };
 
 export default SectionHeading;
+

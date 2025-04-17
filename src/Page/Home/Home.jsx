@@ -4,11 +4,12 @@ import HomeCategory from './HomeComponents/HomeCategory';
 import PopularCourse from './HomeComponents/PopularCourse';
 import bgImage from '../../assets/img/bgg.png'; // ✅ import the image
 import bgImage2 from '../../assets/img/bg1.png'; // ✅ import the image
-import Concern from './HomeComponents/Concern';
+
 import SeminarAndEvent from './HomeComponents/seminarAndEvent';
 import SuccesHistory from './HomeComponents/SuccesHistory';
 import WhatWeProvide from './HomeComponents/WhatWeProvide';
 import Employe from './HomeComponents/Employe';
+import Concerns from './HomeComponents/Concerns';
 
 const Home = () => {
     return (
@@ -20,16 +21,16 @@ const Home = () => {
                 <Hero />
             </div>
             <HomeCategory />
-            <div  className="  bg-cover bg-center"
+            <div className="  bg-cover bg-center"
                 style={{ backgroundImage: `url(${bgImage2})` }} >
                 <PopularCourse />
             </div>
-            {/* <Concern></Concern> */}
+            <Concerns></Concerns>
             <SeminarAndEvent></SeminarAndEvent>
             <SuccesHistory></SuccesHistory>
             <WhatWeProvide></WhatWeProvide>
             <div>
-            <Employe></Employe>
+                <Employe></Employe>
             </div>
         </div>
     );

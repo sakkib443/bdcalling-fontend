@@ -130,7 +130,7 @@ const Course = () => {
         <div className="mb-24 mt-4">
             <SectionHeading title={"Discover Your Next Skill"} discription={"Unlock a variety of practical and in-demand courses tailored to your career goals. Whether you're starting fresh or aiming higher, our learning paths are made to guide you every step of the way.Each course is crafted by industry experts to ensure you gain real-world skills that make a difference."}></SectionHeading>
         </div>
-        <div className="w-9/12 md:w-10/11 lg:w-10/12 mx-auto">
+        <div className="w-11/12 md:w-10/11  mx-auto">
           <div>
             {initialLoading ? (
               <div className="flex justify-center items-center h-screen">
@@ -138,7 +138,7 @@ const Course = () => {
               </div>
             ) : (
               <div className="flex flex-col-reverse lg:flex-row gap-4">
-                <div className="w-full lg:w-1/4 lg:sticky lg:top-24 lg:self-start">
+                <div className="w-full lg:w-[20%] lg:sticky lg:top-24 lg:self-start">
                   <LeftCategory
                     courseCategories={courseCategories}
                     selectedCategories={selectedCategories}
@@ -156,7 +156,7 @@ const Course = () => {
                   {selectedCategories === "All" &&
                     searchQuery === "" &&
                     allCourses.length > courses.length && (
-                      <div className="flex justify-center my-6">
+                      <div className="flex justify-center my-3">
                         <button
                           onClick={loadMorecourses}
                           disabled={loadMoreLoading}

@@ -29,7 +29,7 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
   return (
     <div className="flex flex-col gap-7">
       <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
-        <h1 className="text-[#F79952] text-4xl md:text-5xl outfit-semibold">
+        <h1 className="text-[#F79952] text-4xl md:text-5xl outfit-semibold ">
           Our <span className="crd">Courses</span>
         </h1>
         <div className="flex flex-col md:flex-row items-center gap-4">
@@ -38,10 +38,10 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
               <button
                 key={type}
                 onClick={() => handleTypeChange(type)}
-                className={`py-1 px-2 cursor-pointer rounded-md shadow-md transition-colors ${
+                className={`py-2 px-4 cursor-pointer rounded-md  transition-colors ${
                   selectedType === type
                     ? "bg-[#41bfb8] text-white font-medium"
-                    : "bg-white text-black"
+                    : " text-black border border-gray-300"
                 }`}
               >
                 <p className="text-sm md:text-base">{type}</p>
@@ -58,7 +58,7 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
               }`}
             >
               <p className="text-sm md:text-base">
-                {selectedMentor || "Select Mentor"}
+                {selectedMentor || " Select Mentor 🖌️"}
               </p>
             </button>
             {isDropdownOpen && (
