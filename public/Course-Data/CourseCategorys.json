@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "All"
+  },
+  {
+    "id": 2,
+    "name": "Web Technology"
+  },
+  {
+    "id": 3,
+    "name": "Art & Graphic"
+  },
+  {
+    "id": 4,
+    "name": "Design"
+  },
+  {
+    "id": 5,
+    "name": "Programming"
+  },
+  {
+    "id": 6,
+    "name": "Data Science"
+  },
+  {
+    "id": 7,
+    "name": "Mobile Development"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Computing"
+  },
+  {
+    "id": 9,
+    "name": "Artificial Intelligence"
+  },
+  {
+    "id": 10,
+    "name": "Cybersecurity"
+  }
+]

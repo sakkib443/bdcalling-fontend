@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { SlSocialFacebook } from "react-icons/sl";
 import { FiTwitter } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
+import { Link } from 'react-router-dom';
 const TopHeader = () => {
     return (
         <div className=' bg-[#e6eded] work '>
@@ -31,8 +32,10 @@ const TopHeader = () => {
 
                             </div>
                             <div className='flex gap-4 text-[15px]'>
-                                <p className='border-r border-gray-400 pr-3'>Login</p>
-                                <p>Register</p>
+                                <Link to="/login"> <p className='border-r border-gray-400 pr-3'>Login</p></Link>
+                                <Link to="/signup">   <p>Register</p></Link>
+                               
+                              
                             </div>
                         </div>
                     </div>
