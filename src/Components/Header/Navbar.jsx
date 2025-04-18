@@ -46,6 +46,7 @@ const Navbar = () => {
                             { to: "/events", label: "Events" },
                             { to: "/about", label: "About" },
                             { to: "/contact", label: "Contact" },
+                            { to: "/our-team", label: "Our Team" },
                         ].map(({ to, label }) => (
                             <NavLink
                                 key={to}
