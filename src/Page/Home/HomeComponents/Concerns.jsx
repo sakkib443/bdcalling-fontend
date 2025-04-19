@@ -1,6 +1,6 @@
 
-import  { useState } from 'react';
-import React from "react"; 
+import { useState } from 'react';
+import React from "react";
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
@@ -83,15 +83,15 @@ const Concerns = () => {
 
     const filteredImages = images.filter(image => image.category === selectedCategory);
     const paginatedImages = filteredImages.slice(page * imagesPerPage, (page + 1) * imagesPerPage);
-    const hasMoreImages = filteredImages.length > (page + 1) * imagesPerPage;
+    // const hasMoreImages = filteredImages.length > (page + 1) * imagesPerPage;
 
     return (
-        <div className='bg-white py-12 md:py-24 relative'>
-            <div className='w-11/12 lg:w-9/12 mx-auto'>
+        <div className='bg-white py-12 md:py-12 relative '>
+            <div className='w-11/12 lg:w-10/12 mx-auto border py-6 px-6 rounded-2xl border-gray-200'>
                 <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
-                    <div className='w-full lg:w-1/4'>
+                    <div className='w-full lg:w-1/4 border-r border-gray-200'>
                         <div className='rounded-md'>
-                            <p className='border-b pl-6 py-3 mb-3 outfit-semibold border-[#d1eae8] text-2xl md:text-[28px] dark:text-black'>We Are Working With</p>
+                            <p className='border-b pl-6 py-3 mb-3 outfit-semibold border-[#d1eae8] text-2xl md:text-[28px] dark:text-black'>We Are <span className='csd'>Working</span> With</p>
                             <div className='flex flex-col gap-3 work pl-6 pb-8 pr-6'>
                                 {['Our Concern', 'Colaboration With', 'Member Of'].map((cat, idx) => (
                                     <label key={idx} className="fieldset-label dark:text-gray-600">
@@ -110,7 +110,7 @@ const Concerns = () => {
                     </div>
 
                     <div className='w-full lg:w-3/4 relative'>
-                        <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-12'>
+                        <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2'>
                             {paginatedImages.length > 0 ? (
                                 paginatedImages.map((image, index) => (
                                     <motion.div
@@ -120,11 +120,13 @@ const Concerns = () => {
                                         animate={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.4, delay: index * 0.05 }}
                                     >
-                                        <img
-                                            src={image.src}
-                                            alt={`Image ${image.id}`}
-                                            className="w-20 object-cover"
-                                        />
+                                        <div className='w-36 h-36 flex bg- justify-center items-center object-cover  p-4 border border-[#b3f0ed] shadow-sm rounded-2xl'>
+                                            <img
+                                                src={image.src}
+                                                alt={`Image ${image.id}`}
+                                                className="w-20"
+                                            />
+                                        </div>
                                     </motion.div>
                                 ))
                             ) : (
@@ -135,19 +137,19 @@ const Concerns = () => {
 
                         {/* Pagination Buttons */}
                         <div>
-                            {page > 0 && (
+                            { (
                                 <button
                                     onClick={handlePrev}
-                                    className="absolute cursor-pointer left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white transition duration-500"
+                                    className="absolute cursor-pointer -left-5 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white transition duration-500"
                                 >
                                     <FaChevronLeft className='cpr' size={18} />
                                 </button>
                             )}
 
-                            {hasMoreImages && (
+                            { (
                                 <button
                                     onClick={handleNext}
-                                    className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white border border-gray-300 transition duration-500 cursor-pointer"
+                                    className="absolute -right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white border border-gray-300 transition duration-500 cursor-pointer"
                                 >
                                     <FaChevronRight className='cpr' size={18} />
                                 </button>

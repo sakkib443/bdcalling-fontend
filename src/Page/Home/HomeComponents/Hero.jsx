@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="font-poppins">
             <div className="flex items-center gap-2 mb-2">
               <FiBookOpen className="text-2xl sm:text-3xl animate-bounce" />
-              <p className="text-lg sm:text-xl md:text-[22px] text-[#41bfb8] work">
+              <p className="text-lg uppercase sm:text-xl md:text-[22px] text-[#41bfb8] work">
                 Build A Strong Career With
               </p>
             </div>
@@ -21,7 +21,7 @@ const Hero = () => {
               To Leader {" "}
               </span>
             </h1>
-            <h1 className="md:text-6xl text-5xl  outfit">Start Your <span className="text-[#F79952]">Digital Journey</span> Today</h1>
+            <h1 className="md:text-6xl uppercase my-4 text-5xl  outfit">Start Your <span className="text-[#F79952]">Digital Journey</span> Today</h1>
             <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] work">
               Get ready to embark on a journey of knowledge with our innovative
               learning platform. Explore a wide range of courses and interactive

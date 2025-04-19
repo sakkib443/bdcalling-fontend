@@ -4,7 +4,7 @@ import { FcCollaboration } from "react-icons/fc";
 
 const WhatWeProvide = () => {
   return (
-    <div className="bg-white py-8 md:py-12 lg:py-16">
+    <div className="bg-white py-8 md:py-12 lg:py-1">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title={"Our Unique Learning Approach "}
