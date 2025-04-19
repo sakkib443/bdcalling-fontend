@@ -5,35 +5,35 @@
   },
   {
     "id": 2,
-    "name": "Web Technology"
+    "name": "Art & Design"
   },
   {
     "id": 3,
-    "name": "Art & Graphic"
-  },
-  {
-    "id": 4,
-    "name": "Design"
-  },
-  {
-    "id": 5,
     "name": "Programming"
   },
   {
+    "id": 4,
+    "name": "Marketing"
+  },
+  {
+    "id": 5,
+    "name": "Media & Flim"
+  },
+  {
     "id": 6,
-    "name": "Data Science"
+    "name": "Networking & Server"
   },
   {
     "id": 7,
-    "name": "Mobile Development"
+    "name": "Management"
   },
   {
     "id": 8,
-    "name": "Cloud Computing"
+    "name": "Database"
   },
   {
     "id": 9,
-    "name": "Artificial Intelligence"
+    "name": "Diploma"
   },
   {
     "id": 10,

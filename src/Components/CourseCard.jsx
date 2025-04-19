@@ -13,7 +13,7 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
           className="relative   bg-transparent cursor-pointer transition-transform duration-700 ease-in-out hover:scale-[1.03] hover:shadow-xl group perspective rounded-xl"
         >
           <div className="rounded-md border border-gray-200 bg-white p-2 text-gray-800 overflow-hidden transition-all duration-700 ease-in-out">
-            <div className="relative h-52 w-full overflow-hidden  rounded-xl">
+            <div className="relative h-52 w-full overflow-hidden rounded-xl">
               <img
                 src={image}
                 alt="thumbnail"

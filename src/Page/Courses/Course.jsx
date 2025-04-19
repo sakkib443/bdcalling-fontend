@@ -126,9 +126,13 @@ const Course = () => {
   return (
     <>
       <div className="bg-[#ecfcfb] py-12">
-
         <div className="mb-24 mt-4">
-            <SectionHeading title={"Discover Your Next Skill"} discription={"Unlock a variety of practical and in-demand courses tailored to your career goals. Whether you're starting fresh or aiming higher, our learning paths are made to guide you every step of the way.Each course is crafted by industry experts to ensure you gain real-world skills that make a difference."}></SectionHeading>
+          <SectionHeading
+            title={"Discover Your Next Skill"}
+            description={
+              "Unlock a variety of practical and in-demand courses tailored to your career goals. Whether you're starting fresh or aiming higher, our learning paths are made to guide you every step of the way.Each course is crafted by industry experts to ensure you gain real-world skills that make a difference."
+            }
+          ></SectionHeading>
         </div>
         <div className="w-11/12 md:w-10/11  mx-auto">
           <div>
