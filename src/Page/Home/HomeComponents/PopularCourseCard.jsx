@@ -61,7 +61,7 @@ const PopularCourseCard = () => {
   };
 
   return (
-    <div className="relative mx-auto mt-12 w-full">
+    <div className="relative mx-auto mt-12 w-full  ">
       {/* Category Filter */}
       <div className="flex flex-wrap justify-center gap-3 pl-6 pb-8 pr-6">
         {courseCategorys.map((cat, idx) => (
@@ -84,27 +84,27 @@ const PopularCourseCard = () => {
         {/* Arrow Buttons */}
         <button
           onClick={handlePrev}
-          className="absolute cursor-pointer left-0 lg:left-10 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white transition duration-500"
+          className="absolute cursor-pointer md:left-0  -left-4 lg:left-10 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white transition duration-500"
         >
           <FaChevronLeft className="cpr" size={18} />
         </button>
 
         <button
           onClick={handleNext}
-          className="absolute right-0 lg:right-10  cursor-pointer top-1/2 transform -translate-y-1/2 z-10 bg-white  shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white border border-gray-300 transition duration-500"
+          className="absolute -right-4 lg:right-10  cursor-pointer top-1/2 transform -translate-y-1/2 z-10 bg-white  shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white border border-gray-300 transition duration-500"
         >
           <FaChevronRight className="cpr" size={18} />
         </button>
 
         {/* Course Cards */}
-        <div className="flex flex-wrap gap-8 justify-center transition-all duration-700 ease-in-out px-6 md:px-12">
+        <div className="flex flex-wrap gap-8 justify-center transition-all duration-700 ease-in-out  md:px-12 ">
           {visibleCourses.map((course) => (
             <div
               key={course.id}
-              className="relative w-[380px] h-[430px] bg-transparent cursor-pointer transition-transform duration-700 ease-in-out hover:scale-[1.03] hover:shadow-xl group perspective rounded-xl"
+              className="relative md:w-[380px] h-[430px] bg-transparent cursor-pointer  transition-transform duration-700 ease-in-out hover:scale-[1.03] hover:shadow-xl group perspective rounded-xl"
             >
               <div className="rounded-md border border-gray-200 bg-white p-2 text-gray-800 overflow-hidden transition-all duration-700 ease-in-out">
-                <div className="relative h-52 w-full overflow-hidden rounded-xl">
+                <div className="relative h-52 w-[full] overflow-hidden rounded-xl">
                   <img
                     src={course.image}
                     alt="thumbnail"
@@ -146,13 +146,13 @@ const PopularCourseCard = () => {
                   </div>
                 </div>
 
-                <div className="flex justify-between items-center mt-2 pl-4 mb-2">
+                <div className="flex  justify-between items-center mt-2 pl-4 mb-2 gap-2 md:gap-0">
                   <Link
                     to={`/courses/${course.id}`}
-                    className="flex gap-2 text-xl items-center border bg-[#41bfb8] border-[#41bfb8] px-4 py-2 rounded-md"
+                    className="flex gap-2 text-xl items-center border  bg-[#41bfb8] border-[#41bfb8] px-4 py-2 rounded-md"
                   >
                     <LuBookOpenCheck className="text-md font-semibold text-white" />
-                    <p className="work tracking-tight text-[15px] text-white">
+                    <p className="work tracking-tight text-sm md:text-[15px] text-white">
                       Course Details
                     </p>
                   </Link>

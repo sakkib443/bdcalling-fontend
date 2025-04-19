@@ -32,8 +32,8 @@ const HomeCategory = () => {
                                     <img className='w-14 transform' src={cat.img} alt={cat.title} />
                                 </div>
                                 <div>
-                                    <h3 className='font-semibold crd outfit-semibold '>{cat.title}</h3>
-                                    <p className='work dark:text-black text-nowrap'>{cat.subtitle}</p>
+                                    <h3 className='font-semibold crd outfit-semibold text-xs lg:text-[16px]'>{cat.title}</h3>
+                                    <p className='work text-xs  lg:text-[16px] dark:text-black text-nowrap'>{cat.subtitle}</p>
                                 </div>
                             </div>
                         </div>

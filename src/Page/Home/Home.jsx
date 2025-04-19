@@ -13,7 +13,7 @@ import Concerns from "./HomeComponents/Concerns";
 
 const Home = () => {
   return (
-    <div>
+    <div className=" ">
       <div
         className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 bg-cover bg-center bg-no-repeat w-full"
         style={{ backgroundImage: `url(${bgImage})` }}
