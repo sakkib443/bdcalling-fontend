@@ -22,8 +22,8 @@ const categories = [
 
 const HomeCategory = () => {
     return (
-        <div className=''>
-            <div className='grid cursor-pointer   lg:grid-cols-4 w-9/12 mx-auto justify-center items-center gap-x-5 gap-y-3 py-4'>
+        <div className='bg-white'>
+            <div className='grid cursor-pointer md:grid-cols-2 lg:grid-cols-4 w-9/12 mx-auto justify-center items-center gap-x-5 gap-y-3 py-6 md:py-10'>
                 {
                     categories.map((cat, index) => (
                         <div key={index}>
@@ -33,7 +33,7 @@ const HomeCategory = () => {
                                 </div>
                                 <div>
                                     <h3 className='font-semibold crd outfit-semibold'>{cat.title}</h3>
-                                    <p className='work'>{cat.subtitle}</p>
+                                    <p className='work dark:text-black text-nowrap'>{cat.subtitle}</p>
                                 </div>
                             </div>
                         </div>

@@ -86,19 +86,19 @@ const Concerns = () => {
     const hasMoreImages = filteredImages.length > (page + 1) * imagesPerPage;
 
     return (
-        <div className='bg-white pb-12 md:pb-24 relative'>
+        <div className='bg-white py-12 md:py-24 relative'>
             <div className='w-11/12 lg:w-9/12 mx-auto'>
-                <div className='flex flex-col md:flex-row items-center justify-center gap-12'>
-                    <div className='w-full md:w-1/4'>
+                <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
+                    <div className='w-full lg:w-1/4'>
                         <div className='rounded-md'>
-                            <p className='border-b pl-6 py-3 mb-3 outfit-semibold border-[#d1eae8] text-2xl md:text-[28px]'>We Are Working With</p>
+                            <p className='border-b pl-6 py-3 mb-3 outfit-semibold border-[#d1eae8] text-2xl md:text-[28px] dark:text-black'>We Are Working With</p>
                             <div className='flex flex-col gap-3 work pl-6 pb-8 pr-6'>
                                 {['Our Concern', 'Colaboration With', 'Member Of'].map((cat, idx) => (
-                                    <label key={idx} className="fieldset-label">
+                                    <label key={idx} className="fieldset-label dark:text-gray-600">
                                         <input
                                             type="radio"
                                             name="category"
-                                            className="checkbox w-5 h-5 rounded-sm"
+                                            className="checkbox w-5 h-5 rounded-sm dark:bg-white dark:border-gray-300"
                                             checked={selectedCategory === cat}
                                             onChange={() => handleCategoryChange(cat)}
                                         />
@@ -109,7 +109,7 @@ const Concerns = () => {
                         </div>
                     </div>
 
-                    <div className='w-full md:w-3/4 relative'>
+                    <div className='w-full lg:w-3/4 relative'>
                         <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-12'>
                             {paginatedImages.length > 0 ? (
                                 paginatedImages.map((image, index) => (
