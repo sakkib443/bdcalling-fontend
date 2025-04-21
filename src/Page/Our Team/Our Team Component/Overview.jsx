@@ -1,38 +1,52 @@
 import React from 'react';
-import img1 from "../../../assets/img/icon (1).png"
+import img1 from "../../../assets/img/icon (1).png";
+import img2 from "../../../assets/img/icon4.png";
+import img3 from "../../../assets/img/gd.png";
+
+const statsData = [
+    {
+        id: 1,
+        image: img1,
+        count: "50+",
+        label: "Courses",
+        bg: "bg-[#e1fcf9]",
+    },
+    {
+        id: 2,
+        image: img2,
+        count: "20+",
+        label: "Mentors",
+        bg: "bg-[#e1fcf9]",
+    },
+    {
+        id: 3,
+        image: img3,
+        count: "150+",
+        label: "Associate Employees",
+        bg: "bg-[#e1fcf9]",
+    },
+];
+
 const Overview = () => {
     return (
-        <div>
-            <div className="w-11/12 mx-auto my-10">
-                <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
-                    <div className="bg-[#FDF2F2] flex gap-10 justify-center items-center py-13  rounded-4xl">
-                        <div className="">
-                            <img className='w-15' src={img1} alt="" />
+        <div className="w-11/12 mx-auto my-10 ">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
+                {statsData.map((item) => (
+                    <div
+                        key={item.id}
+                        className={`flex gap-10 justify-center items-center py-10 border border-gray-200 rounded-2xl ${item.bg}`}
+                    >
+                        <div>
+                            <img className="w-20" src={item.image} alt={item.label} />
                         </div>
-                        <div className="text-center">
-                            <p className='text-5xl font-bold'>200+</p>
-                            <p className='font-semibold text-2xl'>Courses</p>
+                        <div className="">
+                            <p className="text-5xl outfit-semibold">{item.count}</p>
+                            <p className={`font-semibold ${item.label.length > 10 ? 'text-xl' : 'text-2xl'}`}>
+                                {item.label}
+                            </p>
                         </div>
                     </div>
-                    <div className="bg-[#EDFBF2] flex gap-10 items-center justify-center py-13 rounded-4xl">
-                        <div className="">
-                            <img className='w-15' src="/src/assets/img/team/icon2.png" alt="" />
-                        </div>
-                        <div className="text-center">
-                            <p className='text-5xl font-bold'>100+</p>
-                            <p className='font-semibold text-2xl'>Mentors</p>
-                        </div>
-                    </div>
-                    <div className="bg-[#FDF3FD] flex gap-10 items-center justify-center py-13 rounded-4xl">
-                        <div className="">
-                            <img className='w-15' src="/src/assets/img/team/icon1.png" alt="" />
-                        </div>
-                        <div className="text-center">
-                            <p className='text-5xl font-bold'>50+</p>
-                            <p className='font-semibold text-lg'>Associate Organizations</p>
-                        </div>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );

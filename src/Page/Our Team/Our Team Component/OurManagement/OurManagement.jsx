@@ -10,7 +10,7 @@ const OurManagement = () => {
     },[])
     return (
         <div className="lg:p-4 lg:w-11/12 w-/12 mx-auto work">
-            <div className="bg-white rounded-lg shadow-md p-6 border-6 border-[#41bfb962]">
+            <div className="bg-white rounded-lg shadow-md p-6 border border-[#41bfb962]">
                 <div className="flex flex-col md:flex-row gap-6">
                     <div className="flex-shrink-0 flex justify-center items-center">
                         <img
