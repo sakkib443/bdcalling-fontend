@@ -18,7 +18,7 @@ const SuccesHistory = () => {
               <div>
                 <div className="flex justify-center gap-4 flex-wrap ">
                   <iframe
-                    width="560"
+                    width="580"
                     height="315"
                     src="https://www.youtube.com/embed/2GqZBsRqaf0?si=76n2vMFel2HI7qdS"
                     title="YouTube video player"
@@ -30,7 +30,7 @@ const SuccesHistory = () => {
                     className="rounded-xl"
                   ></iframe>
                   <iframe
-                    width="560"
+                    width="580"
                     height="315"
                     src="https://www.youtube.com/embed/Gaeaaj4TsVQ?si=PF9MBNZNEOW0W4BF"
                     title="YouTube video player"
@@ -42,7 +42,7 @@ const SuccesHistory = () => {
                     className="rounded-xl"
                   ></iframe>
                   <iframe
-                    width="560"
+                    width="580"
                     height="315"
                     src="https://www.youtube.com/embed/5RrnH4paPSg?si=xK3NObGaXHy-VLz2"
                     title="YouTube video player"
@@ -54,7 +54,7 @@ const SuccesHistory = () => {
                     className="rounded-xl"
                   ></iframe>
                   <iframe
-                    width="560"
+                    width="580"
                     height="315"
                     src="https://www.youtube.com/embed/0_FsHO7u5Pc?si=mgTrBs4Ictjh72ZY"
                     title="YouTube video player"

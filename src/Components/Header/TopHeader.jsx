@@ -25,7 +25,7 @@ const TopHeader = () => {
                     <div>
                         <div className='flex gap-12 items-center'>
                             <div className='flex gap-6 text-[20px] text-gray-700 items-start'>
-                                < SlSocialFacebook />
+                              <a href="https://www.facebook.com/bdcallingacademy" target='_blank'>  < SlSocialFacebook /></a>
                                 < SlSocialLinkedin />
                                 < FaInstagram className='transform translate-y-[2px]' />
                                 < FiTwitter className='transform translate-y-[2px]' />

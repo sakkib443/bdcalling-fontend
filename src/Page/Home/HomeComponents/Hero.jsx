@@ -1,24 +1,31 @@
 import React from "react";
 import { FiBookOpen } from "react-icons/fi";
 import { LuBookOpenCheck } from "react-icons/lu";
+import { Link } from "react-router-dom";
+
 
 const Hero = () => {
   return (
-    <div className="w-full sm:w-11/12 lg:w-10/12 2xl:w-9/12 mx-auto px-4 sm:px-6 lg:px-8 ">
-      <div className="flex flex-col lg:flex-row justify-between items-center gap-6 md:gap-8">
+    <div className="w-full sm:w-11/12 lg:w-10/12 2xl:w-9/12 mx-auto px-4 sm:px-6 lg:px-8  relative">
+
+   
+
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-6 md:gap-8 relative">
         {/* Left Section */}
+
+
         <div className="flex-1 flex flex-col justify-between w-full">
           <div className="font-poppins">
             <div className="flex items-center gap-2 mb-2">
               <FiBookOpen className="text-2xl sm:text-3xl animate-bounce" />
-              <p className="text-lg uppercase sm:text-xl md:text-[22px] text-[#41bfb8] work">
+              <p className="text-lg  sm:text-xl md:text-[22px] text-[#41bfb8] work">
                 Build A Strong Career With
               </p>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-6xl 2xl:text-4xl font-semibold outfit">
-            Become Learner {" "}
+              Become Learner {" "}
               <span className="text-4xl sm:text-5xl md:text-6xl 2xl:text-4xl text-[#41bfb8]">
-              To Leader {" "}
+                To Leader {" "}
               </span>
             </h1>
             <h1 className="md:text-6xl uppercase my-4 text-5xl  outfit">Start Your <span className="text-[#F79952]">Digital Journey</span> Today</h1>
@@ -94,14 +101,19 @@ const Hero = () => {
 
             {/* Get Course Buttons */}
             <div className="flex gap-3 sm:gap-4 flex-wrap">
-              <button className="flex gap-2 text-base sm:text-lg md:text-xl items-center bg-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-[#38a8a1] transition-colors">
-                <LuBookOpenCheck className="text-xl sm:text-2xl text-white font-semibold" />
-                <p className="text-white font-semibold">Get Course</p>
-              </button>
-              <button className="flex gap-2 text-base sm:text-lg md:text-xl items-center border border-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-gray-50 transition-colors">
-                <LuBookOpenCheck className="text-xl sm:text-2xl text-[#41bfb8] font-semibold" />
-                <p className="text-[#41bfb8] font-semibold">Get Course</p>
-              </button>
+              <Link to='/events' className="cursor-pointer">
+                <button className="flex gap-1 cursor-pointer text-base sm:text-lg md:text-xl items-center bg-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-[#38a8a1] transition-colors">
+                  <LuBookOpenCheck className="text-xl sm:text-2xl text-white font-semibold" />
+                  <p className="text-white  work ">Join Seminar & Events</p>
+                </button>
+              </Link>
+              <Link to="/successStory">
+
+                <button className="flex gap-2 text-base sm:text-lg md:text-xl items-center border border-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-gray-50 transition-colors">
+                  <LuBookOpenCheck className="text-xl sm:text-2xl text-[#41bfb8] font-semibold" />
+                  <p className="text-[#41bfb8] work font-semibold">Success Story</p>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

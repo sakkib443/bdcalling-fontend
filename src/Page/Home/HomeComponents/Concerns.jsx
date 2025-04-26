@@ -3,6 +3,7 @@ import { useState } from 'react';
 import React from "react";
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import SectionHeading from '../../../Components/Shared/SectionHeading';
 
 
 const Concerns = () => {
@@ -86,78 +87,75 @@ const Concerns = () => {
     // const hasMoreImages = filteredImages.length > (page + 1) * imagesPerPage;
 
     return (
-        <div className='bg-white py-12 md:py-12 relative '>
-            <div className='w-11/12 lg:w-10/12 mx-auto border py-6 px-6 rounded-2xl border-gray-200'>
-                <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
-                    <div className='w-full lg:w-1/4 border-r border-gray-200'>
-                        <div className='rounded-md'>
-                            <p className='border-b pl-6 py-3 mb-3 outfit-semibold border-[#d1eae8] text-2xl md:text-[28px] dark:text-black'>We Are <span className='csd'>Working</span> With</p>
-                            <div className='flex flex-col gap-3 work pl-6 pb-8 pr-6'>
-                                {['Our Concern', 'Colaboration With', 'Member Of'].map((cat, idx) => (
-                                    <label key={idx} className="fieldset-label dark:text-gray-600">
-                                        <input
-                                            type="radio"
-                                            name="category"
-                                            className="checkbox w-5 h-5 rounded-sm dark:bg-white dark:border-gray-300"
-                                            checked={selectedCategory === cat}
-                                            onChange={() => handleCategoryChange(cat)}
-                                        />
-                                        {cat}
-                                    </label>
-                                ))}
-                            </div>
-                        </div>
+        <div className='bg-white py-12 md:py-12 relative  '>
+            <div className='relative w-11/12 lg:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-[#ecfcfb] '>
+                {/* Background Image Overlay */}
+                <div
+                    className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-10"
+                    style={{
+                        backgroundImage: `url('https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/491185347_1085730833599336_6679927905642902823_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFMxqaiP5Vt0I1t6mXG8XC1dNnDbsVyffx02cNuxXJ9_MPyrTfVZTCx0vCN0yD0Cw46plaADOVLbLgLlZvYSbs_&_nc_ohc=OC5TdUjhyRMQ7kNvwHj744_&_nc_oc=AdlLq8prVk2-PMmbvhvxZ5JJ-svcd-XzkDbsbytax2LOvrG26hQPIxjJa-cd_ZN65Gg&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=cde8rQ94wWzg9tFxRh0r0g&oh=00_AfEXNuJppYlJjdSf1dPIGLW1sTGCxo5vvrocvFLGD1Rt_A&oe=68112840')`,
+                    }}
+                ></div>
+
+                {/* All your foreground content below */}
+                <div className='relative z-10'>
+                    {/* Section Heading and Filter Buttons */}
+                    <SectionHeading title={"Our Working Partner"} />
+                    <div className='flex flex-wrap justify-center gap-3 work pl-6 pb-8 pr-6 mt-12'>
+                        {['Our Concern', 'Colaboration With', 'Member Of'].map((cat, idx) => (
+                            <label key={idx} className="fieldset-label dark:text-gray-600">
+                                <p
+                                    onClick={() => handleCategoryChange(cat)}
+                                    className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${selectedCategory === cat ? 'bg-[#41bfb8] text-white' : 'bg-[#ecfcfb] dark:text-gray-500'
+                                        }`}
+                                >
+                                    {cat}
+                                </p>
+                            </label>
+                        ))}
                     </div>
 
-                    <div className='w-full lg:w-3/4 relative'>
-                        <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2'>
-                            {paginatedImages.length > 0 ? (
-                                paginatedImages.map((image, index) => (
-                                    <motion.div
-                                        key={image.id}
-                                        className='flex items-center justify-center'
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        transition={{ duration: 0.4, delay: index * 0.05 }}
-                                    >
-                                        <div className='w-36 h-36 flex bg- justify-center items-center object-cover  p-4 border border-[#b3f0ed] shadow-sm rounded-2xl'>
-                                            <img
-                                                src={image.src}
-                                                alt={`Image ${image.id}`}
-                                                className="w-20"
-                                            />
-                                        </div>
-                                    </motion.div>
-                                ))
-                            ) : (
-                                <p>No images to display. Select a category.</p>
-                            )}
+                    {/* Image Grid */}
+                    <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
+                        <div className='w-full lg:w-3/4 relative'>
+                            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2'>
+                                {paginatedImages.length > 0 ? (
+                                    paginatedImages.map((image, index) => (
+                                        <motion.div
+                                            key={image.id}
+                                            className='flex items-center justify-center'
+                                            initial={{ opacity: 0, y: 20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ duration: 0.4, delay: index * 0.05 }}
+                                        >
+                                            <div className='w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl'>
+                                                <img src={image.src} alt={`Image ${image.id}`} className="w-20" />
+                                            </div>
+                                        </motion.div>
+                                    ))
+                                ) : (
+                                    <p>No images to display. Select a category.</p>
+                                )}
+                            </div>
 
-                        </div>
-
-                        {/* Pagination Buttons */}
-                        <div>
-                            { (
-                                <button
-                                    onClick={handlePrev}
-                                    className="absolute cursor-pointer -left-5 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white transition duration-500"
-                                >
-                                    <FaChevronLeft className='cpr' size={18} />
-                                </button>
-                            )}
-
-                            { (
-                                <button
-                                    onClick={handleNext}
-                                    className="absolute -right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white border border-gray-300 transition duration-500 cursor-pointer"
-                                >
-                                    <FaChevronRight className='cpr' size={18} />
-                                </button>
-                            )}
+                            {/* Pagination Buttons */}
+                            <button
+                                onClick={handlePrev}
+                                className="absolute cursor-pointer md:-left-15 -left-15 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white transition duration-500"
+                            >
+                                <FaChevronLeft className='cpr' size={18} />
+                            </button>
+                            <button
+                                onClick={handleNext}
+                                className="absolute md:-right-15 -right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white border border-gray-300 transition duration-500 cursor-pointer"
+                            >
+                                <FaChevronRight className='cpr' size={18} />
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

@@ -8,7 +8,7 @@ const SeminarAndEvent = () => {
     <>
       <div className="bg-white">
         <div className="w-full px-4 sm:px-6 lg:px-0 lg:w-10/12 mx-auto">
-          <div className="flex flex-col lg:flex-row gap-6 lg:gap-16">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
             {/* Seminar Card */}
             <div className="flex flex-col md:flex-row justify-between items-end bg-[#ecfcfb] pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 md:gap-12 flex-1">
               <div className="w-full md:w-auto">
@@ -18,18 +18,20 @@ const SeminarAndEvent = () => {
                   alt="Seminar mentor"
                 />
               </div>
-              <div className="w-full md:w-auto">
-                <h2 className="outfit-semibold text-xl sm:text-2xl mb-4 dark:text-black">
-                  Join Our Seminar
-                </h2>
-                <p className="work text-sm sm:text-[14px] dark:text-black">
-                  Top instructors from around the world millions of student
-                </p>
-                <div className="flex gap-2 text-xl mt-4 mb-8 w-full sm:w-44 items-center justify-center sm:justify-start border bg-[#41bfb8] border-[#41bfb8] px-4 py-2 rounded-md">
-                  <LuBookOpenCheck className="text-md font-semibold text-white" />
-                  <p className="work tracking-tight text-[15px] text-white">
-                    Apply Now
+              <div className="w-full md:w-auto flex h-full items-center">
+                <div>
+                  <h2 className="outfit-semibold text-xl sm:text-2xl mb-4 dark:text-black">
+                    Join Our Seminar
+                  </h2>
+                  <p className="work text-sm sm:text-[14px] dark:text-black">
+                    Top instructors from around the world millions of student
                   </p>
+                  <div className="flex gap-2 text-xl mt-4 mb-8 w-full sm:w-44 items-center justify-center sm:justify-start border bg-[#41bfb8] border-[#41bfb8] px-4 py-2 rounded-md">
+                    <LuBookOpenCheck className="text-md font-semibold text-white" />
+                    <p className="work tracking-tight text-[15px] text-white">
+                      Apply Now
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

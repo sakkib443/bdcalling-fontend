@@ -1,5 +1,6 @@
 import React from "react";
 import { BiCategory } from "react-icons/bi";
+import { FaWhatsapp } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import { LuBookOpenCheck } from "react-icons/lu";
 import { Link } from "react-router-dom";
@@ -62,12 +63,20 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                   Course Details
                 </p>
               </Link>
-              <div className="flex gap-2 text-xl items-center border border-[#41bfb8] px-4 py-2 mr-6 rounded-md">
-                <IoMdCall className="text-xl text-[#41bfb8] font-semibold" />
-                <p className="text-[#41bfb8] work text-md tracking-tight text-[15px]">
-                  Get Course
-                </p>
-              </div>
+              <a
+                href={`https://wa.me/8801321231802?text=${encodeURIComponent(
+                  `আমি "${title}" কোর্সটি করতে চাই।`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="flex gap-1 text-xl items-center border border-[#41bfb8] px-4 py-2 mr-6 rounded-md hover:bg-[#e0f7f5] cursor-pointer transition">
+                  <FaWhatsapp className="text-2xl text-[#41bfb8] font-semibold" />
+                  <p className="text-[#41bfb8] work text-md tracking-tight text-[15px]">
+                    Get Course
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>

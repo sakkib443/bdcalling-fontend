@@ -4,19 +4,18 @@ import { LuBookOpenCheck } from "react-icons/lu";
 import { BiCategory } from "react-icons/bi";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
+import useCourses from "../../../Hooks/useCourses";
 
 const PopularCourseCard = () => {
-  const [courseData, setCourseData] = useState([]);
+
   const [courseCategorys, setCourseCategorys] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [startIndex, setStartIndex] = useState(0);
   const [visibleItems, setVisibleItems] = useState(3);
 
-  useEffect(() => {
-    fetch("/Course-Data/Courses.json")
-      .then((res) => res.json())
-      .then((data) => setCourseData(data));
-  }, []);
+
+  const {courses} = useCourses()
 
   useEffect(() => {
     fetch("/Course-Data/CourseCategorys.json")
@@ -42,8 +41,8 @@ const PopularCourseCard = () => {
 
   const filteredCourses =
     selectedCategory === "All"
-      ? courseData
-      : courseData.filter((course) => course.category === selectedCategory);
+      ? courses
+      : courses?.filter((course) => course.category === selectedCategory);
 
   const visibleCourses = filteredCourses.slice(
     startIndex,
@@ -52,12 +51,12 @@ const PopularCourseCard = () => {
 
   const handlePrev = () => {
     setStartIndex(
-      (prevIndex) => (prevIndex - 1 + courseData.length) % courseData.length
+      (prevIndex) => (prevIndex - 1 + courses.length) % courses.length
     );
   };
 
   const handleNext = () => {
-    setStartIndex((prevIndex) => (prevIndex + 1) % courseData.length);
+    setStartIndex((prevIndex) => (prevIndex + 1) % courses.length);
   };
 
   return (
@@ -67,11 +66,10 @@ const PopularCourseCard = () => {
         {courseCategorys.map((cat, idx) => (
           <label
             key={idx}
-            className={`fieldset-label btn rounded-md dark:border-gray-300 dark:shadow-none ${
-              selectedCategory === (cat.name || cat)
+            className={`fieldset-label btn rounded-md dark:border-gray-300 dark:shadow-none ${selectedCategory === (cat.name || cat)
                 ? "bg-[#41bfb8] text-white"
                 : "bg-[#ecfcfb] dark:text-gray-500"
-            }`}
+              }`}
             onClick={() => setSelectedCategory(cat.name)}
           >
             {cat.name}
@@ -156,12 +154,21 @@ const PopularCourseCard = () => {
                       Course Details
                     </p>
                   </Link>
-                  <div className="flex gap-2 text-xl items-center border border-[#41bfb8] px-4 py-2 mr-6 rounded-md">
-                    <IoMdCall className="text-xl text-[#41bfb8] font-semibold" />
-                    <p className="text-[#41bfb8] work text-md tracking-tight text-[15px]">
-                      Get Course
-                    </p>
-                  </div>
+                  <a
+                    href={`https://wa.me/8801321231802?text=${encodeURIComponent(
+                      `আমি "${course.title}" কোর্সটি করতে চাই।`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="flex gap-1 text-xl items-center border border-[#41bfb8] px-4 py-2 mr-6 rounded-md hover:bg-[#e0f7f5] cursor-pointer transition">
+                    <FaWhatsapp className="text-2xl text-[#41bfb8] font-semibold" />
+                      <p className="text-[#41bfb8] work text-md tracking-tight text-[15px]">
+                        Get Course
+                      </p>
+                    </div>
+                  </a>
+
                 </div>
               </div>
             </div>

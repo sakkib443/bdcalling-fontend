@@ -42,11 +42,10 @@ const Navbar = () => {
     <>
       {/* Mobile Menu Dropdown */}
       <div
-        className={`fixed top-0 left-0 w-[70%] bg-white shadow-lg z-40 transform transition-all duration-300 ease-in-out ${
-          isMobileMenuOpen
+        className={`fixed top-0 left-0 w-[70%] bg-white shadow-lg z-40 transform transition-all duration-300 ease-in-out ${isMobileMenuOpen
             ? "translate-y-0 opacity-100"
             : "-translate-y-full opacity-0"
-        }`}
+          }`}
         style={{
           height: "calc(100vh - 80px)",
           marginTop: "68px", // Height of your navbar
@@ -62,10 +61,9 @@ const Navbar = () => {
                     to={to}
                     onClick={closeMobileMenu}
                     className={({ isActive }) =>
-                      `block px-4 py-3 rounded-lg transition-all duration-300 text-lg ${
-                        isActive
-                          ? "bg-[#41bfb8] text-white"
-                          : "text-gray-700 hover:bg-gray-100"
+                      `block px-4 py-3 rounded-lg transition-all duration-300 text-lg ${isActive
+                        ? "bg-[#41bfb8] text-white"
+                        : "text-gray-700 hover:bg-gray-100"
                       }`
                     }
                   >
@@ -77,12 +75,14 @@ const Navbar = () => {
           </nav>
 
           {/* GetCourse Button */}
-          <div className="mt-auto mb-6">
+         <Link to='/courses'>
+         <div className="mt-auto mb-6">
             <div className="flex gap-2 items-center justify-center bg-[#41bfb8] px-4 py-3 rounded-md cursor-pointer transition-all hover:brightness-110">
               <LuBookOpenCheck className="text-2xl text-white font-semibold" />
               <p className="text-white text-[16px] font-semibold">GetCourse</p>
             </div>
           </div>
+          </Link>
         </div>
       </div>
 
@@ -90,10 +90,9 @@ const Navbar = () => {
       <div
         className={`border-b border-gray-200 font-poppins sticky top-0 z-50 bg-white
           transition-all duration-500 ease-in-out
-          ${
-            isSticky
-              ? "shadow-md opacity-100 translate-y-0"
-              : "shadow-none"
+          ${isSticky
+            ? "shadow-md opacity-100 translate-y-0"
+            : "shadow-none"
           }
         `}
       >
@@ -128,11 +127,10 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `relative pb-1 transition-all duration-300 
                     hover:text-[#41bfb8] text-[16px]
-                    ${
-                      isActive
-                        ? "text-[#F79952] after:scale-x-100"
-                        : "text-black after:scale-x-0"
-                    } 
+                    ${isActive
+                    ? "text-[#F79952] after:scale-x-100"
+                    : "text-black after:scale-x-0"
+                  } 
                     after:content-[''] after:absolute after:left-0 after:bottom-0 
                     after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform 
                     after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100`
@@ -144,12 +142,12 @@ const Navbar = () => {
           </div>
 
           {/* GetCourse Button - Desktop */}
-          <div className="hidden lg:block">
+          <Link to='/courses'> <div className="hidden lg:block">
             <div className="flex gap-2 text-xl items-center bg-[#41bfb8] px-4 py-2 rounded-md cursor-pointer transition-all hover:brightness-110">
               <LuBookOpenCheck className="text-2xl text-white font-semibold" />
               <p className="text-white text-[16px] font-semibold">GetCourse</p>
             </div>
-          </div>
+          </div></Link>
         </div>
       </div>
 
