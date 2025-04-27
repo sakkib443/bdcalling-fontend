@@ -33,7 +33,7 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
           Our <span className="crd">Courses</span>
         </h1>
         <div className="flex flex-col md:flex-row items-center gap-4">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4"> 
             {typeButtons.map((type) => (
               <button
                 key={type}

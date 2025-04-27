@@ -36,6 +36,7 @@ const Navbar = () => {
     { to: "/about", label: "About" },
     { to: "/contact", label: "Contact" },
     { to: "/our-team", label: "Our Team" },
+    { to: "/certification", label: "Certification" }
   ];
 
   return (
@@ -119,7 +120,7 @@ const Navbar = () => {
           </div>
 
           {/* Navigation Links - Desktop */}
-          <div className="hidden lg:flex gap-8 font-poppins">
+          <div className="hidden lg:flex lg:gap-4 2xl:gap-8 font-poppins">
             {navLinks.map(({ to, label }) => (
               <NavLink
                 key={to}
