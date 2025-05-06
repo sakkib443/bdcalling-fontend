@@ -88,7 +88,7 @@ const Concerns = () => {
 
     return (
         <div className='bg-white py-12 md:py-12 relative  '>
-            <div className='relative w-11/12 lg:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-[#ecfcfb] '>
+            <div className='relative w-11/12 lg:w-10/12 mx-auto py-12 px-6 rounded-2xl bg-[#dfebe9] '>
                 {/* Background Image Overlay */}
                 <div
                     className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-10"

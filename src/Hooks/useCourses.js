@@ -7,7 +7,7 @@ const useCourses = () =>{
     const a = 200;
 
     useEffect(() => {
-        fetch("../../public/Course-Data/Courses.json")
+        fetch("/Course-Data/Courses.json")
           .then((res) => res.json())
           .then((data) => setCourses(data));
       }, []);

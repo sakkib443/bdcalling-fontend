@@ -34,7 +34,7 @@ const Navbar = () => {
     { to: "/courses", label: "Courses" },
     { to: "/events", label: "Events" },
     { to: "/about", label: "About" },
-    { to: "/contact", label: "Contact" },
+    // { to: "/contact", label: "Contact" },
     { to: "/our-team", label: "Our Team" },
     { to: "/certification", label: "Certification" }
   ];

@@ -4,8 +4,8 @@ import SectionHeading from "../../../Components/Shared/SectionHeading";
 const SuccesHistory = () => {
   return (
     <>
-      <div className="lg:bg-white bg-[#ecfcfb] md:py-24 mt-12 md:mt-0">
-        <div className="bg-[#ecfcfb] py-8 md:py-16  w-11/12 md:w-10/12 mx-auto rounded-2xl">
+      <div className="lg:bg-white bg-[#ecfcfb] md:py-12">
+        <div className="bg-[#ecfcfb] py-8 md:pt-12  w-11/12 md:w-10/12 mx-auto rounded-2xl">
           <div className="lg:px-12">
             <SectionHeading
               title={"Success Story"}

@@ -11,42 +11,43 @@ import Concerns from "./HomeComponents/Concerns";
 import SeminarAndEvent from "./HomeComponents/SeminarAndEvent";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
-
-
-import { MessageCircle } from 'lucide-react';
 const Home = () => {
+  // WhatsApp message and number
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "01321231802"; // BDCalling Academy WhatsApp number
+    const message = "আমি bdcalling academy te course korte cai"; // pre-filled message
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+
   return (
-    <div className=" ">
+    <div className="">
 
-
+      {/* WhatsApp Button */}
       <div
+        onClick={handleWhatsAppClick}
         style={{
           position: 'fixed',
           zIndex: "20",
-          bottom: '0px',
-          left: '20px',
+          bottom: '20px',
+          right: '20px',
           display: 'flex',
           alignItems: 'center',
           gap: '10px',
-            backgroundColor: "transparent",
+          backgroundColor: "transparent",
           padding: '8px 12px',
           borderRadius: '30px',
           cursor: 'pointer',
-
         }}
       >
-        <div style={{
-
-
-        }}>
-          <DotLottieReact className="w-[150px] "
-
+        <div>
+          <DotLottieReact
+            className="w-[150px]"
             src="https://lottie.host/dbe74e91-d4cb-46b7-9219-54c29432d806/nBBwAAbPFi.lottie"
             loop
             autoplay
           />
         </div>
-    
       </div>
 
       {/* Inline animation */}
@@ -62,37 +63,35 @@ const Home = () => {
         `}
       </style>
 
-
+      {/* Hero Section */}
       <div
-        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 bg-cover bg-center bg-no-repeat w-full relative "
+        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 bg-cover bg-center bg-no-repeat w-full relative"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <div className="flex items-center 2xl:py-14 ">
-
-          <DotLottieReact className="absolute w-[450px] -bottom-5 -z-10 right-0  "
+        <div className="flex items-center 2xl:py-14">
+          <DotLottieReact
+            className="absolute w-[450px] -bottom-5 -z-10 right-0"
             src="https://lottie.host/e8635977-030c-4254-88ae-e848cc27ecde/Ba86pVa1cR.lottie"
             loop
             autoplay
           />
-
-
           <Hero />
         </div>
       </div>
+
+      {/* Other Sections */}
       <HomeCategory />
       <div
-        className="  bg-cover md:w-10/12 mx-auto rounded-2xl "
+        className="bg-cover container mx-auto rounded-2xl"
         style={{ backgroundImage: `url(${bgImage2})` }}
       >
         <PopularCourse />
       </div>
-      <Concerns></Concerns>
-      <SeminarAndEvent></SeminarAndEvent>
-      <SuccesHistory></SuccesHistory>
-      <WhatWeProvide></WhatWeProvide>
-      <div>
-        <Employe></Employe>
-      </div>
+      <WhatWeProvide />
+      <SeminarAndEvent />
+      <Concerns />
+      <SuccesHistory />
+      <Employe />
     </div>
   );
 };

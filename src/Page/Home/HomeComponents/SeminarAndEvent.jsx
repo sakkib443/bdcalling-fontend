@@ -7,7 +7,7 @@ const SeminarAndEvent = () => {
   return (
     <>
       <div className="bg-white">
-        <div className="w-full px-4 sm:px-6 lg:px-0 lg:w-10/12 mx-auto">
+        <div className="w-full px-4 sm:px-6 lg:px-0 lg:w-10/12 mx-auto md:mb-12">
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
             {/* Seminar Card */}
             <div className="flex flex-col md:flex-row justify-between items-end bg-[#ecfcfb] pt-8 px-6 md:px-8 lg:px-12 rounded-lg gap-6 md:gap-12 flex-1">

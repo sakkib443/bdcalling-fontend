@@ -98,7 +98,7 @@ const Certification = () => {
                 />
               </div>
 
-              <div className="flex items-center justify-center py-2 px-4 rounded-lg bg-[#41bfb8]">
+              <div className="flex items-center justify-center py-2 px-4 rounded-lg bg-[#41bfb8] md:translate-y-4">
                 <span className="text-white text-base font-semibold">OR</span>
               </div>
 
@@ -116,7 +116,7 @@ const Certification = () => {
                 />
               </div>
 
-              <div className="flex items-center justify-center py-2 px-4 rounded-lg bg-[#41bfb8]">
+              <div className="flex items-center justify-center py-2 px-4 rounded-lg bg-[#41bfb8] md:translate-y-4">
                 <span className="text-white text-base font-semibold">OR</span>
               </div>
 
