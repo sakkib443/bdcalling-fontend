@@ -5,19 +5,88 @@
     "category": "Programming",
     "type": "Offline",
     "image": "https://i.ibb.co.com/XZ78JQ9f/Mern-card.jpg",
-    "fee": "28000৳",
+    "fee": "40000৳",
     "rating": 4.9,
     "totalRating": 128,
-    "totalStudentsEnroll": 350,
+    "totalStudentsEnroll": 50,
     "instructorName": "Sheikh Sakibul Hasan",
-    "instructorImg": "instructor_sakib",
+    "instructorImg": "https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/472009300_557526777119280_533781909713140935_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PgqtReB_wTIQ7kNvwEW6HBA&_nc_oc=AdlYMwxf0QzOQXCxdf1rdZMoj2KwcDQJb2l0A8HT-t4J3BPX8CV8AEyxVD7MlaaIblU&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=yKv3AVA5Vu9NUfEgYyy5aA&oh=00_AfLmbO6nbSRTMAuOY34_Fial78mpD1Rpz-dHK-vx1S2Xfg&oe=68218C51",
     "instructorEmail": "sakib@bdcalling.com",
-    "technology": "MongoDB, Express.js, React, Node.js, Redux, JWT",
+    "technology": "MongoDB, Express.js, React, Node.js, Redux",
     "courseStart": "12-March-2025",
-    "duration": 16,
+    "duration": 6,
     "totalExam": 6,
     "totalProject": 5,
-    "details": "This comprehensive MERN stack course provides in-depth training on building modern web applications..."
+    "details": "The Advanced MERN Stack Development course equips students with in-depth knowledge of full-stack web development using MongoDB, Express, React, and Node.js.",
+    "whatYoullLearn": [
+      "Overview of HTML",
+      "Overview of CSS",
+      "Overview of Tailwind",
+      "Introduction to JS Variables, condition",
+      "Array, object, function, Loop",
+      "JS Problem solving",
+      "JS advance map(), filter(), reduce(), ()=>",
+      "Document Object Model (DOM)",
+      "JavaScript object notation (JSON)",
+      "Different ways of Data faces",
+      "React core concept",
+      "React Router Concept",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "API",
+      "CRUD",
+      "Authentication",
+      "Authorization",
+      "Full Stack",
+      "Typescript",
+      "Mongoose",
+      "Advance NoSQL Backend",
+      "Advance Backend Project",
+      "Merge front end and back end",
+      "Technique development & client handle",
+      "Fiverr Marketplace",
+      "Career Guideline, Presentation & CV Making"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Node.js",
+      "MongoDB Atlas",
+      "Express.js",
+      "React.js",
+      "VS Code"
+    ],
+    "jobPositions": [
+      "Full Stack Developer",
+      "Back-end Developer",
+      "Front-end Developer",
+      "Web Application Developer"
+    ]
   },
   {
     "id": 2,
@@ -25,19 +94,86 @@
     "category": "Art & Design",
     "type": "Offline",
     "image": "https://i.ibb.co.com/zWvWjS9X/GD-Card-1.jpg",
-    "fee": "20000৳",
+    "fee": "15000৳",
     "rating": 4.9,
     "totalRating": 110,
-    "totalStudentsEnroll": 280,
+    "totalStudentsEnroll": 50,
     "instructorName": "Mahabubur Rahman",
-    "instructorImg": "instructor_mahabub",
+    "instructorImg": "https://api.bdcallingacademy.com/adminAsset/image/1983846654.jpg",
     "instructorEmail": "mahabub@bdcalling.com",
     "technology": "Adobe Photoshop, Illustrator, InDesign, Branding, Typography",
     "courseStart": "26-March-2025",
-    "duration": 12,
+    "duration": 4,
     "totalExam": 3,
     "totalProject": 5,
-    "details": "Master the tools and techniques of professional graphic design. Learn everything from branding to portfolio creation."
+    "details": "Advanced Graphic Design with AI blends creative design skills with the power of artificial intelligence, giving students the ability to create modern, engaging, and innovative visual content.",
+    "whatYoullLearn": [
+      "Starting Adobe Photoshop Design",
+      "Image Manipulation",
+      "Photoshop Typography",
+      "Social Media & YouTube Thumbnail Design",
+      "Flyer Creation",
+      "Behance Portfolio",
+      "Adobe Firefly",
+      "Introducing Illustrator",
+      "Stroke Plate Details & Mesh Tool",
+      "Advanced Typography Techniques",
+      "Flyer & Brochure",
+      "Freelancing",
+      "Brush tool & Pen tool",
+      "Advanced Blend Technique",
+      "Hair Masking & Action Work",
+      "Business & Visiting Card Design",
+      "Introduction to Mock-up",
+      "Introduction to Artificial Intelligence",
+      "Introduction Different AI",
+      "Advance Gradient Technique",
+      "Instruction to Pathfinder Operation",
+      "Logo Design",
+      "Product Packaging",
+      "Career Guidelines, Presentation & CV Making"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Adobe Firefly"
+    ],
+    "jobPositions": [
+      "Graphic Designer",
+      "Brand Identity Designer",
+      "Product Designer",
+      "Social Media Designer",
+      "Visual Designer",
+      "Art Director",
+      "Illustrator"
+    ]
   },
   {
     "id": 3,
@@ -45,19 +181,67 @@
     "category": "Marketing",
     "type": "Offline",
     "image": "https://i.ibb.co.com/GvS6k4FJ/DM-caed.jpg",
-    "fee": "22000৳",
+    "fee": "16000৳",
     "rating": 4.7,
     "totalRating": 102,
-    "totalStudentsEnroll": 280,
+    "totalStudentsEnroll": 50,
     "instructorName": "Asraf Hossen",
-    "instructorImg": "instructor_david",
+    "instructorImg": "https://api.bdcallingacademy.com/adminAsset/image/1763751529.jpg",
     "instructorEmail": "david@marketgenius.com",
     "technology": "SEO, SEM, Facebook Ads, Google Ads, Email Marketing",
     "courseStart": "18-March-2025",
-    "duration": 10,
+    "duration": 3,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides professional-level training in digital marketing strategies, analytics, and tools. Students will learn to run campaigns, analyze data, optimize content, and use ad platforms effectively. Includes hands-on ad running, client simulation, and campaign reporting."
+    "details": "The Certified Digital Marketing Specialist course at BDCalling Academy equips students with cutting-edge digital marketing techniques to help businesses thrive in the online world. From social media marketing to search engine optimization (SEO), email marketing, and Google Ads, this comprehensive program is designed to turn you into a well-rounded digital marketer.",
+    "whatYoullLearn": [
+      "Introduction To Digital Marketing",
+      "Social Media Marketing and Monetization",
+      "SEO & SEM",
+      "On-Page, Off-Page, Technical, and Local SEO",
+      "E-commerce SEO & YouTube SEO",
+      "E-mail Marketing & E-commerce Marketing",
+      "Affiliate Marketing",
+      "Google Ads - Conversion tracking",
+      "Real Project",
+      "Marketplace",
+      "Client Communication"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": ["SEMRUSH", "MOZ", "Screaming Frog", "Ahrefs"],
+    "jobPositions": [
+      "Social Media Marketer",
+      "Google Ads Specialist",
+      "E-Commerce Marketer",
+      "SEO Specialist",
+      "Affiliate Marketer",
+      "Digital Marketing Consultant"
+    ]
   },
   {
     "id": 4,
@@ -65,19 +249,77 @@
     "category": "Programming",
     "type": "Offline",
     "image": "https://i.ibb.co.com/Y75bjF7c/WP-card.jpg",
-    "fee": "20000৳",
+    "fee": "18000৳",
     "rating": 4.7,
     "totalRating": 85,
-    "totalStudentsEnroll": 230,
+    "totalStudentsEnroll": 50,
     "instructorName": "Sheikh Sakibul Hasan",
-    "instructorImg": "instructor_sakib",
+    "instructorImg": "https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/472009300_557526777119280_533781909713140935_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PgqtReB_wTIQ7kNvwEW6HBA&_nc_oc=AdlYMwxf0QzOQXCxdf1rdZMoj2KwcDQJb2l0A8HT-t4J3BPX8CV8AEyxVD7MlaaIblU&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=yKv3AVA5Vu9NUfEgYyy5aA&oh=00_AfLmbO6nbSRTMAuOY34_Fial78mpD1Rpz-dHK-vx1S2Xfg&oe=68218C51",
     "instructorEmail": "sakib@bdcalling.com",
     "technology": "WordPress, PHP, HTML, CSS, JavaScript, Theme Development, Custom Post Types",
     "courseStart": "26-March-2025",
-    "duration": 10,
+    "duration": 3,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides comprehensive training in WordPress theme development. Participants will learn to create custom themes from scratch, utilizing PHP, HTML, CSS, and JavaScript. The curriculum includes hands-on projects focusing on theme customization, responsive design, and integration of custom post types, preparing students for professional WordPress development roles."
+    "details": "This course provides a complete guide to mastering WordPress, from basic setup to advanced theme customization, plugin development, and eCommerce integration. Students will work on real-world projects and learn how to monetize their skills through freelancing.",
+    "whatYoullLearn": [
+      "Introduction to Web Development & Hosting",
+      "Introduction to Bootstrap for Responsive Design",
+      "Theme Setup and Customization",
+      "WooCommerce for eCommerce Websites",
+      "SEO Optimization for WordPress Sites",
+      "Security & Backup Management",
+      "Selling Services on Freelance Marketplaces (Fiverr, Upwork)",
+      "Career Guidance & CV Preparation",
+      "HTML & CSS Basics for WordPress Customization",
+      "WordPress Installation & Dashboard Overview",
+      "Elementor Page Builder & Advanced Customization",
+      "Payment Gateway Integration",
+      "Website Speed Optimization Techniques",
+      "Live Project: Building a WordPress Website",
+      "Client Communication & Proposal Writing"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "WordPress",
+      "Elementor",
+      "WooCommerce",
+      "Adobe Photoshop",
+      "Google Analytics"
+    ],
+    "jobPositions": [
+      "WordPress Developer",
+      "WooCommerce Specialist",
+      "SEO & Speed Optimization Expert",
+      "Web Designer",
+      "Website Administrator",
+      "Freelancer"
+    ]
   },
 
   {
@@ -86,59 +328,231 @@
     "category": "Programming",
     "type": "Offline",
     "image": "https://api.bdcallingacademy.com/adminAsset/image/1525850441.jpg",
-    "fee": "24000৳",
+    "fee": "15000৳",
     "rating": 4.7,
     "totalRating": 115,
-    "totalStudentsEnroll": 300,
+    "totalStudentsEnroll": 50,
     "instructorName": "Sheikh Sakibul Hasan",
-    "instructorImg": "instructor_sakib",
+    "instructorImg": "https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/472009300_557526777119280_533781909713140935_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PgqtReB_wTIQ7kNvwEW6HBA&_nc_oc=AdlYMwxf0QzOQXCxdf1rdZMoj2KwcDQJb2l0A8HT-t4J3BPX8CV8AEyxVD7MlaaIblU&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=yKv3AVA5Vu9NUfEgYyy5aA&oh=00_AfLmbO6nbSRTMAuOY34_Fial78mpD1Rpz-dHK-vx1S2Xfg&oe=68218C51",
     "instructorEmail": "sakib@bdcalling.com",
     "technology": "React, Hooks, Context API, Redux, React Router, Firebase",
     "courseStart": "16-March-2025",
-    "duration": 10,
+    "duration": 6,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides advanced-level training on React..."
+    "details": "This course provides a complete roadmap to becoming a front-end web developer using React. It covers essential web technologies such as HTML, CSS, JavaScript, and advanced React concepts. Students will build multiple real-world projects, work with APIs, and learn about freelancing opportunities.",
+    "whatYoullLearn": [
+      "Fundamentals of Web Development (HTML, CSS, GitHub)",
+      "JavaScript Essentials: Variables, Loops, Functions & DOM Manipulation",
+      "Introduction to React: JSX, Components, Props & State",
+      "API Integration & Fetching Data in React Applications",
+      "State Management in React with Context API",
+      "Debugging & Performance Optimization in React Applications",
+      "Freelancing in Web Development: Finding Clients & Pricing Services",
+      "Capstone Project: Building a Complete React-Based Website",
+      "Responsive Web Design using Tailwind CSS",
+      "Advanced JavaScript: Objects, Arrays, ES6+ Features & Async Programming",
+      "Working with React Router & Dynamic Routing",
+      "UI Frameworks & Converting Figma/PSD Designs to React",
+      "Full-Scale React Projects (Newspaper, Job Portal, Portfolio Websites)",
+      "Web Deployment & Hosting Platforms",
+      "Career Preparation: Resume Writing & Technical Interviews"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Visual Studio Code",
+      "Git & GitHub",
+      "Tailwind CSS",
+      "React.js",
+      "Figma & Photoshop",
+      "Netlify & Vercel"
+    ],
+    "jobPositions": [
+      "Front-End Developer",
+      "Web Application Developer",
+      "Freelance Web Developer",
+      "React Developer",
+      "Software Engineer (Front-End)"
+    ]
   },
   {
     "id": 6,
     "title": "Certified UX/UI Design",
-    "category":"Art & Design",
+    "category": "Art & Design",
     "type": "Offline",
     "image": "https://i.ibb.co.com/whHBvX3d/ui-website-card.jpg",
-    "fee": "24000৳",
+    "fee": "20000৳",
     "rating": 4.7,
     "totalRating": 98,
-    "totalStudentsEnroll": 260,
+    "totalStudentsEnroll": 50,
     "instructorName": "Md. Zayed Uddin",
     "instructorImg": "instructor_zayed",
     "instructorEmail": "zayed@bdcalling.com",
     "technology": "Figma, Adobe XD, UX Research, Wireframing, Prototyping, Storyboarding",
     "courseStart": "25-March-2025",
-    "duration": 10,
+    "duration": 3,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This hands-on course focuses on user-centered design principles, covering UX research, wireframing, prototyping, and visual design using tools like Figma and Adobe XD. Students will learn to create intuitive and responsive interfaces through practical projects and real-world case studies, guided by industry expert Md. Zayed Uddin."
-  },{
+    "details": "This course provides comprehensive training in UX/UI design, covering the entire process from research and wireframing to prototyping and final design handover. Students will gain hands-on experience with real-world projects, improving both web and mobile application interfaces.",
+    "whatYoullLearn": [
+      "UX/UI Design Process",
+      "UX/UI Visual Design Principles",
+      "Color Theory & Typography in UI",
+      "Paper Prototyping Techniques",
+      "UX/UI Design for Mobile Apps",
+      "Handover Process for Developers",
+      "Freelancing in UX/UI Design",
+      "Accessibility in UX/UI Design",
+      "Design Languages & Material Guidelines",
+      "Wireframing for Web Applications",
+      "Implementation of UX/UI for Web Apps",
+      "Prototyping & User Testing",
+      "Portfolio Development for Designers",
+      "Career Guidance & CV Preparation"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe XD",
+      "Figma",
+      "Sketch",
+      "InVision",
+      "Adobe Photoshop",
+      "Adobe Illustrator"
+    ],
+    "jobPositions": [
+      "UX/UI Designer",
+      "UX Researcher",
+      "Information Architect",
+      "Interaction Designer",
+      "Visual Designer"
+    ]
+  },
+  {
     "id": 7,
-    "title": "Certified Video Editing & Motion Graphics ",
+    "title": "Certified Video Editing & Motion Graphics",
     "category": "Media & Film",
     "type": "Offline",
     "image": "https://i.ibb.co.com/4wsV2RJk/Video-card.jpg",
-    "fee": "27000৳",
+    "fee": "30000৳",
     "rating": 4.8,
     "totalRating": 102,
-    "totalStudentsEnroll": 290,
+    "totalStudentsEnroll": 50,
     "instructorName": "Md. Zayed Uddin",
     "instructorImg": "instructor_zayed",
     "instructorEmail": "zayed@bdcalling.com",
     "technology": "Adobe Premiere Pro, After Effects, Blender, Mixamo AI, TTS AI, Color Grading",
     "courseStart": "28-March-2025",
-    "duration": 12,
+    "duration": 3,
     "totalExam": 4,
     "totalProject": 5,
-    "details": "This course offers comprehensive training in video editing and motion graphics, integrating AI tools to enhance creativity and efficiency. Students will learn to create dynamic visuals using Adobe Premiere Pro, After Effects, and Blender, incorporating AI technologies like Mixamo for character animation and Text-to-Speech (TTS) for audio enhancements. The curriculum includes projects such as social media ads, animated explainers, and promotional videos, preparing students for the evolving demands of the media industry."
+    "details": "This course provides hands-on training in video editing and motion graphics, covering industry-standard software and advanced techniques. Students will learn storytelling, animation, color grading, and post-production workflows while working on real-world projects to build a professional portfolio.",
+    "whatYoullLearn": [
+      "Introduction to Visual Media & Motion Graphics",
+      "Basics of Design Principles, Composition & Storytelling",
+      "Adobe Premiere Pro: Video Editing & Workflow Optimization",
+      "Adding Motion Graphics, Titles & Custom Transitions",
+      "Audio Editing, Sound Design & Synchronization",
+      "Green Screen Techniques & Visual Effects Integration",
+      "Advanced Color Grading with DaVinci Resolve",
+      "After Effects: Keyframes, Animation & Masking Techniques",
+      "3D Layers, Camera Animations & Motion Tracking",
+      "Expressions & Automation for Dynamic Effects",
+      "Creating Reusable Motion Graphics Templates (MOGRTs)",
+      "Multi-Software Workflow: Premiere Pro, After Effects & Resolve",
+      "Exporting & Optimizing Videos for Different Platforms",
+      "Freelancing & Industry Insights in Motion Graphics",
+      "Capstone Project: Complete Video Production & Portfolio Creation"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "50+ Live Design Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "6+ Client Simulation Projects"
+      },
+      {
+        "icon": "RiComputerLine",
+        "text": "Design Software Lab Access"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Portfolio & Pitch Review"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelance Certification"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Freelancer Toolkit (Templates, Contracts)"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects",
+      "DaVinci Resolve",
+      "Final Cut Pro",
+      "Final Cut Pro"
+    ],
+    "jobPositions": [
+      "Video Editor",
+      "Post-Production Specialist",
+      "Color Grading Specialist",
+      "Motion Graphics Designer",
+      "Visual Effects (VFX) Artist",
+      "Multimedia Content Creator"
+    ]
   }
-  
-
 ]
