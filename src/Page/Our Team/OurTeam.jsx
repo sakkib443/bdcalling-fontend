@@ -50,24 +50,25 @@ const OurTeam = () => {
       <div className="mt-8">
         {/* Tab Headers */}
         <div role="tablist" className="tabs flex justify-center gap-5 flex-wrap work">
-          {tabsData.map((tab) => (
-            <button
-              key={tab.key}
-              role="tab"
-              className={`tab px-4 py-2 ${
-                activeTab === tab.key
-                  ? "fieldset-label btn rounded-md dark:border-gray-400 dark:shadow-none   bg-[#41bfb8] "
-                  : "fieldset-label btn rounded-md dark:border-gray-400 dark:shadow-none bg-[#ecfcfb] border-gray-300"
-              }`}
-              onClick={() => setActiveTab(tab.key)}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
+  {tabsData.map((tab) => (
+    <button
+      key={tab.key}
+      role="tab"
+      className={`tab px-4 py-2 fieldset-label outfit-semibold rounded-md  dark:border-gray-400 dark:shadow-none  ${
+        activeTab === tab.key
+          ? "bg-[#41bfb8] tw" // ✅ Active tab: bg color + white text
+          : "bg-[#ecfcfb] border border-gray-300 text-gray-800" // Inactive: normal text
+      }`}
+      onClick={() => setActiveTab(tab.key)}
+    >
+      {tab.label}
+    </button>
+  ))}
+</div>
+
 
         {/* Tab Content */}
-        <div className="lg:w-9/12 w-11/12 mx-auto mt-6 p-6 bg-white rounded-lg  border border-gray-200">
+        <div className="lg:w-9/12 w-11/12 mx-auto mt-6 p-6  rounded-lg  border border-gray-200">
           <div className="fade-in">
             {tabsData.find((tab) => tab.key === activeTab)?.component}
           </div>

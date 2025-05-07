@@ -9,13 +9,13 @@ const OurManagement = () => {
         .then(data => setManagement(data))
     },[])
     return (
-        <div className="lg:p-4 lg:w-11/12 w-/12 mx-auto work">
-            <div className="bg-white rounded-lg shadow-md p-6 border border-[#41bfb962]">
+        <div className="lg:p-4 lg:w-11/12 w-/12 mx-auto work ">
+            <div className=" rounded-lg  p-6 border border-gray-300 bg-[#E1FCF9]">
                 <div className="flex flex-col md:flex-row gap-6">
                     <div className="flex-shrink-0 flex justify-center items-center">
                         <img
                             className="w-65 h-80 object-cover rounded-lg"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSse1HbwPCSECJid8tC8F22X5JNv1MvDnVxQFr299nyUhkZuE2-ILEgVXobyNbUKn7ckZc&usqp=CAU"
+                            src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/492539806_10237325103010769_6455046797025306185_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFt_P06Fc4U2C0qvIsNwCAPslaD2CzO5jqyVoPYLM7mOhhR6d8AAID3otTHXQxu96iShd1feYgytqdNDNr57aO1&_nc_ohc=9pjld7iBkmAQ7kNvwFDYr41&_nc_oc=Adm7k07y9Lf-FM7bgeg_gUnrL72ksDMAKvJevQp15ZmNhqGFQQCU9YECVH5x90clDxo&_nc_zt=23&_nc_ht=scontent.fdac138-1.fna&_nc_gid=pN3JrE-rmC2o7qvQQFv1zg&oh=00_AfIYK4E0XDSkypjlm1IdiFh-2xz-jgVqOGRR2T0jG6mZEg&oe=681FAE9D"
                             alt="Muhammad Monir Hossain"
                         />
                     </div>

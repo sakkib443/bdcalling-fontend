@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="flex items-center gap-2 mb-2">
               <FiBookOpen className="text-2xl sm:text-3xl animate-bounce" />
               <p className="text-lg  sm:text-xl md:text-[22px] text-[#41bfb8] work">
-                Build A Strong Career With
+                Build A Strong Career 
               </p>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-6xl 2xl:text-4xl font-semibold outfit">
@@ -27,10 +27,12 @@ const Hero = () => {
               Start Your <span className="text-[#F79952]">Digital Journey</span> Today
             </h1>
             <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] work">
-              Get ready to embark on a journey of knowledge with our innovative
-              learning platform. Explore a wide range of courses and interactive
-              lessons designed by industry-expert instructors to help you reach
-              your full potential
+              We offer a diverse range of courses
+              designed to elevate your tech skills and
+              career. Engage with interactive lessons
+              and gain insights from expert instructors
+              who bring real-world experience to every session. Start your journey with BDCalling Academy today and
+              transform your IT skills into career success!
             </p>
 
             {/* Stats */}

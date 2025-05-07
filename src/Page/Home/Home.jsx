@@ -10,6 +10,7 @@ import Employe from "./HomeComponents/Employe";
 import Concerns from "./HomeComponents/Concerns";
 import SeminarAndEvent from "./HomeComponents/SeminarAndEvent";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import img from "../../assets/img/onesection.png"
 
 const Home = () => {
   // WhatsApp message and number
@@ -82,15 +83,19 @@ const Home = () => {
       {/* Other Sections */}
       <HomeCategory />
       <div
-        className="bg-cover container mx-auto rounded-2xl"
+        className="bg-cover container mx-auto rounded-2xl mb-24"
         style={{ backgroundImage: `url(${bgImage2})` }}
       >
         <PopularCourse />
       </div>
-      <WhatWeProvide />
       <SeminarAndEvent />
+      <WhatWeProvide />
+   
       <Concerns />
       <SuccesHistory />
+      <div>
+   
+      </div>
       <Employe />
     </div>
   );
