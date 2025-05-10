@@ -1,7 +1,8 @@
 [
     {
-        "name": "Shohidur Rahmon",
+        "name": "Sheikh Sakibul Hasan",
         "designation": "Department Head",
+        "subject" : "Web Development",
         "specialized_area": [
             "Graphic Design",
             "Brand Design",
@@ -23,11 +24,12 @@
             "years": "10",
             "students": "4000"
         },
-        "image": "https://media.istockphoto.com/id/482100176/photo/confident-in-his-business-ability.jpg?s=612x612&w=0&k=20&c=FCmJDrcEsX7U8euCb_rFlnpD_owJ6t1tw3pBJJW34uY="
+        "image": "https://i.ibb.co.com/7xY7G6rK/472009300-557526777119280-533781909713140935-n.jpg"
     },
     {
-        "name": "Farzana Ahmed",
-        "designation": "Senior Instructor",
+        "name": "Asraf Hossain",
+        "designation": "Department Head",
+        "subject" : "Digital Marketing",
         "specialized_area": [
             "UI/UX Design",
             "Web Design",
@@ -48,7 +50,7 @@
             "years": "8",
             "students": "3000"
         },
-        "image": "https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg"
+        "image": "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/457562284_122165830130112340_5803340726988999662_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH1gtNe03NcskxHQSAIN2qLrEGPpBkPtrSsQY-kGQ-2tOqCXkgTcJAPs-EcbuQntWl5mX1gSOw2eC3VhRGCssen&_nc_ohc=L3Rs1PCH6yUQ7kNvwEWdhTR&_nc_oc=AdnZ9PogR9CtPqG4wAspq7KgzSDVeh28VZmUnkcFj1W1Z5-bhBFmpfgude50ExF8h5c&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=d_pXJmyKMIzaqfwMqLe0aQ&oh=00_AfK-4Js9zN5D2FYu0j7nyElJ7XyTsG-dICcsLf7LV9KV6w&oe=6824F44C"
     },
     {
         "name": "Kamrul Hasan",

@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 import Home from "./Page/Home/Home";
 import Root from "./Layout/Root";
 import Course from "./Page/Courses/Course";
@@ -10,26 +11,45 @@ import RegisterPage from "./Page/Auth/RegisterPage";
 import SingleCourse from "./Page/Single Course/SingleCourse";
 import OurTeam from "./Page/Our Team/OurTeam";
 import Certification from "./Page/Certification/Certification";
-
+import OfferModal from "./Components/OfferModel";
 
 function App() {
+  const location = useLocation();
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    const hasSeenPopup = sessionStorage.getItem("bdc_session_seen_offer");
+
+    if (!hasSeenPopup && location.pathname === "/") {
+      const timer = setTimeout(() => {
+        setShowModal(true);
+        sessionStorage.setItem("bdc_session_seen_offer", "true");
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [location]);
+
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Root></Root>}>
-          <Route index element={<Home />} />
-          <Route path="courses" element={<Course></Course>}></Route>
-          <Route path="events" element={<Events></Events>}></Route>
-          <Route path="about" element={<About></About>}></Route>
-          <Route path="contact" element={<Contact></Contact>}></Route>
-          <Route path="contact" element={<Contact></Contact>}></Route>
-          <Route path="login" element={<LoginPage></LoginPage>}></Route>
-          <Route path="signup" element={<RegisterPage></RegisterPage>}></Route>
-          <Route path="/courses/:id" element={<SingleCourse />} />
-          <Route path="our-team" element={ <OurTeam></OurTeam> }></Route>
-          <Route path="certification" element={ <Certification /> }></Route>
-        </Route>
-      </Routes>
+      {showModal && <OfferModal onClose={() => setShowModal(false)} />}
+
+      <div className={showModal && location.pathname === "/" ? "" : ""}>
+        <Routes>
+          <Route path="/" element={<Root />}>
+            <Route index element={<Home />} />
+            <Route path="courses" element={<Course />} />
+            <Route path="events" element={<Events />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="login" element={<LoginPage />} />
+            <Route path="signup" element={<RegisterPage />} />
+            <Route path="/courses/:id" element={<SingleCourse />} />
+            <Route path="our-team" element={<OurTeam />} />
+            <Route path="certification" element={<Certification />} />
+          </Route>
+        </Routes>
+      </div>
     </>
   );
 }

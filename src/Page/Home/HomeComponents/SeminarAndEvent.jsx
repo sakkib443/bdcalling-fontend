@@ -70,12 +70,12 @@ const SeminarAndEvent = () => {
           </div>
         </div>
       </div> */}
-      <div className="flex justify-center items-center gap-12 bg-[] container mx-auto">
-        <div className="w-6/12">
-          <div className="flex justify-end container">  <img  className="w-[80%]" src={img2} alt="" /></div>
+      <div className="flex lg:flex-row flex-col justify-center items-center gap-12 bg-[] container mx-auto bg-[#e8f9f9] py-16 rounded-2xl">
+        <div className="lg:w-6/12">
+          <div className="flex justify-end ">  <img className="md:w-[650px] px-4 md:px-0  " src={img2} alt="" /></div>
         </div>
-        <div className="w-6/12">
-          <div className="w-[550px]">
+        <div className="lg:w-6/12 container">
+          <div className="lg:w-[550px] px-6 md:px-0">
             <div>
               <div className="flex items-center gap-2 border border-gray-200 py-1 px-2 pr-5 rounded-4xl work w-fit">
                 <div className=" rounded-full p-3 bg-[#D8F7F6]">
@@ -83,7 +83,7 @@ const SeminarAndEvent = () => {
                 </div>
                 <p>How We Start Journey</p>
               </div>
-              <h1 className="outfit-semibold text-[40px]">
+              <h1 className="outfit-semibold lg:text-[40px] md:text-[30px] text-2xl my-2 md:my-0">
                 We Care About <span className="csd"> Your Life For</span>  <br />
                 Better Future
               </h1>
@@ -91,29 +91,29 @@ const SeminarAndEvent = () => {
             </div>
 
             <div className="mt-4">
-              <div className="border border-gray-300 py-4 px-4 rounded-md flex items-center gap-3">
-                <div className=" rounded-full p-3 bg-[#D8F7F6] w-fit">
+              {/* Seminar Section */}
+              <div className="border border-gray-300 py-4 hover:shadow-md  px-4 rounded-md flex items-center gap-3  cursor-pointer transition-all duration-300">
+                <div className="rounded-full p-3 bg-[#D8F7F6] w-fit">
                   <PiCertificateThin className="text-5xl" />
                 </div>
                 <div>
-                  <p className="outfit-semibold text-xl">
-                    Join Our Seminar
-                  </p>
-                  <p className="work"> Master Certified Trainer</p>
+                  <p className="outfit-semibold text-xl">Join Our Seminar</p>
+                  <p className="work">Master Certified Trainer</p>
                 </div>
               </div>
-              <div className="border border-gray-300 py-4 px-4 rounded-md flex items-center gap-3 mt-4">
-                <div className=" rounded-full p-3 bg-[#D8F7F6] w-fit">
+
+              {/* Workshop Section */}
+              <div className="border border-gray-300 py-4 px-4 hover:shadow-md rounded-md flex items-center gap-3 mt-4 cursor-pointer transition-all duration-300">
+                <div className="rounded-full p-3 bg-[#D8F7F6] w-fit">
                   <HiOutlineComputerDesktop className="text-5xl" />
                 </div>
                 <div>
-                  <p className="outfit-semibold text-xl">
-                    Join Our Workshop
-                  </p>
-                  <p className="work"> Master Certified Trainer</p>
+                  <p className="outfit-semibold text-xl">Join Our Workshop</p>
+                  <p className="work">Master Certified Trainer</p>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

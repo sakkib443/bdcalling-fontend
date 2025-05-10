@@ -4,15 +4,15 @@ import { FcCollaboration } from "react-icons/fc";
 
 const WhatWeProvide = () => {
   return (
-    <div className="bg-white py-8 md:py-12 lg:py-1 my-24">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-8 md:py-12 lg:py-1 mt-12 mb-4">
+      {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title={"Our Unique Learning Approach "}
+          title={"Learning Approach "}
           description={
             "We're committed to elevating your learning journey by providing special features and support that empower you to grow without limitations."
           }
         />
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8 ">

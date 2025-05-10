@@ -83,19 +83,15 @@ const Home = () => {
       {/* Other Sections */}
       <HomeCategory />
       <div
-        className="bg-cover container mx-auto rounded-2xl mb-24"
+        className=" container mx-auto rounded-2xl mb-20 bg-cover"
         style={{ backgroundImage: `url(${bgImage2})` }}
       >
         <PopularCourse />
       </div>
       <SeminarAndEvent />
       <WhatWeProvide />
-   
       <Concerns />
       <SuccesHistory />
-      <div>
-   
-      </div>
       <Employe />
     </div>
   );

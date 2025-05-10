@@ -8,7 +8,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { Link } from 'react-router-dom';
 const TopHeader = () => {
     return (
-        <div className=' bg-[#e6eded] work hidden lg:block'>
+        <div className=' bg-[#77dbd6] work hidden lg:block'>
             <div className='w-full sm:w-11/12 lg:w-10/12 2xl:w-9/12 mx-auto'>
                 <div className=' flex flex-col md:flex-row items-center justify-between'>
                     <div className='flex items-center gap-5 py-2 '>

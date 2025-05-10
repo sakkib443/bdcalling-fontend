@@ -9,7 +9,7 @@ const CommunicationAndSale = () => {
                 .then(data => setCommunicator(data))
             },[])
     return (
-        <div className='grid lg:grid-cols-2 grid-cols-1 gap-8 mt-10'>
+        <div className='max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2  gap-y-4 px-4'>
             {
                 communicators.map(communicator => (
                     <CommunicationAndSalesCard communicator={communicator}></CommunicationAndSalesCard>

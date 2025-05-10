@@ -68,7 +68,7 @@ const OurTeam = () => {
 
 
         {/* Tab Content */}
-        <div className="lg:w-9/12 w-11/12 mx-auto mt-6 p-6  rounded-lg  border border-gray-200">
+        <div className="container mx-auto mt-6 p-6  rounded-lg  border border-gray-200">
           <div className="fade-in">
             {tabsData.find((tab) => tab.key === activeTab)?.component}
           </div>

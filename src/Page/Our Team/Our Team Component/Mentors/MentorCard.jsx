@@ -2,58 +2,22 @@ import React from 'react';
 
 const MentorCard = ({ mentor }) => {
     return (
-        <div>
-            <div className="work">
-                <div className="border border-gray-300 p-5 rounded-2xl">
-                    <div className="flex items-center gap-5">
-                        <img className='w-20 h-20 rounded-full' src={mentor.image} alt="" />
-                        <div className="">
-                            <h1 className='text-xl font-semibold'>{mentor.name}</h1>
-                            <h4 className='csd'>{mentor.designation}</h4>
-                        </div>
+        <div className="max-w-3xl mx-auto">
+            <div className="bg-[#E1FCF9] cursor-pointer hover:shadow-2xl 2xl:w-[550px] container transition-shadow duration-300 border border-gray-200 rounded-md overflow-hidden p-6">
+                <div className="flex items-center gap-6">
+                    <div className="w-36 h-36 rounded-full overflow-hidden shadow-md">
+                        <img
+                            src={mentor.image}
+                            alt={mentor.name}
+                            className="w-full h-full object-cover"
+                        />
                     </div>
-                    <div className="grid grid-cols-2 gap-7 mt-5 border-b border-gray-300 pb-4">
-                        <div className="">
-                            <h4 className="text-xl font-semibold mb-2">Specialized Area</h4>
-                            <ul className="list-disc list-inside space-y-1">
-                                {
-                                    (mentor.specialized_area).map(sa=>(
-                                        <li>{sa}</li>
-                                    ))
-                                }
-                            </ul>
-                        </div>
-                        <div className="">
-                            <h4 className="text-xl font-semibold mb-2">Education Qualification</h4>
-                            <ul className="list-disc list-inside space-y-1">
-                                {
-                                    (mentor.education_qualification).map(eq=>(
-                                        <li>{eq}</li>
-                                    ))
-                                }
-                            </ul>
-                        </div>
-                        <div className="">
-                            <h4 className="text-xl font-semibold mb-2">Work Experience</h4>
-                            <ul className="list-disc list-inside space-y-1">
-                                {
-                                    (mentor.work_experience).map(we=>(
-                                        <li>{we}</li>
-                                    ))
-                                }
-                            </ul>
-                        </div>
+                    <div>
+                        <h2 className="text-2xl font-bold text-gray-800 outfit">{mentor.name}</h2>
+                        <p className="csd text-lg font-semibold">{mentor.designation}</p>
+                        <p className="text-gray-700 work">{mentor.subject}</p>
+                        <p className="text-sm text-gray-500 mt-2 work">✅ 14+ Years of Training Experience</p>
                     </div>
-                    <div className="grid grid-cols-2 gap-4 mt-6">
-                            <div>
-                                <h4 className="text-lg font-semibold">Training Experience</h4>
-                                <p className="text-gray-700">{mentor.training_experience.years} years +</p>
-                            </div>
-                            <div>
-                                <h4 className="text-lg font-semibold">Students</h4>
-                                <p className="text-gray-700">{mentor.training_experience.students} +</p>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
