@@ -54,7 +54,7 @@ const Count = () => {
                         return (
                             <motion.div
                                 key={index}
-                                className=" border-1 border-gray-300 rounded-2xl p-4 shadow hover:shadow-md transition duration-300 flex flex-col items-center gap-2"
+                                className=" border-1 border-gray-200 rounded-2xl p-4 hover:shadow-md transition duration-300 flex flex-col items-center gap-2"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: index * 0.1 }}

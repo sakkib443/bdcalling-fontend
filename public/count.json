@@ -1,18 +1,18 @@
 [
     {
-        "count": 90000,
+        "count": 6200,
         "label": "Successful Students",
         "icon": "FaUserGraduate",
         "suffix": "+"
     },
     {
-        "count": 34000,
+        "count": 2000,
         "label": "Expert Freelancers",
         "icon": "FaLaptopCode",
         "suffix": "+"
     },
     {
-        "count": 40000,
+        "count": 150,
         "label": "Skilled Job Holders",
         "icon": "FaBriefcase",
         "suffix": "+"
@@ -24,13 +24,13 @@
         "suffix": "+"
     },
     {
-        "count": 89,
+        "count": 95,
         "label": "Success Ratio",
         "icon": "FaChartLine",
         "suffix": "%"
     },
     {
-        "count": 3000,
+        "count": 10,
         "label": "Companies",
         "icon": "FaBuilding",
         "suffix": "+"

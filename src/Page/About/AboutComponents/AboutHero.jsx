@@ -25,30 +25,29 @@ const AboutHero = () => {
                     </div>
                     <div className="w-full flex flex-col gap-4">
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-4xl font-bold text-gray-700">
-                                Who We <span className="cpr">Are?</span>
+                            <h2 className="text-4xl outfit text-gray-700">
+                                Our Dream
+                                <span className="cpr"> & Our Purpose</span>
                             </h2>
-                            <p className="text-lg font-semibold csd uppercase">
-                                We’re here to serve only the best products for you. Enriching
-                                your homes with the best essentials.
+                            <p className="text-lg font-semibold csd uppercase outfit-semibold">
+                                Hub of skill development. We are committed to building a skilled and digitally empowered Bangladesh.
+
                             </p>
                         </div>
-                        <div className="flex flex-col gap-4 text-[#414042]">
+                        <div className="flex flex-col gap-4 text-[#414042] work">
                             <p>
-                                BDCalling Academy is an innovative IT and freelancing training center that focuses on empowering individuals with the skills required to thrive in today’s rapidly evolving digital landscape. Our expertise spans across IT fields such as web development, software development, networking, security, database, multimedia, programming and freelancing. We offer flexible courses designed for students,. As pared and digital Bangladesh, meeting the nation’s growing demand for expertise in information technology.
+                                Our courses span a wide range of in-demand IT fields, including web development, software development, networking, cybersecurity, database management, multimedia, programming, marketing and design. Whether you're a student, professional, entrepreneur, or homemaker looking to upskill, our flexible training programs are designed to help you achieve your goals.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                                possimus nihil itaque dolorem quasi quia alias? Nulla similique
-                                exercitationem hic!
+                                At Bdcalling Academy, we believe in practical learning, industry-relevant training, and a supportive community. Our mission is to bridge the skills gap, foster innovation, and create opportunities for the next generation of digital pioneers.
+
+
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                                ullam incidunt, molestias cupiditate doloremque natus ab et
-                                veniam dolores totam minus. Beatae nihil ex expedita, dolorum
-                                tempore aperiam rerum at iste id praesentium eos dicta esse
-                                iusto fugit cum dignissimos.
+                                The best place to build your IT career! We offer a range of expert-led courses to boost your tech skills and help you grow. Learn from real-world professionals, gain hands-on experience, and turn your dreams into reality. Start your journey with Bdcalling Academy today!
+
                             </p>
+
                         </div>
                     </div>
                 </div>

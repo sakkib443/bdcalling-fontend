@@ -4,7 +4,7 @@ import HomeCategory from '../../Home/HomeComponents/HomeCategory';
 const Category = () => {
     return (
         <div className='bg-[#ecfcfb]'>
-            <HomeCategory></HomeCategory>
+            {/* <HomeCategory></HomeCategory> */}
         </div>
     );
 };

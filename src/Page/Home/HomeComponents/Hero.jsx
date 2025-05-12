@@ -13,26 +13,24 @@ const Hero = () => {
           <div className="font-poppins">
             <div className="flex items-center gap-2 mb-2">
               <FiBookOpen className="text-2xl sm:text-3xl animate-bounce" />
-              <p className="text-lg  sm:text-xl md:text-[22px] text-[#41bfb8] work">
-                Build A Strong Career 
+              <p className="text-lg  sm:text-xl md:text-[22px] crd work">
+                     A Leading Platform for Skills
               </p>
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-6xl 2xl:text-4xl font-semibold outfit">
-              Become Learner{" "}
+            <h1 className="md:text-6xl my-4 text-5xl csd  outfit">
+              {/* Become Learner{" "}
               <span className="text-4xl sm:text-5xl md:text-6xl 2xl:text-4xl text-[#41bfb8]">
                 To Leader{" "}
-              </span>
+              </span> */}
+              Bdcalling Academy
+
             </h1>
-            <h1 className="md:text-6xl uppercase my-4 text-5xl  outfit">
-              Start Your <span className="text-[#F79952]">Digital Journey</span> Today
+            <h1 className=" text-3xl sm:text-4xl md:text-6xl 2xl:text-4xl font-semibold outfit">
+         
+
             </h1>
             <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] work">
-              We offer a diverse range of courses
-              designed to elevate your tech skills and
-              career. Engage with interactive lessons
-              and gain insights from expert instructors
-              who bring real-world experience to every session. Start your journey with BDCalling Academy today and
-              transform your IT skills into career success!
+              Welcome to Bdcalling Academy – the best place to build your IT career! We offer a range of expert-led courses to boost your tech skills and help you grow. Learn from real-world professionals, gain hands-on experience, and turn your dreams into reality. Start your journey with Bdcalling Academy today!
             </p>
 
             {/* Stats */}
@@ -42,7 +40,7 @@ const Hero = () => {
                 <div className=" flex items-center gap-1.5 sm:w-auto pl-4 ">
                   <div>
                     <div className="stat-title text-xs sm:text-sm">
-                      Total Courses
+                      Our Courses
                     </div>
                     <div className="flex items-center gap-2">
                       <div className="stat-value text-[#41bfb8] text-lg sm:text-xl">
@@ -50,7 +48,7 @@ const Hero = () => {
                       </div>
                     </div>
                     <div className="stat-desc text-xs md:block hidden">
-                      21% more than last month
+                     Including Vendor Certfied Courses
                     </div>
                   </div>
                 </div>
@@ -67,7 +65,7 @@ const Hero = () => {
                       </div>
                     </div>
                     <div className="stat-desc text-xs md:block hidden">
-                      21% more than last month
+                      Building a skilled society
                     </div>
                   </div>
                 </div>
@@ -86,12 +84,12 @@ const Hero = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="stat-value text-lg sm:text-xl">90%</div>
+                    <div className="stat-value text-lg sm:text-xl">92%</div>
                     <div className="stat-title text-xs sm:text-sm">
-                      Job Success
+                       Career Placement rate
                     </div>
                     <div className="stat-desc text-[#41bfb8] text-xs md:block hidden">
-                      31 tasks remaining
+                     Targeting to reach 100%
                     </div>
                   </div>
                 </div>

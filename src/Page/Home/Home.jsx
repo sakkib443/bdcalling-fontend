@@ -10,7 +10,7 @@ import Employe from "./HomeComponents/Employe";
 import Concerns from "./HomeComponents/Concerns";
 import SeminarAndEvent from "./HomeComponents/SeminarAndEvent";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import img from "../../assets/img/onesection.png"
+
 
 const Home = () => {
   // WhatsApp message and number

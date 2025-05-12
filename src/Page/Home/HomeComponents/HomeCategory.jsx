@@ -11,14 +11,14 @@ import img8 from '../../../assets/img/gdIcon.png';
 import { useNavigate } from 'react-router-dom';
 
 const categories = [
-    { img: img1, title: 'Art & Design', subtitle: 'Fun with Challeng' },
+    { img: img1, title: 'Art & Design', subtitle: 'Platform for Creativity' },
     { img: img2, title: 'Programming', subtitle: 'Code & Confident' },
-    { img: img3, title: 'Marketing', subtitle: 'Fun with Challeng' },
-    { img: img4, title: 'Media & Flim', subtitle: 'Fun with Challeng' },
-    { img: img5, title: 'Networking & Server', subtitle: 'Fun with Challeng' },
-    { img: img6, title: 'Management', subtitle: 'Code & Confident' },
+    { img: img3, title: 'Marketing', subtitle: 'The Art of Influence' },
+    { img: img4, title: 'Media & Flim', subtitle: 'Storytelling in Motion' },
+    { img: img5, title: 'Networking & Server', subtitle: 'Protector of the IT Industry' },
+    { img: img6, title: 'Management', subtitle: 'Leading with Strategy' },
     { img: img7, title: 'Database', subtitle: 'Fun with Challeng' },
-    { img: img8, title: 'Diploma', subtitle: 'Fun with Challeng' }
+    { img: img8, title: 'Diploma', subtitle: 'Skill Up, Stand Out' }
 ];
 
 const HomeCategory = () => {

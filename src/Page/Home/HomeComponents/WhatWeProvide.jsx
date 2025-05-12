@@ -1,6 +1,5 @@
-import React from "react";
-import SectionHeading from "../../../Components/Shared/SectionHeading";
 import { FcCollaboration } from "react-icons/fc";
+
 
 const WhatWeProvide = () => {
   return (
@@ -27,7 +26,7 @@ const WhatWeProvide = () => {
               Job Placement Support 🎯
             </h2>
             <p className="work crd text-sm md:text-base">
-              At BDCalling Academy, we believe in building a lasting
+              At Bdcalling Academy, we believe in building a lasting
               relationship with our students. Our commitment doesn't end with
               the course—our dedicated support team is here for you 24/7, even
               long after you've completed your training. With personalized
@@ -46,7 +45,7 @@ const WhatWeProvide = () => {
               Lifetime Support 🚀
             </h2>
             <p className="work crd text-sm md:text-base">
-              At BDCalling Academy, we believe in building a lasting
+              At Bdcalling Academy, we believe in building a lasting
               relationship with our students. Our commitment doesn't end with
               the course—our dedicated support team is here for you 24/7, even
               long after you've completed your training. With personalized
@@ -65,7 +64,7 @@ const WhatWeProvide = () => {
               Get Certification 🏅
             </h2>
             <p className="work crd text-sm md:text-base">
-              After successfully completing your course at BDCalling Academy,
+              After successfully completing your course at Bdcalling Academy,
               you'll receive an industry-recognized certificate that validates
               your skills and enhances your professional credibility. This
               certification will help you stand out in the job market and boost

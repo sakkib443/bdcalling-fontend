@@ -1,28 +1,79 @@
-import React from "react";
-
+import img2 from "../../../assets/img/seminar02.png";
+import { LuAlarmClockMinus } from "react-icons/lu";
+import { FiTrendingUp, FiTarget, FiBookOpen, FiUsers } from "react-icons/fi"
 const Mission = () => {
     return (
         <div className="bg-[#ecfcfb] py-16">
-            <div className="w-9/12 mx-auto px-4 flex flex-col-reverse lg:flex-row items-center gap-12">
-         
-                <div className="lg:w-1/2 text-center lg:text-left space-y-6">
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#41bfb8]">
-                        Our Mission
-                    </h2>
-                    <p className="text-gray-700 text-lg leading-relaxed">
-                        To be the leading IT training platform, equipping individuals with the tools and knowledge to drive innovation and success in the global tech industry.
-                        To provide employment opportunities for over 5,000 individuals by 2030, contributing significantly to the dream of Digital Bangladesh and reducing the nation's unemployment rate.
-                    </p>
-
+            <div className="flex flex-col justify-center items-center">
+                <div className="flex items-center gap-2 border border-gray-200 py-1 px-2 pr-5 rounded-4xl work w-fit">
+                    <div className=" rounded-full p-3 bg-[#D8F7F6]">
+                        <LuAlarmClockMinus />
+                    </div>
+                    <p>How We Start Journey</p>
                 </div>
+                <h1 className="outfit-semibold lg:text-[40px] md:text-[30px] text-2xl my-2 md:my-0">
+                    Our Mission
+                    <span className="cpr"> & Vition</span>  <br />
 
-               
-                <div className="lg:w-1/2">
-                    <img
-                        src="/assets/img/mission.png"
-                        alt="Our Mission"
-                        className="w-full h-auto rounded-lg  object-cover"
-                    />
+                </h1>
+
+            </div>
+            <div className="flex lg:flex-row flex-col justify-center items-center gap-12 bg-[] container mx-auto bg-[#e8f9f9] py-6 rounded-2xl">
+                <div className="lg:w-5/12">
+                    <div className="flex justify-end ">  <img className="md:w-[650px] px-4 md:px-0  " src={img2} alt="" /></div>
+                </div>
+                <div className="lg:w-6/12 container">
+                    <div className="lg:w-[550px] px-6 md:px-0">
+
+
+                        <div className="mt-6  lg:w-xl text-gray-700 work flex flex-col gap-4">
+                            {/* 1 */}
+                            <div className="flex  gap-4 border border-gray-300 px-6 py-3 rounded-md hover:shadow-lg transition duration-300">
+                                <div className="min-w-[60px] h-[60px] flex items-center justify-center bg-teal-100 text-teal-600 rounded-full">
+                                    <FiTrendingUp size={28} />
+                                </div>
+                                <p className="text-base leading-relaxed">
+                                    To be the world’s leading IT training platform, developing a skilled workforce
+                                    with a diverse range of technical expertise to shape the future of the global tech industry.
+                                </p>
+                            </div>
+
+                            {/* 2 */}
+                            <div className="flex gap-4 border border-gray-300 px-6 py-3 rounded-md hover:shadow-lg transition duration-300">
+                                <div className="min-w-[60px] h-[60px] flex items-center justify-center bg-teal-100 text-teal-600 rounded-full">
+                                    <FiTarget size={28} />
+                                </div>
+                                <p className="text-base leading-relaxed">
+                                    Our goal is to create over 5,000 job opportunities by 2030, actively contributing to
+                                    building the Digital Bangladesh and helping to lower the nation's unemployment rate.
+                                </p>
+                            </div>
+
+                            {/* 3 */}
+                            <div className="flex gap-4 border border-gray-300 px-6 py-3 rounded-md hover:shadow-lg transition duration-300">
+                                <div className="min-w-[60px] h-[60px] flex items-center justify-center bg-teal-100 text-teal-600 rounded-full">
+                                    <FiBookOpen size={28} />
+                                </div>
+                                <p className="text-base leading-relaxed">
+                                    We’re committed to equipping individuals with practical technical skills,
+                                    developing the core foundation for career success in a rapidly changing tech world.
+                                </p>
+                            </div>
+
+                            {/* 4 */}
+                            <div className="flex gap-4 border border-gray-300 px-6 py-3 rounded-md hover:shadow-lg transition duration-300">
+                                <div className="min-w-[60px] h-[60px] flex items-center justify-center bg-teal-100 text-teal-600 rounded-full">
+                                    <FiUsers size={28} />
+                                </div>
+                                <p className="text-base leading-relaxed">
+                                    We provide industry-focused training that opens up a variety of IT career paths,
+                                    empowering more people to excel in the IT sector and make a meaningful impact.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
         </div>

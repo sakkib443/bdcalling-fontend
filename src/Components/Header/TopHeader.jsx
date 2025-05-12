@@ -14,11 +14,11 @@ const TopHeader = () => {
                     <div className='flex items-center gap-5 py-2 '>
                         <div className='flex gap-1 items-center  pr-4 '>
                             <IoMdCall className='text-[20px] text-[#F79952] ' />
-                            <p className='text-[15px] dark:text-black/70'>01332840808</p>
+                            <p className='text-[15px] dark:text-black/70'>01321231802</p>
                         </div>
                         <div className='flex gap-2  text-[20px] items-center'>
                             <IoMailOutline className='text-xl  text-[#F79952]' />
-                            <p className='text-[15px] dark:text-black/70'>learn.bdcalling@gmail.com</p>
+                            <p className='text-[15px] dark:text-black/70'>info@bdcallingacademy.com</p>
                         </div>
 
                     </div>
