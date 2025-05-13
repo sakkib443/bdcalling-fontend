@@ -15,10 +15,12 @@
     "technology": "MongoDB, Express.js, React, Node.js, Redux",
     "courseStart": "12-March-2025",
     "duration": 6,
+    "lectures": 50,
     "totalExam": 6,
     "totalProject": 5,
-    "details": "The Advanced MERN Stack Development course equips students with in-depth knowledge of full-stack web development using MongoDB, Express, React, and Node.js.",
-    "whatYoullLearn": [
+    "details": "This course teaches full-stack web development using MongoDB, Express.js, React, and Node.js. You'll learn to build modern applications with Redux for state management, RESTful APIs, authentication, and deployment strategies. The curriculum includes 50 lectures, 5 projects, and career preparation.",
+    "courseOverview": "The Advanced MERN Stack Development course is a 6-month immersive program designed to transform beginners into job-ready full-stack developers. The course begins with a thorough grounding in JavaScript fundamentals, including ES6+ features, asynchronous programming, and functional programming concepts. Students then progress to React.js, learning component-based architecture, hooks, and context API for state management. The backend portion covers Node.js and Express.js in depth, teaching students to build secure, scalable REST APIs with proper middleware implementation. Database instruction focuses on MongoDB, including schema design, aggregation pipelines, and performance optimization. A significant portion of the course is dedicated to integrating frontend and backend systems, covering CORS, JWT authentication, and API consumption patterns. Students will work with Redux for complex state management and learn to implement server-side rendering for improved SEO. The curriculum includes modern tooling like Webpack, Babel, and ESLint, along with testing frameworks like Jest and Mocha. Real-world projects include building an e-commerce platform with payment integration, a social media dashboard with real-time updates, and a content management system. The course concludes with deployment strategies using platforms like Heroku, AWS, and Netlify, along with CI/CD pipeline setup. Career preparation modules cover technical interview strategies, open-source contributions, and freelancing best practices for MERN developers.",
+    "curriculum": [
       "Overview of HTML",
       "Overview of CSS",
       "Overview of Tailwind",
@@ -104,10 +106,12 @@
     "technology": "Adobe Photoshop, Illustrator, InDesign, Branding, Typography",
     "courseStart": "26-March-2025",
     "duration": 4,
+    "lectures": 50,
     "totalExam": 3,
     "totalProject": 5,
-    "details": "Advanced Graphic Design with AI blends creative design skills with the power of artificial intelligence, giving students the ability to create modern, engaging, and innovative visual content.",
-    "whatYoullLearn": [
+    "details": "Learn graphic design fundamentals using Adobe Photoshop, Illustrator, and AI tools like Adobe Firefly. Build branding materials, logos, and digital assets while mastering client communication and freelancing techniques.",
+    "courseOverview": "This comprehensive 4-month graphic design program begins with foundational design principles, teaching students about composition, visual hierarchy, and color psychology. The first module focuses on Adobe Photoshop, covering photo manipulation, retouching techniques, and digital painting with AI-assisted tools. Students then progress to vector graphics in Adobe Illustrator, learning logo design, icon creation, and advanced path manipulation. The course introduces AI integration through Adobe Firefly, demonstrating how to generate design elements, enhance creativity, and streamline workflows. Typography modules explore font pairing, hierarchy, and expressive type treatments, while branding sections cover visual identity development from concept to style guides. Print design units include business cards, brochures, and packaging, with attention to bleed, CMYK preparation, and press requirements. Digital design components focus on social media assets, web graphics, and UI elements. Students will complete 5 major projects including a brand identity package, product packaging series, and advertising campaign. The curriculum also addresses client communication, design presentations, and freelancing strategies. Advanced topics include 3D mockups, isometric illustrations, and AI-powered batch processing. Career preparation includes portfolio development, Behance profile setup, and freelancer toolkit resources. The course culminates in a capstone project where students rebrand a real or fictional company, demonstrating mastery of both traditional and AI-enhanced design techniques.",
+    "curriculum": [
       "Starting Adobe Photoshop Design",
       "Image Manipulation",
       "Photoshop Typography",
@@ -191,10 +195,12 @@
     "technology": "SEO, SEM, Facebook Ads, Google Ads, Email Marketing",
     "courseStart": "18-March-2025",
     "duration": 3,
+    "lectures": 50,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "The Certified Digital Marketing Specialist course at BDCalling Academy equips students with cutting-edge digital marketing techniques to help businesses thrive in the online world. From social media marketing to search engine optimization (SEO), email marketing, and Google Ads, this comprehensive program is designed to turn you into a well-rounded digital marketer.",
-    "whatYoullLearn": [
+    "details": "Master SEO, Google Ads, Facebook Ads, email marketing, and analytics tools. Gain skills in campaign planning, conversion optimization, and e-commerce marketing through real-world projects.",
+    "courseOverview": "This intensive 3-month digital marketing program begins with foundational concepts including the digital marketing landscape, consumer behavior online, and the customer journey. The first module focuses on search engine optimization (SEO), teaching on-page optimization, technical SEO audits, and link-building strategies using tools like SEMrush and Ahrefs. Students then progress to search engine marketing (SEM), learning to create and optimize Google Ads campaigns with conversion tracking and remarketing. Social media marketing units cover Facebook and Instagram advertising, including audience targeting, ad creative development, and campaign budgeting. Content marketing modules explore blog strategy, video marketing, and influencer collaborations. Email marketing sections teach list building, automation sequences, and performance analysis. The course includes comprehensive training in Google Analytics and Data Studio for campaign measurement and reporting. Students will complete 4 practical projects including a full SEO audit, paid advertising campaign setup, and social media strategy development. Conversion rate optimization techniques cover landing page design, A/B testing, and heatmap analysis. E-commerce marketing units focus on product listing ads, shopping feeds, and Amazon marketing strategies. The curriculum also addresses marketing automation, CRM integration, and omnichannel marketing approaches. Career preparation includes freelancing guidance, agency work simulations, and certification in Google Ads and Analytics. The program culminates with students developing a complete digital marketing plan for a real business, incorporating all channels and performance metrics.",
+    "curriculum": [
       "Introduction To Digital Marketing",
       "Social Media Marketing and Monetization",
       "SEO & SEM",
@@ -259,10 +265,12 @@
     "technology": "WordPress, PHP, HTML, CSS, JavaScript, Theme Development, Custom Post Types",
     "courseStart": "26-March-2025",
     "duration": 3,
+    "lectures": 50,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides a complete guide to mastering WordPress, from basic setup to advanced theme customization, plugin development, and eCommerce integration. Students will work on real-world projects and learn how to monetize their skills through freelancing.",
-    "whatYoullLearn": [
+    "details": "Build custom WordPress themes from scratch with PHP, HTML, CSS, and JavaScript. Learn WooCommerce integration, SEO optimization, security practices, and how to sell services on freelance platforms.",
+    "courseOverview": "This 3-month intensive WordPress development course begins with foundational web technologies including HTML5, CSS3, and basic PHP syntax. Students first learn WordPress fundamentals - installation, configuration, and the dashboard ecosystem. The core curriculum then progresses to theme development, starting with child themes and advancing to building custom themes from scratch. Participants master the WordPress template hierarchy, learning to create template files for all post types and archive pages. PHP modules focus specifically on WordPress functions, hooks (actions and filters), and the WordPress Query. Advanced topics include custom post types, taxonomies, and metadata with Advanced Custom Fields. Theme development units cover responsive design techniques, accessibility standards, and performance optimization strategies. Students learn to integrate JavaScript and AJAX for dynamic front-end interactions. The course includes comprehensive WooCommerce training for eCommerce sites, covering product displays, cart functionality, and payment gateway integration. Security modules teach hardening WordPress installations, preventing common vulnerabilities, and implementing proper user capabilities. Development tools covered include WP-CLI, debugging techniques, and version control with Git. Students complete 4 projects including a custom blog theme, business website with custom post types, eCommerce site, and a headless WordPress setup with React. The curriculum also covers plugin development basics, REST API integration, and headless WordPress architectures. Career preparation includes freelancing strategies for WordPress developers, theme marketplace submissions, and client management techniques. The program culminates with students building a professional-grade custom theme with all modern development standards and deployment workflows.",
+    "curriculum": [
       "Introduction to Web Development & Hosting",
       "Introduction to Bootstrap for Responsive Design",
       "Theme Setup and Customization",
@@ -321,7 +329,6 @@
       "Freelancer"
     ]
   },
-
   {
     "id": 5,
     "title": "Advance Web Development with React",
@@ -338,10 +345,12 @@
     "technology": "React, Hooks, Context API, Redux, React Router, Firebase",
     "courseStart": "16-March-2025",
     "duration": 6,
+    "lectures": 50,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides a complete roadmap to becoming a front-end web developer using React. It covers essential web technologies such as HTML, CSS, JavaScript, and advanced React concepts. Students will build multiple real-world projects, work with APIs, and learn about freelancing opportunities.",
-    "whatYoullLearn": [
+    "details": "Develop modern front-end applications using React, Hooks, Context API, Redux, Firebase, and Tailwind CSS. Build responsive websites and master deployment and testing practices.",
+    "courseOverview": "This 6-month intensive React development program begins with core web technologies including HTML5 semantics, CSS3 layouts with Flexbox and Grid, and modern JavaScript (ES6+ features). The React portion starts with fundamentals - JSX, component architecture, and props management. Students then progress to state management using hooks (useState, useEffect, useContext) and learn to build custom hooks for reusable logic. Routing modules cover React Router with dynamic routes, protected routes, and navigation patterns. The course includes comprehensive training in context API for global state and Redux for complex applications. API integration units teach RESTful service consumption, error handling, and loading states. Advanced topics include code splitting, lazy loading, and performance optimization techniques. Authentication modules cover JWT implementation, protected routes, and role-based access control. Students learn to work with Firebase for backend services including authentication, Firestore database, and hosting. The curriculum includes testing with Jest and React Testing Library, covering unit tests, integration tests, and snapshot testing. Styling approaches include CSS Modules, Styled Components, and utility-first CSS with Tailwind. Students complete 4 major projects including a full-stack CRUD application, e-commerce frontend with cart functionality, social media dashboard, and a portfolio site with CMS integration. The course also covers TypeScript with React for type-safe development and debugging techniques using React DevTools. Deployment strategies include static site hosting, server-side rendering with Next.js, and CI/CD pipelines. Career preparation includes GitHub profile optimization, technical interview strategies, and freelancing best practices for React developers. The program culminates with students building a capstone project incorporating all learned concepts with a focus on performance, accessibility, and maintainability.",
+    "curriculum": [
       "Fundamentals of Web Development (HTML, CSS, GitHub)",
       "JavaScript Essentials: Variables, Loops, Functions & DOM Manipulation",
       "Introduction to React: JSX, Components, Props & State",
@@ -416,10 +425,12 @@
     "technology": "Figma, Adobe XD, UX Research, Wireframing, Prototyping, Storyboarding",
     "courseStart": "25-March-2025",
     "duration": 3,
+    "lectures": 50,
     "totalExam": 3,
     "totalProject": 4,
-    "details": "This course provides comprehensive training in UX/UI design, covering the entire process from research and wireframing to prototyping and final design handover. Students will gain hands-on experience with real-world projects, improving both web and mobile application interfaces.",
-    "whatYoullLearn": [
+    "details": "Create user-centered digital products using Figma and Adobe XD. Learn research methods, wireframing, prototyping, usability testing, and portfolio development.",
+    "courseOverview": "This 3-month intensive UX/UI design program begins with foundational design principles including visual hierarchy, color theory, and typography systems. The first module focuses on user research techniques - conducting interviews, creating empathy maps, and developing user personas. Students then progress to information architecture, learning to create sitemaps and user flows for optimal navigation. Wireframing modules cover low to high-fidelity prototypes using Figma, including responsive design patterns for different devices. Interaction design units teach micro-interactions, animations, and transitional states to enhance usability. UI design components focus on creating design systems with consistent components, typography scales, and color palettes. Usability testing modules cover test planning, moderation techniques, and analyzing results for iterative improvements. Accessibility training ensures designs meet WCAG standards for inclusive design. The course includes comprehensive training in Figma, covering auto-layouts, components, variants, and prototyping features. Students complete 4 major projects including a mobile app redesign, e-commerce website, dashboard interface, and a capstone project of their choice. The curriculum also addresses design handoff processes, developer collaboration, and design documentation. Career preparation includes portfolio development, case study creation, and interview techniques for design roles. Business aspects cover freelancing strategies, client presentations, and design agency workflows. The program culminates with students presenting a complete UX case study incorporating research, wireframes, prototypes, and usability testing results for their portfolio.",
+    "curriculum": [
       "UX/UI Design Process",
       "UX/UI Visual Design Principles",
       "Color Theory & Typography in UI",
@@ -493,10 +504,12 @@
     "technology": "Adobe Premiere Pro, After Effects, Blender, Mixamo AI, TTS AI, Color Grading",
     "courseStart": "28-March-2025",
     "duration": 3,
+    "lectures": 50,
     "totalExam": 4,
     "totalProject": 5,
-    "details": "This course provides hands-on training in video editing and motion graphics, covering industry-standard software and advanced techniques. Students will learn storytelling, animation, color grading, and post-production workflows while working on real-world projects to build a professional portfolio.",
-    "whatYoullLearn": [
+    "details": "Gain expertise in video editing and motion graphics using Adobe Premiere Pro, After Effects, DaVinci Resolve, and Final Cut Pro. Learn color grading, audio mixing, visual effects, and animation techniques.",
+    "courseOverview": "This intensive 3-month video production program begins with foundational concepts in storytelling, shot composition, and editing theory. The first module focuses on Adobe Premiere Pro, teaching professional editing workflows including multicam editing, nested sequences, and advanced trimming techniques. Students then progress to color correction and grading using Lumetri Color tools and DaVinci Resolve for advanced color work. Audio post-production covers noise reduction, mixing, and sound design principles. The motion graphics portion introduces Adobe After Effects, starting with basic animations and progressing to complex compositions with 3D layers and cameras. Visual effects modules cover green screen keying, rotoscoping, and tracking techniques. Typography animation units teach kinetic type and text reveals for impactful messaging. Students learn to create motion graphics templates (MOGRTs) for efficient workflow between Premiere and After Effects. The course includes modern techniques like AI-powered tools for voiceovers (TTS), character animation (Mixamo), and automated editing processes. Students complete 5 major projects including a short film edit, commercial spot, social media content package, motion graphics opener, and a personal demo reel. The curriculum also covers client communication, project management, and freelancing strategies for video professionals. Technical aspects include codecs, export settings for various platforms, and hardware optimization. Career preparation includes portfolio development, reel critique, and job search strategies for the media industry. The program culminates with students producing a complete video project from concept to final delivery, incorporating all learned techniques in editing, motion graphics, and sound design.",
+    "curriculum": [
       "Introduction to Visual Media & Motion Graphics",
       "Basics of Design Principles, Composition & Storytelling",
       "Adobe Premiere Pro: Video Editing & Workflow Optimization",
