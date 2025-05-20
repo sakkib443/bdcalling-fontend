@@ -1,79 +1,56 @@
 [
   {
     "id": 1,
-    "title": "Advanced MERN Stack Development",
+    "title": "Mastering MERN Stack Web Development",
     "category": "Programming",
     "type": "Offline",
-    "image": "https://i.ibb.co.com/XZ78JQ9f/Mern-card.jpg",
-    "fee": "40000৳",
+    "image": "https://i.ibb.co/XZ78JQ9f/Mern-card.jpg",
+    "fee": "20000৳",
     "rating": 4.9,
-    "totalRating": 128,
-    "totalStudentsEnroll": 50,
+    "totalRating": 85,
+    "totalStudentsEnroll": 60,
     "instructorName": "Sheikh Sakibul Hasan",
-    "instructorImg": "https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/472009300_557526777119280_533781909713140935_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PgqtReB_wTIQ7kNvwEW6HBA&_nc_oc=AdlYMwxf0QzOQXCxdf1rdZMoj2KwcDQJb2l0A8HT-t4J3BPX8CV8AEyxVD7MlaaIblU&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=yKv3AVA5Vu9NUfEgYyy5aA&oh=00_AfLmbO6nbSRTMAuOY34_Fial78mpD1Rpz-dHK-vx1S2Xfg&oe=68218C51",
-    "instructorEmail": "sakib@bdcalling.com",
-    "technology": "MongoDB, Express.js, React, Node.js, Redux",
-    "courseStart": "12-March-2025",
+    "instructorImg": "instructor_sakib.jpg",
+    "technology": "MongoDB, Express.js, React, Node.js, Redux, TypeScript",
+    "courseStart": "01-July-2025",
     "duration": 6,
-    "lectures": 50,
+    "lectures": 60,
     "totalExam": 6,
-    "totalProject": 5,
-    "details": "This course teaches full-stack web development using MongoDB, Express.js, React, and Node.js. You'll learn to build modern applications with Redux for state management, RESTful APIs, authentication, and deployment strategies. The curriculum includes 50 lectures, 5 projects, and career preparation.",
-    "courseOverview": "The Advanced MERN Stack Development course is a 6-month immersive program designed to transform beginners into job-ready full-stack developers. The course begins with a thorough grounding in JavaScript fundamentals, including ES6+ features, asynchronous programming, and functional programming concepts. Students then progress to React.js, learning component-based architecture, hooks, and context API for state management. The backend portion covers Node.js and Express.js in depth, teaching students to build secure, scalable REST APIs with proper middleware implementation. Database instruction focuses on MongoDB, including schema design, aggregation pipelines, and performance optimization. A significant portion of the course is dedicated to integrating frontend and backend systems, covering CORS, JWT authentication, and API consumption patterns. Students will work with Redux for complex state management and learn to implement server-side rendering for improved SEO. The curriculum includes modern tooling like Webpack, Babel, and ESLint, along with testing frameworks like Jest and Mocha. Real-world projects include building an e-commerce platform with payment integration, a social media dashboard with real-time updates, and a content management system. The course concludes with deployment strategies using platforms like Heroku, AWS, and Netlify, along with CI/CD pipeline setup. Career preparation modules cover technical interview strategies, open-source contributions, and freelancing best practices for MERN developers.",
+    "totalProject": 6,
+    "details": "The Mastering MERN Stack Web Development course equips students with in-depth knowledge of full-stack web development using MongoDB, Express, React, and Node.js. It includes real-world project building, RESTful API integration, secure authentication, and scalable TypeScript code practices. Ideal for those pursuing freelance or job-based careers in full-stack development.",
+    "courseOverview": "",
     "curriculum": [
-      "Overview of HTML",
-      "Overview of CSS",
-      "Overview of Tailwind",
-      "Introduction to JS Variables, condition",
-      "Array, object, function, Loop",
-      "JS Problem solving",
-      "JS advance map(), filter(), reduce(), ()=>",
-      "Document Object Model (DOM)",
-      "JavaScript object notation (JSON)",
-      "Different ways of Data faces",
-      "React core concept",
-      "React Router Concept",
-      "Node JS",
-      "Express JS",
-      "MongoDB",
-      "API",
-      "CRUD",
-      "Authentication",
-      "Authorization",
-      "Full Stack",
-      "Typescript",
-      "Mongoose",
-      "Advance NoSQL Backend",
-      "Advance Backend Project",
-      "Merge front end and back end",
-      "Technique development & client handle",
-      "Fiverr Marketplace",
-      "Career Guideline, Presentation & CV Making"
+      "Introduction to Web Development & MERN Stack Overview",
+      "MongoDB: Database Design, Aggregation & CRUD Operations",
+      "Express.js: RESTful APIs, Middleware & Routing",
+      "React.js: Components, Hooks, Routing & Redux State Management",
+      "Authentication: JWT, OAuth, and Security Best Practices",
+      "TypeScript with Node.js & React for Scalable Development",
+      "Project Deployment (Netlify, Vercel, Railway, etc.)",
+      "Client Communication & Project Planning for Freelancers",
+      "Version Control with Git & GitHub Collaboration",
+      "Capstone Project: Build & Deploy Full-Stack Application"
     ],
     "courseIncludes": [
       {
         "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
+        "text": "Hands-on Projects and Real-World Assignments"
       },
       {
         "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth MERN Stack Training"
       },
       {
         "icon": "TfiCup",
-        "text": "Freelance Certification"
+        "text": "Freelancing Guidance and Career Support"
       },
       {
         "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
+        "text": "1-on-1 Mentoring Sessions"
       }
     ],
     "softwareYoullLearn": [
@@ -91,465 +68,481 @@
     ]
   },
   {
-    "id": 2,
-    "title": "Professional Graphic Design With AI",
+    "id": 4,
+    "title": "Mastering Graphic Design with AI",
     "category": "Art & Design",
-    "type": "Offline",
-    "image": "https://i.ibb.co.com/zWvWjS9X/GD-Card-1.jpg",
+    "type": "Offline/Online",
+    "image": "https://i.ibb.co/zWvWjS9X/GD-Card-1.jpg",
     "fee": "15000৳",
-    "rating": 4.9,
-    "totalRating": 110,
+    "rating": 4.8,
+    "totalRating": 66,
     "totalStudentsEnroll": 50,
     "instructorName": "Mahabubur Rahman",
-    "instructorImg": "https://api.bdcallingacademy.com/adminAsset/image/1983846654.jpg",
-    "instructorEmail": "mahabub@bdcalling.com",
-    "technology": "Adobe Photoshop, Illustrator, InDesign, Branding, Typography",
-    "courseStart": "26-March-2025",
+    "instructorImg": "instructor_default.jpg",
+    "technology": "Adobe Photoshop, Adobe Illustrator, Adobe Firefly, Leonardo.ai, Remaker, OpenArt, Ideogram.ai",
+    "courseStart": "10-July-2025",
     "duration": 4,
-    "lectures": 50,
-    "totalExam": 3,
-    "totalProject": 5,
-    "details": "Learn graphic design fundamentals using Adobe Photoshop, Illustrator, and AI tools like Adobe Firefly. Build branding materials, logos, and digital assets while mastering client communication and freelancing techniques.",
-    "courseOverview": "This comprehensive 4-month graphic design program begins with foundational design principles, teaching students about composition, visual hierarchy, and color psychology. The first module focuses on Adobe Photoshop, covering photo manipulation, retouching techniques, and digital painting with AI-assisted tools. Students then progress to vector graphics in Adobe Illustrator, learning logo design, icon creation, and advanced path manipulation. The course introduces AI integration through Adobe Firefly, demonstrating how to generate design elements, enhance creativity, and streamline workflows. Typography modules explore font pairing, hierarchy, and expressive type treatments, while branding sections cover visual identity development from concept to style guides. Print design units include business cards, brochures, and packaging, with attention to bleed, CMYK preparation, and press requirements. Digital design components focus on social media assets, web graphics, and UI elements. Students will complete 5 major projects including a brand identity package, product packaging series, and advertising campaign. The curriculum also addresses client communication, design presentations, and freelancing strategies. Advanced topics include 3D mockups, isometric illustrations, and AI-powered batch processing. Career preparation includes portfolio development, Behance profile setup, and freelancer toolkit resources. The course culminates in a capstone project where students rebrand a real or fictional company, demonstrating mastery of both traditional and AI-enhanced design techniques.",
+    "lectures": 42,
+    "totalExam": 2,
+    "totalProject": 30,
+    "details": "The Mastering Graphic Design with AI covers industry-standard software like Adobe Photoshop and Illustrator while integrating AI tools to prepare students for cutting-edge design careers. The course includes practical projects, freelancing guidance, and on-field training for real-world experience.",
+    "courseOverview": "This 4-month course combines traditional graphic design principles with next-gen AI tools. Students will master Adobe Photoshop and Illustrator while exploring generative AI technologies such as Firefly and Leonardo.ai. From logo design to product packaging and mockups, this course builds a strong portfolio and prepares learners for both freelancing and agency-level roles. Students gain exposure to printing workflows and design for both web and print.",
     "curriculum": [
-      "Starting Adobe Photoshop Design",
-      "Image Manipulation",
-      "Photoshop Typography",
-      "Social Media & YouTube Thumbnail Design",
-      "Flyer Creation",
-      "Behance Portfolio",
-      "Adobe Firefly",
-      "Introducing Illustrator",
-      "Stroke Plate Details & Mesh Tool",
-      "Advanced Typography Techniques",
-      "Flyer & Brochure",
-      "Freelancing",
-      "Brush tool & Pen tool",
-      "Advanced Blend Technique",
-      "Hair Masking & Action Work",
-      "Business & Visiting Card Design",
-      "Introduction to Mock-up",
-      "Introduction to Artificial Intelligence",
-      "Introduction Different AI",
-      "Advance Gradient Technique",
-      "Instruction to Pathfinder Operation",
-      "Logo Design",
-      "Product Packaging",
-      "Career Guidelines, Presentation & CV Making"
+      "Basics of Color Theory, Typography, and Composition",
+      "Foundations of Graphic Design Principles & Layouts",
+      "Image Editing and Retouching in Adobe Photoshop",
+      "Photo Manipulation Techniques for Posters and Banners",
+      "Vector Illustration and Icon Creation with Illustrator",
+      "Logo Design and Brand Identity Creation",
+      "Working with AI Tools: Adobe Firefly and Leonardo.ai",
+      "Generating AI-Based Assets for Web and Print",
+      "Designing Product Packaging and Label Templates",
+      "Mockups and Client Presentation Techniques",
+      "Creating UI/UX Previews for Websites and Apps",
+      "Portfolio Development for Behance & Dribbble",
+      "Writing Case Studies and Project Descriptions",
+      "Freelancing Platforms Overview (Fiverr, Upwork, 99designs)",
+      "Client Communication, Pricing, and Proposal Writing"
     ],
     "courseIncludes": [
       {
         "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
+        "text": "Hands-on Projects and Real-World Assignments"
       },
       {
         "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Design & AI Tools Training"
       },
       {
         "icon": "TfiCup",
-        "text": "Freelance Certification"
+        "text": "Freelancing Guidance and Career Support"
       },
       {
         "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
+        "text": "1-on-1 Mentoring Sessions"
       }
     ],
     "softwareYoullLearn": [
       "Adobe Photoshop",
       "Adobe Illustrator",
-      "Adobe InDesign",
-      "Adobe Firefly"
+      "Adobe Firefly",
+      "Leonardo.ai",
+      "Remaker",
+      "OpenArt",
+      "Ideogram.ai"
     ],
     "jobPositions": [
       "Graphic Designer",
-      "Brand Identity Designer",
-      "Product Designer",
-      "Social Media Designer",
-      "Visual Designer",
-      "Art Director",
-      "Illustrator"
+      "Brand Designer",
+      "Creative Director",
+      "Freelance Designer",
+      "Product Packaging Designer",
+      "Visual Content Creator"
     ]
   },
   {
-    "id": 3,
-    "title": "Certified Digital Marketing Specialist",
+    "id": 5,
+    "title": "Specialized Certification on Digital Marketing",
     "category": "Marketing",
     "type": "Offline",
-    "image": "https://i.ibb.co.com/GvS6k4FJ/DM-caed.jpg",
+    "image": "https://i.ibb.co/GvS6k4FJ/DM-caed.jpg",
     "fee": "16000৳",
-    "rating": 4.7,
-    "totalRating": 102,
-    "totalStudentsEnroll": 50,
-    "instructorName": "Asraf Hossen",
-    "instructorImg": "https://api.bdcallingacademy.com/adminAsset/image/1763751529.jpg",
-    "instructorEmail": "david@marketgenius.com",
-    "technology": "SEO, SEM, Facebook Ads, Google Ads, Email Marketing",
-    "courseStart": "18-March-2025",
-    "duration": 3,
-    "lectures": 50,
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Ashraf Hossain",
+    "instructorImg": "instructor_ashraf_hossain.jpg",
+    "technology": "SEO, WordPress, Amazon Affiliate, Google Analytics, Facebook Ads, Instagram Marketing, LinkedIn, Twitter, Email Marketing",
+    "courseStart": "TBD",
+    "duration": 3.5,
+    "lectures": 40,
     "totalExam": 3,
-    "totalProject": 4,
-    "details": "Master SEO, Google Ads, Facebook Ads, email marketing, and analytics tools. Gain skills in campaign planning, conversion optimization, and e-commerce marketing through real-world projects.",
-    "courseOverview": "This intensive 3-month digital marketing program begins with foundational concepts including the digital marketing landscape, consumer behavior online, and the customer journey. The first module focuses on search engine optimization (SEO), teaching on-page optimization, technical SEO audits, and link-building strategies using tools like SEMrush and Ahrefs. Students then progress to search engine marketing (SEM), learning to create and optimize Google Ads campaigns with conversion tracking and remarketing. Social media marketing units cover Facebook and Instagram advertising, including audience targeting, ad creative development, and campaign budgeting. Content marketing modules explore blog strategy, video marketing, and influencer collaborations. Email marketing sections teach list building, automation sequences, and performance analysis. The course includes comprehensive training in Google Analytics and Data Studio for campaign measurement and reporting. Students will complete 4 practical projects including a full SEO audit, paid advertising campaign setup, and social media strategy development. Conversion rate optimization techniques cover landing page design, A/B testing, and heatmap analysis. E-commerce marketing units focus on product listing ads, shopping feeds, and Amazon marketing strategies. The curriculum also addresses marketing automation, CRM integration, and omnichannel marketing approaches. Career preparation includes freelancing guidance, agency work simulations, and certification in Google Ads and Analytics. The program culminates with students developing a complete digital marketing plan for a real business, incorporating all channels and performance metrics.",
+    "totalProject": 3,
+    "details": "This specialised certification program is designed for aspiring digital marketers seeking hands-on experience and practical knowledge to build successful online businesses or secure digital marketing roles.",
+    "courseOverview": "Learn SEO, WordPress customization, Amazon affiliate marketing, social media marketing, Google tools, and email automation through practical projects and real-world case studies. Gain freelancing and career guidance to succeed in the digital marketing industry.",
     "curriculum": [
-      "Introduction To Digital Marketing",
-      "Social Media Marketing and Monetization",
-      "SEO & SEM",
-      "On-Page, Off-Page, Technical, and Local SEO",
-      "E-commerce SEO & YouTube SEO",
-      "E-mail Marketing & E-commerce Marketing",
-      "Affiliate Marketing",
-      "Google Ads - Conversion tracking",
-      "Real Project",
-      "Marketplace",
-      "Client Communication"
+      "Search Engine Optimisation (SEO) techniques",
+      "Keyword research for e-commerce and company websites",
+      "Technical and manual website auditing",
+      "WordPress customisation and SEO setup",
+      "Amazon affiliate marketing strategies",
+      "Competitor analysis and content writing",
+      "On-page and off-page SEO",
+      "Freelancing on Fiverr and other marketplaces",
+      "Social media marketing (Facebook, Instagram, LinkedIn, Twitter)",
+      "Google tools (Search Console, Analytics, Business Profile)",
+      "Email marketing and automation"
     ],
     "courseIncludes": [
       {
         "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
+        "text": "Hands-on Projects and Real-World Assignments"
       },
       {
         "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
-      },
-      {
-        "icon": "TfiCup",
-        "text": "Freelance Certification"
-      },
-      {
-        "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
-      }
-    ],
-    "softwareYoullLearn": ["SEMRUSH", "MOZ", "Screaming Frog", "Ahrefs"],
-    "jobPositions": [
-      "Social Media Marketer",
-      "Google Ads Specialist",
-      "E-Commerce Marketer",
-      "SEO Specialist",
-      "Affiliate Marketer",
-      "Digital Marketing Consultant"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Certified WordPress Theme Development",
-    "category": "Programming",
-    "type": "Offline",
-    "image": "https://i.ibb.co.com/Y75bjF7c/WP-card.jpg",
-    "fee": "18000৳",
-    "rating": 4.7,
-    "totalRating": 85,
-    "totalStudentsEnroll": 50,
-    "instructorName": "Sheikh Sakibul Hasan",
-    "instructorImg": "https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/472009300_557526777119280_533781909713140935_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PgqtReB_wTIQ7kNvwEW6HBA&_nc_oc=AdlYMwxf0QzOQXCxdf1rdZMoj2KwcDQJb2l0A8HT-t4J3BPX8CV8AEyxVD7MlaaIblU&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=yKv3AVA5Vu9NUfEgYyy5aA&oh=00_AfLmbO6nbSRTMAuOY34_Fial78mpD1Rpz-dHK-vx1S2Xfg&oe=68218C51",
-    "instructorEmail": "sakib@bdcalling.com",
-    "technology": "WordPress, PHP, HTML, CSS, JavaScript, Theme Development, Custom Post Types",
-    "courseStart": "26-March-2025",
-    "duration": 3,
-    "lectures": 50,
-    "totalExam": 3,
-    "totalProject": 4,
-    "details": "Build custom WordPress themes from scratch with PHP, HTML, CSS, and JavaScript. Learn WooCommerce integration, SEO optimization, security practices, and how to sell services on freelance platforms.",
-    "courseOverview": "This 3-month intensive WordPress development course begins with foundational web technologies including HTML5, CSS3, and basic PHP syntax. Students first learn WordPress fundamentals - installation, configuration, and the dashboard ecosystem. The core curriculum then progresses to theme development, starting with child themes and advancing to building custom themes from scratch. Participants master the WordPress template hierarchy, learning to create template files for all post types and archive pages. PHP modules focus specifically on WordPress functions, hooks (actions and filters), and the WordPress Query. Advanced topics include custom post types, taxonomies, and metadata with Advanced Custom Fields. Theme development units cover responsive design techniques, accessibility standards, and performance optimization strategies. Students learn to integrate JavaScript and AJAX for dynamic front-end interactions. The course includes comprehensive WooCommerce training for eCommerce sites, covering product displays, cart functionality, and payment gateway integration. Security modules teach hardening WordPress installations, preventing common vulnerabilities, and implementing proper user capabilities. Development tools covered include WP-CLI, debugging techniques, and version control with Git. Students complete 4 projects including a custom blog theme, business website with custom post types, eCommerce site, and a headless WordPress setup with React. The curriculum also covers plugin development basics, REST API integration, and headless WordPress architectures. Career preparation includes freelancing strategies for WordPress developers, theme marketplace submissions, and client management techniques. The program culminates with students building a professional-grade custom theme with all modern development standards and deployment workflows.",
-    "curriculum": [
-      "Introduction to Web Development & Hosting",
-      "Introduction to Bootstrap for Responsive Design",
-      "Theme Setup and Customization",
-      "WooCommerce for eCommerce Websites",
-      "SEO Optimization for WordPress Sites",
-      "Security & Backup Management",
-      "Selling Services on Freelance Marketplaces (Fiverr, Upwork)",
-      "Career Guidance & CV Preparation",
-      "HTML & CSS Basics for WordPress Customization",
-      "WordPress Installation & Dashboard Overview",
-      "Elementor Page Builder & Advanced Customization",
-      "Payment Gateway Integration",
-      "Website Speed Optimization Techniques",
-      "Live Project: Building a WordPress Website",
-      "Client Communication & Proposal Writing"
-    ],
-    "courseIncludes": [
-      {
-        "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
+        "text": "Professional Portfolio Development"
       },
       {
         "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
-      },
-      {
-        "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
+        "text": "In-Depth Digital Marketing Training"
       },
       {
         "icon": "TfiCup",
-        "text": "Freelance Certification"
+        "text": "Freelancing Guidance and Career Support"
       },
       {
         "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
+        "text": "1-on-1 Mentoring Sessions"
       }
     ],
     "softwareYoullLearn": [
       "WordPress",
       "Elementor",
-      "WooCommerce",
-      "Adobe Photoshop",
-      "Google Analytics"
+      "Google Analytics",
+      "Google Search Console",
+      "ManyChat",
+      "VidIQ",
+      "Mailchimp"
     ],
     "jobPositions": [
-      "WordPress Developer",
-      "WooCommerce Specialist",
-      "SEO & Speed Optimization Expert",
-      "Web Designer",
-      "Website Administrator",
-      "Freelancer"
+      "Digital Marketing Specialist",
+      "SEO Specialist",
+      "Content Strategist",
+      "Social Media Manager",
+      "Affiliate Marketer",
+      "Marketing Consultant"
     ]
   },
   {
-    "id": 5,
-    "title": "Advance Web Development with React",
+    "id": 2,
+    "title": "Professional WordPress Development",
     "category": "Programming",
     "type": "Offline",
-    "image": "https://api.bdcallingacademy.com/adminAsset/image/1525850441.jpg",
-    "fee": "15000৳",
-    "rating": 4.7,
-    "totalRating": 115,
+    "image": "https://i.ibb.co/Y75bjF7c/WP-card.jpg",
+    "fee": "18000৳",
+    "rating": 4.8,
+    "totalRating": 65,
     "totalStudentsEnroll": 50,
     "instructorName": "Sheikh Sakibul Hasan",
-    "instructorImg": "https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/472009300_557526777119280_533781909713140935_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PgqtReB_wTIQ7kNvwEW6HBA&_nc_oc=AdlYMwxf0QzOQXCxdf1rdZMoj2KwcDQJb2l0A8HT-t4J3BPX8CV8AEyxVD7MlaaIblU&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=yKv3AVA5Vu9NUfEgYyy5aA&oh=00_AfLmbO6nbSRTMAuOY34_Fial78mpD1Rpz-dHK-vx1S2Xfg&oe=68218C51",
-    "instructorEmail": "sakib@bdcalling.com",
-    "technology": "React, Hooks, Context API, Redux, React Router, Firebase",
-    "courseStart": "16-March-2025",
-    "duration": 6,
-    "lectures": 50,
+    "instructorImg": "instructor_sakib.jpg",
+    "technology": "HTML, CSS, Tailwind CSS, WordPress, Elementor, WooCommerce, ACF, JetEngine",
+    "courseStart": "01-August-2025",
+    "duration": 3.5,
+    "lectures": 40,
     "totalExam": 3,
-    "totalProject": 4,
-    "details": "Develop modern front-end applications using React, Hooks, Context API, Redux, Firebase, and Tailwind CSS. Build responsive websites and master deployment and testing practices.",
-    "courseOverview": "This 6-month intensive React development program begins with core web technologies including HTML5 semantics, CSS3 layouts with Flexbox and Grid, and modern JavaScript (ES6+ features). The React portion starts with fundamentals - JSX, component architecture, and props management. Students then progress to state management using hooks (useState, useEffect, useContext) and learn to build custom hooks for reusable logic. Routing modules cover React Router with dynamic routes, protected routes, and navigation patterns. The course includes comprehensive training in context API for global state and Redux for complex applications. API integration units teach RESTful service consumption, error handling, and loading states. Advanced topics include code splitting, lazy loading, and performance optimization techniques. Authentication modules cover JWT implementation, protected routes, and role-based access control. Students learn to work with Firebase for backend services including authentication, Firestore database, and hosting. The curriculum includes testing with Jest and React Testing Library, covering unit tests, integration tests, and snapshot testing. Styling approaches include CSS Modules, Styled Components, and utility-first CSS with Tailwind. Students complete 4 major projects including a full-stack CRUD application, e-commerce frontend with cart functionality, social media dashboard, and a portfolio site with CMS integration. The course also covers TypeScript with React for type-safe development and debugging techniques using React DevTools. Deployment strategies include static site hosting, server-side rendering with Next.js, and CI/CD pipelines. Career preparation includes GitHub profile optimization, technical interview strategies, and freelancing best practices for React developers. The program culminates with students building a capstone project incorporating all learned concepts with a focus on performance, accessibility, and maintainability.",
+    "totalProject": 3,
+    "details": "The Professional WordPress Development course prepares students to build fully functional, customised WordPress websites, from design to deployment, including eCommerce, LMS, and portfolio sites. The course focuses on real-world projects and freelancing success.",
+    "courseOverview": "This 3.5-month intensive course starts with web fundamentals using HTML, CSS, and Tailwind CSS. Students then dive into WordPress setup, theme customization, and advanced page building with Elementor. Key modules include WooCommerce for eCommerce, ACF and JetEngine for dynamic content, and real-world projects like LMS and news websites. The course concludes with freelancing strategies, soft skills training, and 1-on-1 mentoring to prepare learners for global job markets and freelancing platforms.",
     "curriculum": [
-      "Fundamentals of Web Development (HTML, CSS, GitHub)",
-      "JavaScript Essentials: Variables, Loops, Functions & DOM Manipulation",
-      "Introduction to React: JSX, Components, Props & State",
-      "API Integration & Fetching Data in React Applications",
-      "State Management in React with Context API",
-      "Debugging & Performance Optimization in React Applications",
-      "Freelancing in Web Development: Finding Clients & Pricing Services",
-      "Capstone Project: Building a Complete React-Based Website",
-      "Responsive Web Design using Tailwind CSS",
-      "Advanced JavaScript: Objects, Arrays, ES6+ Features & Async Programming",
-      "Working with React Router & Dynamic Routing",
-      "UI Frameworks & Converting Figma/PSD Designs to React",
-      "Full-Scale React Projects (Newspaper, Job Portal, Portfolio Websites)",
-      "Web Deployment & Hosting Platforms",
-      "Career Preparation: Resume Writing & Technical Interviews"
+      "HTML, CSS, Tailwind Basics",
+      "WordPress Installation & Setup",
+      "Theme Customization Techniques",
+      "Elementor Page Building Essentials",
+      "ACF & JetEngine for Dynamic Sites",
+      "WooCommerce for eCommerce Sites",
+      "LMS & Blog/News Site Projects",
+      "Freelancing Platform Strategies",
+      "Portfolio Building & GitHub Setup",
+      "Client Handling & Proposal Writing",
+      "Soft Skills & Career Guidance",
+      "Website Speed & SEO Optimization"
     ],
     "courseIncludes": [
       {
         "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
+        "text": "Hands-on Projects and Real-World Assignments"
       },
       {
         "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Elementor & WordPress Training"
       },
       {
         "icon": "TfiCup",
-        "text": "Freelance Certification"
+        "text": "Freelancing Guidance and Career Support"
       },
       {
         "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
+        "text": "1-on-1 Mentoring Sessions"
       }
     ],
     "softwareYoullLearn": [
       "Visual Studio Code",
-      "Git & GitHub",
-      "Tailwind CSS",
-      "React.js",
-      "Figma & Photoshop",
-      "Netlify & Vercel"
+      "WordPress",
+      "Elementor",
+      "WooCommerce",
+      "ACF",
+      "JetEngine",
+      "Tailwind CSS"
     ],
     "jobPositions": [
+      "Web Developer",
+      "WordPress Developer",
       "Front-End Developer",
-      "Web Application Developer",
-      "Freelance Web Developer",
-      "React Developer",
-      "Software Engineer (Front-End)"
+      "eCommerce Developer",
+      "Freelance Web Designer"
     ]
   },
   {
-    "id": 6,
-    "title": "Certified UX/UI Design",
-    "category": "Art & Design",
+    "id": 3,
+    "title": "Web Development with React",
+    "category": "Programming",
     "type": "Offline",
-    "image": "https://i.ibb.co.com/whHBvX3d/ui-website-card.jpg",
+    "image": "https://i.ibb.co/YQcbVdd/react-course-card.jpg",
     "fee": "20000৳",
-    "rating": 4.7,
-    "totalRating": 98,
-    "totalStudentsEnroll": 50,
-    "instructorName": "Md. Zayed Uddin",
-    "instructorImg": "instructor_zayed",
-    "instructorEmail": "zayed@bdcalling.com",
-    "technology": "Figma, Adobe XD, UX Research, Wireframing, Prototyping, Storyboarding",
-    "courseStart": "25-March-2025",
-    "duration": 3,
-    "lectures": 50,
-    "totalExam": 3,
-    "totalProject": 4,
-    "details": "Create user-centered digital products using Figma and Adobe XD. Learn research methods, wireframing, prototyping, usability testing, and portfolio development.",
-    "courseOverview": "This 3-month intensive UX/UI design program begins with foundational design principles including visual hierarchy, color theory, and typography systems. The first module focuses on user research techniques - conducting interviews, creating empathy maps, and developing user personas. Students then progress to information architecture, learning to create sitemaps and user flows for optimal navigation. Wireframing modules cover low to high-fidelity prototypes using Figma, including responsive design patterns for different devices. Interaction design units teach micro-interactions, animations, and transitional states to enhance usability. UI design components focus on creating design systems with consistent components, typography scales, and color palettes. Usability testing modules cover test planning, moderation techniques, and analyzing results for iterative improvements. Accessibility training ensures designs meet WCAG standards for inclusive design. The course includes comprehensive training in Figma, covering auto-layouts, components, variants, and prototyping features. Students complete 4 major projects including a mobile app redesign, e-commerce website, dashboard interface, and a capstone project of their choice. The curriculum also addresses design handoff processes, developer collaboration, and design documentation. Career preparation includes portfolio development, case study creation, and interview techniques for design roles. Business aspects cover freelancing strategies, client presentations, and design agency workflows. The program culminates with students presenting a complete UX case study incorporating research, wireframes, prototypes, and usability testing results for their portfolio.",
+    "rating": 4.8,
+    "totalRating": 73,
+    "totalStudentsEnroll": 55,
+    "instructorName": "Sheikh Sakibul Hasan",
+    "instructorImg": "instructor_sakib.jpg",
+    "technology": "HTML, CSS, JavaScript, React, Tailwind CSS, Git, GitHub",
+    "courseStart": "15-July-2025",
+    "duration": 4,
+    "lectures": 46,
+    "totalExam": 7,
+    "totalProject": 8,
+    "details": "The Web Development with React course equips students with the skills to build modern, responsive, and dynamic web applications using HTML, CSS, JavaScript, and React. It covers real-world projects, freelancing guidance, and hands-on coding experience for a full-stack foundation.",
+    "courseOverview": "This 4-month intensive course focuses on React-based web development. Students will start from scratch with HTML, CSS, and Tailwind CSS, learn to make interactive sites with JavaScript, and progress to building complex user interfaces with React. Real-world projects simulate job-based work environments. The course includes Git & GitHub training, deployment, and portfolio building. Freelancing tips and client communication strategies are included for career readiness.",
     "curriculum": [
-      "UX/UI Design Process",
-      "UX/UI Visual Design Principles",
-      "Color Theory & Typography in UI",
-      "Paper Prototyping Techniques",
-      "UX/UI Design for Mobile Apps",
-      "Handover Process for Developers",
-      "Freelancing in UX/UI Design",
-      "Accessibility in UX/UI Design",
-      "Design Languages & Material Guidelines",
-      "Wireframing for Web Applications",
-      "Implementation of UX/UI for Web Apps",
-      "Prototyping & User Testing",
-      "Portfolio Development for Designers",
-      "Career Guidance & CV Preparation"
+      "HTML, CSS, and Tailwind CSS for Web Design",
+      "JavaScript Programming for Dynamic UI",
+      "React.js Fundamentals and Component Structure",
+      "Advanced React Concepts: Hooks, Props, State",
+      "Responsive Design & Routing in React",
+      "Integrating Back-End APIs with Front-End",
+      "Project Deployment and Version Control (GitHub)",
+      "Freelancing, Client Handling & Career Guidance"
     ],
     "courseIncludes": [
       {
         "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
+        "text": "Hands-on Projects and Real-World Assignments"
       },
       {
         "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth React & JavaScript Training"
       },
       {
         "icon": "TfiCup",
-        "text": "Freelance Certification"
+        "text": "Freelancing Guidance and Career Support"
       },
       {
         "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Node.js",
+      "MongoDB Atlas",
+      "Express.js",
+      "React.js",
+      "VS Code"
+    ],
+    "jobPositions": [
+      "Full Stack Developer",
+      "Back-end Developer",
+      "Front-end Developer",
+      "Web Application Developer"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Certified UX/UI Designer",
+    "category": "Art & Design",
+    "type": "Offline",
+    "image": "https://i.ibb.co/whHBvX3d/ui-website-card.jpg",
+    "fee": "20000৳",
+    "rating": 4.9,
+    "totalRating": 122,
+    "totalStudentsEnroll": 124,
+    "instructorName": "Md. Zayed Uddin",
+    "instructorImg": "instructor_zayed_uddin.jpg",
+    "technology": "Adobe XD, Figma, Sketch, Adobe Photoshop, Adobe Illustrator",
+    "courseStart": "TBD",
+    "duration": 4,
+    "lectures": 42,
+    "totalExam": 2,
+    "totalProject": 4,
+    "details": "The program covers the complete design process from sketching and wireframing to prototyping and final handover. With a focus on web and mobile applications, this course provides hands-on experience and real-world projects to ensure practical learning.",
+    "courseOverview": "Focus on UX/UI design principles, wireframing, prototyping, and creating user-centric designs for various platforms. Build a strong portfolio through real-world projects and get career guidance for freelancing and industry roles.",
+    "curriculum": [
+      "UX/UI design principles and process",
+      "Visual design and content accessibility",
+      "Wireframing and prototyping for web and mobile apps",
+      "Designing for different platforms and devices",
+      "Creating user-centric designs",
+      "Building a strong design portfolio",
+      "Career guidance and freelancing insights"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on Projects and Real-World Assignments"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth UX/UI Design Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
       }
     ],
     "softwareYoullLearn": [
       "Adobe XD",
       "Figma",
       "Sketch",
-      "InVision",
       "Adobe Photoshop",
       "Adobe Illustrator"
     ],
     "jobPositions": [
       "UX/UI Designer",
-      "UX Researcher",
-      "Information Architect",
+      "Product Designer",
       "Interaction Designer",
-      "Visual Designer"
+      "Visual Designer",
+      "Front-End Developer (UI Focus)",
+      "Freelance Designer"
     ]
   },
   {
     "id": 7,
-    "title": "Certified Video Editing & Motion Graphics",
-    "category": "Media & Film",
-    "type": "Offline",
-    "image": "https://i.ibb.co.com/4wsV2RJk/Video-card.jpg",
-    "fee": "30000৳",
-    "rating": 4.8,
-    "totalRating": 102,
-    "totalStudentsEnroll": 50,
-    "instructorName": "Md. Zayed Uddin",
-    "instructorImg": "instructor_zayed",
-    "instructorEmail": "zayed@bdcalling.com",
-    "technology": "Adobe Premiere Pro, After Effects, Blender, Mixamo AI, TTS AI, Color Grading",
-    "courseStart": "28-March-2025",
+    "title": "Mastering Advanced Photography",
+    "category": "Media & Flim",
+    "type": "Online",
+    "image": "https://i.ibb.co/yourimageplaceholder/advanced-photography.jpg",
+    "fee": "18000৳",
+    "rating": 4.9,
+    "totalRating": 0,
+    "totalStudentsEnroll": 146,
+    "instructorName": "Bapon Nengminza",
+    "instructorImg": "instructor_bapon_nengminza.jpg",
+    "technology": "Digital Cameras, Lenses, Lighting Equipment, Mobile Devices, Photo Editing Software (Lightroom, Photoshop)",
+    "courseStart": "TBD",
     "duration": 3,
-    "lectures": 50,
-    "totalExam": 4,
-    "totalProject": 5,
-    "details": "Gain expertise in video editing and motion graphics using Adobe Premiere Pro, After Effects, DaVinci Resolve, and Final Cut Pro. Learn color grading, audio mixing, visual effects, and animation techniques.",
-    "courseOverview": "This intensive 3-month video production program begins with foundational concepts in storytelling, shot composition, and editing theory. The first module focuses on Adobe Premiere Pro, teaching professional editing workflows including multicam editing, nested sequences, and advanced trimming techniques. Students then progress to color correction and grading using Lumetri Color tools and DaVinci Resolve for advanced color work. Audio post-production covers noise reduction, mixing, and sound design principles. The motion graphics portion introduces Adobe After Effects, starting with basic animations and progressing to complex compositions with 3D layers and cameras. Visual effects modules cover green screen keying, rotoscoping, and tracking techniques. Typography animation units teach kinetic type and text reveals for impactful messaging. Students learn to create motion graphics templates (MOGRTs) for efficient workflow between Premiere and After Effects. The course includes modern techniques like AI-powered tools for voiceovers (TTS), character animation (Mixamo), and automated editing processes. Students complete 5 major projects including a short film edit, commercial spot, social media content package, motion graphics opener, and a personal demo reel. The curriculum also covers client communication, project management, and freelancing strategies for video professionals. Technical aspects include codecs, export settings for various platforms, and hardware optimization. Career preparation includes portfolio development, reel critique, and job search strategies for the media industry. The program culminates with students producing a complete video project from concept to final delivery, incorporating all learned techniques in editing, motion graphics, and sound design.",
+    "lectures": 36,
+    "totalExam": 2,
+    "totalProject": 2,
+    "details": "This course covers everything from camera handling, composition, lighting, and lens selection to post-processing and mobile photography. The course also includes extensive fieldwork to help students develop a comprehensive photography portfolio.",
+    "courseOverview": "Learn advanced photography skills including camera settings, composition, lighting, lens selection, and post-processing. The course emphasizes fieldwork and portfolio building for various photography styles such as portrait, landscape, macro, street, and event photography.",
     "curriculum": [
-      "Introduction to Visual Media & Motion Graphics",
-      "Basics of Design Principles, Composition & Storytelling",
-      "Adobe Premiere Pro: Video Editing & Workflow Optimization",
-      "Adding Motion Graphics, Titles & Custom Transitions",
-      "Audio Editing, Sound Design & Synchronization",
-      "Green Screen Techniques & Visual Effects Integration",
-      "Advanced Color Grading with DaVinci Resolve",
-      "After Effects: Keyframes, Animation & Masking Techniques",
-      "3D Layers, Camera Animations & Motion Tracking",
-      "Expressions & Automation for Dynamic Effects",
-      "Creating Reusable Motion Graphics Templates (MOGRTs)",
-      "Multi-Software Workflow: Premiere Pro, After Effects & Resolve",
-      "Exporting & Optimizing Videos for Different Platforms",
-      "Freelancing & Industry Insights in Motion Graphics",
-      "Capstone Project: Complete Video Production & Portfolio Creation"
+      "History and evolution of photography",
+      "Mastering camera settings (aperture, shutter speed, ISO)",
+      "Advanced composition techniques",
+      "Understanding natural and artificial lighting",
+      "Selecting the right lenses for different scenarios",
+      "Post-processing and image enhancement",
+      "Creative photography techniques",
+      "Mobile photography tips and tricks",
+      "Specialised fields like portrait, landscape, macro, street, and event photography",
+      "Building a professional photography portfolio"
     ],
     "courseIncludes": [
       {
         "icon": "RiLiveLine",
-        "text": "50+ Live Design Sessions"
-      },
-      {
-        "icon": "RiExpandLeftRightLine",
-        "text": "6+ Client Simulation Projects"
-      },
-      {
-        "icon": "RiComputerLine",
-        "text": "Design Software Lab Access"
+        "text": "Hands-on Projects and Real-World Assignments"
       },
       {
         "icon": "MdLiveTv",
-        "text": "Portfolio & Pitch Review"
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Photography Training"
       },
       {
         "icon": "TfiCup",
-        "text": "Freelance Certification"
+        "text": "Freelancing Guidance and Career Support"
       },
       {
         "icon": "MdWorkOutline",
-        "text": "Freelancer Toolkit (Templates, Contracts)"
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Photoshop",
+      "Adobe Lightroom"
+    ],
+    "jobPositions": [
+      "Professional Photography",
+      "Event Photography",
+      "Media and Journalism",
+      "Travel Photography",
+      "Fashion Photography",
+      "Documentary Photography",
+      "Commercial Photography"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Advanced Video Editing & Motion Graphics",
+    "category": "Media & Flim",
+    "type": "Offline",
+    "image": "https://i.ibb.co/4wsV2RJk/Video-card.jpg",
+    "fee": "30000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Robiul Abdullah",
+    "instructorImg": "instructor_robiul_abdullah.jpg",
+    "technology": "Adobe Premiere Pro, Adobe After Effects, DaVinci Resolve, Final Cut Pro, Adobe Media Encoder",
+    "courseStart": "TBD",
+    "duration": 4,
+    "lectures": 45,
+    "totalExam": 3,
+    "totalProject": 3,
+    "details": "This comprehensive program includes practical projects, portfolio building, and insights into freelancing and professional career paths in the industry. Students will gain hands-on experience with industry-standard tools and techniques, preparing them for diverse roles in media production.",
+    "courseOverview": "Master advanced video editing and motion graphics with hands-on experience using industry-standard tools. Learn keyframe animation, color grading, green screen techniques, and build a freelance-ready portfolio.",
+    "curriculum": [
+      "Basics of graphic design, video editing, and motion graphics",
+      "Understanding design principles, colour theory, and typography",
+      "Keyframe animation and motion graphics basics",
+      "Advanced video editing and colour grading",
+      "Multi-camera editing, green screen techniques, and chroma keying",
+      "Creating professional motion graphics templates (MOGRTs)",
+      "Advanced colour correction and grading in DaVinci Resolve",
+      "Integrating video projects across different software",
+      "Building a professional portfolio",
+      "Preparing for freelance and full-time roles in the media industry"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on Projects and Real-World Assignments"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Video Editing Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
       }
     ],
     "softwareYoullLearn": [
@@ -557,15 +550,516 @@
       "Adobe After Effects",
       "DaVinci Resolve",
       "Final Cut Pro",
-      "Final Cut Pro"
+      "Adobe Media Encoder"
     ],
     "jobPositions": [
-      "Video Editor",
-      "Post-Production Specialist",
-      "Color Grading Specialist",
-      "Motion Graphics Designer",
-      "Visual Effects (VFX) Artist",
-      "Multimedia Content Creator"
+      "Video Production",
+      "Motion Design",
+      "Film and Television",
+      "Advertising and Marketing",
+      "Digital Content Creation",
+      "Freelancing and Independent Filmmaking"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mastering Cyber Security & Penetration Testing",
+    "category": "Cybersecurity",
+    "type": "Offline",
+    "image": "https://i.ibb.co/yourimageplaceholder/cyber-security-penetration-testing.jpg",
+    "fee": "30000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Mosabbir Shemul & Md. Ziaur Rahman",
+    "instructorImg": "instructor_mosabbir_shemul_ziaur_rahman.jpg",
+    "technology": "Kali Linux, VMware, VirtualBox, Burpsuite, Metasploit, Nessus, TryHackMe, Active Directory, Wireshark, Wazuh, ISO 27001",
+    "courseStart": "TBD",
+    "duration": "5 Months + 1 Month Internship",
+    "lectures": 60,
+    "totalExam": 5,
+    "totalProject": 5,
+    "details": "This intensive, hands-on course covers cybersecurity skills, from foundational networking to advanced penetration testing, ethical hacking, and active directory management. It prepares students for real-world cybersecurity challenges, providing practical experience through lab environments and real-world simulations.",
+    "courseOverview": "Learn networking fundamentals, Linux basics, ethical hacking methodologies, vulnerability scanning, advanced penetration testing, web application security, blue teaming, active directory configuration, and report writing. Gain practical experience with labs and real-world simulations.",
+    "curriculum": [
+      "Networking fundamentals, IP and MAC addressing, OSI model",
+      "Linux basics, command line operations, server management",
+      "Ethical hacking methodologies and reconnaissance",
+      "Web technologies, subdomain discovery, and Burpsuite essentials",
+      "Vulnerability scanning, the Metasploit framework, and exploitation",
+      "Advanced penetration testing and cryptography",
+      "Web application security, SQL injection, XSS, and bug bounty techniques",
+      "Blue teaming, SOC setup, and auditing fundamentals",
+      "Active Directory configuration and attack simulation",
+      "Report writing for penetration tests and audits"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on Projects and Real-World Assignments"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Cybersecurity Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Kali Linux",
+      "Burpsuite",
+      "Metasploit",
+      "Nessus",
+      "TryHackMe",
+      "Wireshark",
+      "VMware",
+      "VirtualBox",
+      "Wazuh",
+      "ISO 27001"
+    ],
+    "jobPositions": [
+      "Ethical Hacking",
+      "Penetration Testing",
+      "Cybersecurity Analysis",
+      "Network Security",
+      "Incident Response and Threat Hunting",
+      "Security Operations Center (SOC)",
+      "Information Security Auditing"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "CompTIA A+, CCNA & MTCNA",
+    "category": "Networking & Server",
+    "type": "Offline",
+    "image": "https://i.ibb.co/yourimageplaceholder/networking-course.jpg",
+    "fee": "25000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Rayhan Kabir",
+    "instructorImg": "instructor_rayhan_kabir.jpg",
+    "technology": "Windows, Linux, Cisco IOS, MikroTik RouterOS, WinBox, VirtualBox, Packet Tracer",
+    "courseStart": "TBD",
+    "duration": "4 Months",
+    "lectures": 46,
+    "totalExam": 5,
+    "totalProject": 5,
+    "details": "This comprehensive course is designed to equip students with essential IT networking skills, including computer hardware, operating systems, networking fundamentals, Cisco networking (CCNA), and MikroTik RouterOS (MTCNA).",
+    "courseOverview": "PC components, peripherals, storage, and RAM; OS installation and troubleshooting; networking fundamentals and IP addressing; routing, switching, NAT, ACLs, firewall; Cisco & MikroTik router configuration; freelancing skills.",
+    "curriculum": [
+      "PC components, peripherals, storage, and RAM",
+      "Operating system installation, management, and troubleshooting",
+      "Networking fundamentals, IP addressing, subnetting, VLANs",
+      "Routing and switching concepts (Static, Dynamic, OSPF, EIGRP)",
+      "WAN technologies, NAT, ACLs, and firewalls",
+      "Cisco router and switch configuration and security",
+      "MikroTik RouterOS setup, VPN, and traffic control",
+      "Job readiness, resume building, and freelancing skills"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on labs and real-world network simulations"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Industry-standard certification preparation (CompTIA A+, CCNA, MTCNA)"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Networking Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Windows",
+      "Linux (Ubuntu, CentOS)",
+      "Cisco Packet Tracer",
+      "MikroTik RouterOS (WinBox)",
+      "VirtualBox",
+      "Wireshark"
+    ],
+    "jobPositions": [
+      "Network Engineer",
+      "System Administrator",
+      "IT Support Specialist",
+      "Network Security Engineer",
+      "IT Infrastructure Technician",
+      "Freelance Network Consultant"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Diploma in Multimedia",
+    "category": "Diploma",
+    "type": "Offline",
+    "image": "https://i.ibb.co/yourimageplaceholder/diploma-multimedia.jpg",
+    "fee": "25000৳/10000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Sheikh Sakibul Hasan & Md. Zayed Uddin",
+    "instructorImg": "instructor_sakibul_zayed.jpg",
+    "technology": "Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Adobe After Effects, Adobe Audition, Figma, Adobe Firefly",
+    "courseStart": "TBD",
+    "duration": "6+ Months",
+    "lectures": 84,
+    "totalExam": 6,
+    "totalProject": 6,
+    "details": "This comprehensive diploma program is designed to equip students with a diverse set of multimedia skills, including graphic design, video editing, audio production, motion graphics, and UI/UX design.",
+    "courseOverview": "Graphic design principles, branding, animation, video & audio editing, UI/UX fundamentals, and freelancing skills. Tools: Photoshop, Illustrator, Premiere Pro, After Effects, Audition, Figma, Firefly.",
+    "curriculum": [
+      "Graphic design principles, branding, and digital art",
+      "Video editing, colour grading, and animation",
+      "Audio editing, mixing, and effects",
+      "UI/UX design fundamentals, prototyping, and project management",
+      "Freelancing skills and marketplace preparation",
+      "Industry-standard tools like Photoshop, Illustrator, Premiere Pro, After Effects, Audition, and Figma"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "62 Practical Classes, 14 Theory Classes"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "4 Live On-Field Work Classes"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "Freelancing Focused Multimedia Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "4 Freelancing & Portfolio Classes"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "35 Industry Standard Projects"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe Premiere Pro",
+      "Adobe After Effects",
+      "Adobe Audition",
+      "Figma",
+      "Adobe Firefly"
+    ],
+    "jobPositions": [
+      "Multimedia Specialist",
+      "UI/UX Designer",
+      "Freelance Creative Professional"
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Mastering MERN Stack Web Development",
+    "category": "Programming",
+    "type": "Online",
+    "image": "https://i.ibb.co/XZ78JQ9f/Mern-card.jpg",
+    "fee": "20000৳",
+    "rating": 4.9,
+    "totalRating": 85,
+    "totalStudentsEnroll": 60,
+    "instructorName": "Sheikh Sakibul Hasan",
+    "instructorImg": "instructor_sakib.jpg",
+    "technology": "MongoDB, Express.js, React, Node.js, Redux, TypeScript",
+    "courseStart": "01-July-2025",
+    "duration": 6,
+    "lectures": 60,
+    "totalExam": 6,
+    "totalProject": 6,
+    "details": "The Mastering MERN Stack Web Development course equips students with in-depth knowledge of full-stack web development using MongoDB, Express, React, and Node.js. It includes real-world project building, RESTful API integration, secure authentication, and scalable TypeScript code practices. Ideal for those pursuing freelance or job-based careers in full-stack development.",
+    "courseOverview": "",
+    "curriculum": [
+      "Introduction to Web Development & MERN Stack Overview",
+      "MongoDB: Database Design, Aggregation & CRUD Operations",
+      "Express.js: RESTful APIs, Middleware & Routing",
+      "React.js: Components, Hooks, Routing & Redux State Management",
+      "Authentication: JWT, OAuth, and Security Best Practices",
+      "TypeScript with Node.js & React for Scalable Development",
+      "Project Deployment (Netlify, Vercel, Railway, etc.)",
+      "Client Communication & Project Planning for Freelancers",
+      "Version Control with Git & GitHub Collaboration",
+      "Capstone Project: Build & Deploy Full-Stack Application"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on Projects and Real-World Assignments"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth MERN Stack Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Node.js",
+      "MongoDB Atlas",
+      "Express.js",
+      "React.js",
+      "VS Code"
+    ],
+    "jobPositions": [
+      "Full Stack Developer",
+      "Back-end Developer",
+      "Front-end Developer",
+      "Web Application Developer"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Mastering Graphic Design with AI",
+    "category": "Art & Design",
+    "type": "Online",
+    "image": "https://i.ibb.co/zWvWjS9X/GD-Card-1.jpg",
+    "fee": "8000৳",
+    "rating": 4.8,
+    "totalRating": 66,
+    "totalStudentsEnroll": 50,
+    "instructorName": "Mahabubur",
+    "instructorImg": "instructor_default.jpg",
+    "technology": "Adobe Photoshop, Adobe Illustrator, Adobe Firefly, Leonardo.ai, Remaker, OpenArt, Ideogram.ai",
+    "courseStart": "10-July-2025",
+    "duration": 4,
+    "lectures": 42,
+    "totalExam": 2,
+    "totalProject": 30,
+    "details": "The Mastering Graphic Design with AI covers industry-standard software like Adobe Photoshop and Illustrator while integrating AI tools to prepare students for cutting-edge design careers. The course includes practical projects, freelancing guidance, and on-field training for real-world experience.",
+    "courseOverview": "This 4-month course combines traditional graphic design principles with next-gen AI tools. Students will master Adobe Photoshop and Illustrator while exploring generative AI technologies such as Firefly and Leonardo.ai. From logo design to product packaging and mockups, this course builds a strong portfolio and prepares learners for both freelancing and agency-level roles. Students gain exposure to printing workflows and design for both web and print.",
+    "curriculum": [
+      "Basics of Color Theory, Typography, and Composition",
+      "Foundations of Graphic Design Principles & Layouts",
+      "Image Editing and Retouching in Adobe Photoshop",
+      "Photo Manipulation Techniques for Posters and Banners",
+      "Vector Illustration and Icon Creation with Illustrator",
+      "Logo Design and Brand Identity Creation",
+      "Working with AI Tools: Adobe Firefly and Leonardo.ai",
+      "Generating AI-Based Assets for Web and Print",
+      "Designing Product Packaging and Label Templates",
+      "Mockups and Client Presentation Techniques",
+      "Creating UI/UX Previews for Websites and Apps",
+      "Portfolio Development for Behance & Dribbble",
+      "Writing Case Studies and Project Descriptions",
+      "Freelancing Platforms Overview (Fiverr, Upwork, 99designs)",
+      "Client Communication, Pricing, and Proposal Writing"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on Projects and Real-World Assignments"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Design & AI Tools Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe Firefly",
+      "Leonardo.ai",
+      "Remaker",
+      "OpenArt",
+      "Ideogram.ai"
+    ],
+    "jobPositions": [
+      "Graphic Designer",
+      "Brand Designer",
+      "Creative Director",
+      "Freelance Designer",
+      "Product Packaging Designer",
+      "Visual Content Creator"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Specialized Certification on Digital Marketing",
+    "category": "Marketing",
+    "type": "Online",
+    "image": "https://i.ibb.co/GvS6k4FJ/DM-caed.jpg",
+    "fee": "8000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Ashraf Hossain",
+    "instructorImg": "instructor_ashraf_hossain.jpg",
+    "technology": "SEO, WordPress, Amazon Affiliate, Google Analytics, Facebook Ads, Instagram Marketing, LinkedIn, Twitter, Email Marketing",
+    "courseStart": "TBD",
+    "duration": 3.5,
+    "lectures": 40,
+    "totalExam": 3,
+    "totalProject": 3,
+    "details": "This specialised certification program is designed for aspiring digital marketers seeking hands-on experience and practical knowledge to build successful online businesses or secure digital marketing roles.",
+    "courseOverview": "Learn SEO, WordPress customization, Amazon affiliate marketing, social media marketing, Google tools, and email automation through practical projects and real-world case studies. Gain freelancing and career guidance to succeed in the digital marketing industry.",
+    "curriculum": [
+      "Search Engine Optimisation (SEO) techniques",
+      "Keyword research for e-commerce and company websites",
+      "Technical and manual website auditing",
+      "WordPress customisation and SEO setup",
+      "Amazon affiliate marketing strategies",
+      "Competitor analysis and content writing",
+      "On-page and off-page SEO",
+      "Freelancing on Fiverr and other marketplaces",
+      "Social media marketing (Facebook, Instagram, LinkedIn, Twitter)",
+      "Google tools (Search Console, Analytics, Business Profile)",
+      "Email marketing and automation"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on Projects and Real-World Assignments"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Digital Marketing Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "WordPress",
+      "Elementor",
+      "Google Analytics",
+      "Google Search Console",
+      "ManyChat",
+      "VidIQ",
+      "Mailchimp"
+    ],
+    "jobPositions": [
+      "Digital Marketing Specialist",
+      "SEO Specialist",
+      "Content Strategist",
+      "Social Media Manager",
+      "Affiliate Marketer",
+      "Marketing Consultant"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Professional WordPress Development",
+    "category": "Programming",
+    "type": "Online",
+    "image": "https://i.ibb.co/Y75bjF7c/WP-card.jpg",
+    "fee": "8000৳",
+    "rating": 4.8,
+    "totalRating": 65,
+    "totalStudentsEnroll": 50,
+    "instructorName": "Sheikh Sakibul Hasan",
+    "instructorImg": "instructor_sakib.jpg",
+    "technology": "HTML, CSS, Tailwind CSS, WordPress, Elementor, WooCommerce, ACF, JetEngine",
+    "courseStart": "01-August-2025",
+    "duration": 3.5,
+    "lectures": 40,
+    "totalExam": 3,
+    "totalProject": 3,
+    "details": "The Professional WordPress Development course prepares students to build fully functional, customised WordPress websites, from design to deployment, including eCommerce, LMS, and portfolio sites. The course focuses on real-world projects and freelancing success.",
+    "courseOverview": "This 3.5-month intensive course starts with web fundamentals using HTML, CSS, and Tailwind CSS. Students then dive into WordPress setup, theme customization, and advanced page building with Elementor. Key modules include WooCommerce for eCommerce, ACF and JetEngine for dynamic content, and real-world projects like LMS and news websites. The course concludes with freelancing strategies, soft skills training, and 1-on-1 mentoring to prepare learners for global job markets and freelancing platforms.",
+    "curriculum": [
+      "HTML, CSS, Tailwind Basics",
+      "WordPress Installation & Setup",
+      "Theme Customization Techniques",
+      "Elementor Page Building Essentials",
+      "ACF & JetEngine for Dynamic Sites",
+      "WooCommerce for eCommerce Sites",
+      "LMS & Blog/News Site Projects",
+      "Freelancing Platform Strategies",
+      "Portfolio Building & GitHub Setup",
+      "Client Handling & Proposal Writing",
+      "Soft Skills & Career Guidance",
+      "Website Speed & SEO Optimization"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Hands-on Projects and Real-World Assignments"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Professional Portfolio Development"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "In-Depth Elementor & WordPress Training"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing Guidance and Career Support"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentoring Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Visual Studio Code",
+      "WordPress",
+      "Elementor",
+      "WooCommerce",
+      "ACF",
+      "JetEngine",
+      "Tailwind CSS"
+    ],
+    "jobPositions": [
+      "Web Developer",
+      "WordPress Developer",
+      "Front-End Developer",
+      "eCommerce Developer",
+      "Freelance Web Designer"
     ]
   }
 ]

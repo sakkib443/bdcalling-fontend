@@ -1,7 +1,6 @@
-import React from "react";
+
 import { BiCategory } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
-import { IoMdCall } from "react-icons/io";
 import { LuBookOpenCheck } from "react-icons/lu";
 import { Link } from "react-router-dom";
 

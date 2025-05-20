@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Overview from "./Our Team Component/Overview";
 import OurManagement from "./Our Team Component/OurManagement/OurManagement";
 import SectionHeading from "../../Components/Shared/SectionHeading";
 import Mentor from "./Our Team Component/Mentors/Mentor";
 import MarketingAndOperation from "./Our Team Component/Marketing and Operation/MarketingAndOperation";
 import CommunicationAndSale from "./Our Team Component/Communication and Sales/CommunicationAndSale";
+import { useLocation } from "react-router-dom";
 
 const tabsData = [
   {
@@ -31,6 +32,12 @@ const tabsData = [
 
 const OurTeam = () => {
   const [activeTab, setActiveTab] = useState("tab1");
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // top-left corner
+  }, [pathname]);
+
 
   return (
     <div className="bg-[#ecfcfb]">
@@ -38,7 +45,7 @@ const OurTeam = () => {
         <SectionHeading
           title={"Our Team"}
           description={
-            "Our expert mentors have been contributing to making IT experts for the past 16 years. With their utmost dedication, we have been able to train more than 90,000 people who are currently working in several job sectors. All the mentors have the academic skills and job experience in the marketplace. They will be your guide in your journey to achieve a bright career."
+            "Behind the leading IT skill development platform, masterminds of industry leaders are working. From the management to the expert mentors, highly skilled people are dedicated to your skill advancement."
           }
         />
       </div>

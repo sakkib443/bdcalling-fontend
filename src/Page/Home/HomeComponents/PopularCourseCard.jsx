@@ -64,7 +64,7 @@ const PopularCourseCard = () => {
 
   return (
     <div className="relative mx-auto mt-12 w-full">
-      <div className="flex flex-wrap justify-center gap-3 pl-6 pb-8 pr-6">
+      <div className="flex flex-wrap justify-center gap-3 pb-8 pr-6">
         {courseCategorys.map((cat, idx) => (
           <label
             key={idx}

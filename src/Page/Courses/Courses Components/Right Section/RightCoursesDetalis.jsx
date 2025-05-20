@@ -1,10 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import CourseCard from "../../../../Components/CourseCard";
 
 const RightCoursesDetalis = ({ filteredCourses }) => {
+  const [searchParams] = useSearchParams();
+  const urlType = searchParams.get("type"); // query থেকে ধরছে
   const [selectedType, setSelectedType] = useState("All");
   const [selectedMentor, setSelectedMentor] = useState(null);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  // useEffect: query param change হলে selectedType সেট করো
+  useEffect(() => {
+    if (urlType && ["Online", "Offline", "Recorded"].includes(urlType)) {
+      setSelectedType(urlType);
+    } else {
+      setSelectedType("All");
+    }
+  }, [urlType]);
 
   const allMentors = [...new Set(filteredCourses.map(course => course.instructorName))];
 
@@ -87,6 +99,8 @@ const RightCoursesDetalis = ({ filteredCourses }) => {
           </div>
         </div>
       </div>
+
+      {/* Course Card Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-6">
         {filteredByType.length > 0 ? (
           filteredByType.map((course) => (

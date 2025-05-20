@@ -14,7 +14,7 @@ import { LuBookOpenCheck } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { BiCategory } from "react-icons/bi";
 import { CiCircleCheck } from "react-icons/ci";
-
+import { BsArrowRightCircle } from "react-icons/bs";
 const SingleCourse = () => {
   const [course, setCourse] = useState(null);
   const [populerCourse, setPopulerCourse] = useState([]);
@@ -83,38 +83,43 @@ const SingleCourse = () => {
   return (
     <>
       <div>
-        <div className="bg-white pb-6">
+        <div className="bg-[#ECFCFB] pb-6">
           <div className="space-y-14">
-            <div className="py-14">
-              <div className="w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
+            <div className="py-32">
+              <div className="container mx-auto">
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-6">
                   <div className="space-y-6 w-full lg:w-1/2">
                     <h1 className="text-[#141F51] font-bold outfit text-3xl xl:text-5xl">
                       {course?.title}
                     </h1>
                     <div className="flex gap-3">
-                      <div className="py-4 px-6 border border-gray-200 rounded-3xl text-center">
-                        <p className="crd text-base lg:text-xl">Duration</p>
-                        <p className="text-black font-bold text-lg lg:text-xl">
+                      <div className="py-2 px-12 border border-gray-200 rounded-md text-center">
+                        <p className="text-black outfit font-bold text-lg lg:text-md">
                           {course?.duration} Month
                         </p>
+                         <p className="crd text-base work lg:text-md">Duration</p>
                       </div>
-                      <div className="py-4 px-6 border border-gray-200 rounded-3xl text-center">
-                        <p className="crd text-base lg:text-xl">Lectures</p>
-                        <p className="text-black font-bold text-lg lg:text-xl">
-                          {course?.lectures}
+                      <div className="py-2  px-12 border border-gray-200 rounded-md text-center">
+                       
+                        <p className="text-black font-bold text-lg lg:text-md">
+                          {course?.lectures}+
                         </p>
+                         <p className="crd text-base lg:text-md">Lectures</p>
                       </div>
-                      <div className="py-4 px-6 border border-gray-200 rounded-3xl text-center">
-                        <p className="crd text-base lg:text-xl">Projects</p>
-                        <p className="text-black font-bold text-lg lg:text-xl">
-                          {course?.totalProject}
+                      <div className="py-2  px-12 border border-gray-200 rounded-md text-center">
+                      
+                        <p className="text-black font-bold text-lg outfit lg:text-md">
+                          {course?.totalProject} +
                         </p>
+                          <p className="crd text-base lg:text-md work">Projects</p>
                       </div>
                     </div>
-                    <p className="crd work text-lg lg:text-xl leading-8">
-                      {course?.details}
-                    </p>
+                    <div>
+                      <p className="text-base md:text-md crd work w-11/12">
+                          {course?.details}
+                        </p>
+                    </div>
+              
                     <div className="flex flex-wrap items-center gap-6">
                       <p className="text-xl md:text-3xl text-gray-800 outfit-semibold">
                         Course Fee: {course?.fee}
@@ -166,49 +171,58 @@ const SingleCourse = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-50 py-14">
+
+
+
+            
+            {/* <div className="border border-gray-200 py-14">
               <div className="space-y-10 w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
-                <h2 className="font-bold csd text-2xl md:text-5xl">
-                  Course Overview
+                <h2 className="font-bold  text-2xl md:text-5xl outfit">
+                  Course <span className="cpr"> Overview</span>
                 </h2>
-                <p className="crd text-lg lg:text-xl work leading-8">
+                <p className="crd text-lg lg:text-md work leading-8 ">
                   {course?.courseOverview}
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="flex flex-col lg:flex-row gap-10 w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
               <div className="space-y-14 w-full lg:w-2/3">
                 <div className="">
                   <div className="">
                     <div className="pb-8 lg:pb-14 space-y-10">
-                      <div className="border border-gray-300 rounded-lg p-6 space-y-4">
-                        <h2 className="outfit-semibold csd text-2xl md:text-3xl">
-                          What you'll learn
+                      <div className=" border-gray-300 rounded-lg  space-y-4">
+                        <h2 className="outfit-semibold  text-2xl md:text-5xl">
+                          What <span className="cpr">You'll Learn</span>
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                           {course?.curriculum.map((item, index) => (
-                            <div key={index} className="flex gap-1.5">
-                              <FaCheck className="cpr text-base mt-0.5" />
+                            <div key={index} className="flex gap-1.5 items-top border border-gray-200 p-2 rounded-md work">
+                              <BsArrowRightCircle className="text-gray-400 mt-2 text-base " />
                               <p className="text-md crd">{item}</p>
                             </div>
                           ))}
                         </div>
                       </div>
-                      <div className="space-y-4">
-                        <h2 className="outfit-semibold csd text-2xl md:text-3xl">
-                          This course includes:
+                      <div className="space-y-4 lg:mt-24">
+                        <h2 className="outfit-semibold  text-2xl md:text-5xl">
+                          This course<span className="cpr"> includes</span>
                         </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3  rounded-md">
                           {course?.courseIncludes.map((item, index) => (
-                            <div key={index} className="flex gap-1.5">
+                            <div key={index} className=" border p-4 rounded-md border-gray-300 flex flex-col items-center justify-center  gap-1.5">
                               {React.cloneElement(iconMap[item.icon], {
-                                className: "cpr text-base mt-0.5",
+                                className: "text-gray-400 csd  text-4xl",
                               })}
-                              <p className="text-md crd">{item.text}</p>
+                              <p className="text-md work crd">{item.text}</p>
                             </div>
                           ))}
                         </div>
                       </div>
+
+
+
+
+                      
                       <div className="border border-gray-300 rounded-lg p-6 space-y-4">
                         <h2 className="outfit-semibold csd text-2xl md:text-3xl">
                           Software You'll Learn
@@ -241,17 +255,17 @@ const SingleCourse = () => {
                           ))}
                         </div>
                       </div>
-                      <div className="space-y-4">
-                        <h2 className="outfit-semibold csd text-2xl md:text-3xl">
-                          Description
-                        </h2>
-                        <p className="text-base md:text-lg crd">
-                          {course?.details}
-                        </p>
-                      </div>
+           
                     </div>
                   </div>
                 </div>
+
+
+
+
+
+
+
 
                 {/* Instructor Section */}
                 <div className="space-y-4">

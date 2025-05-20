@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SectionHeading from "../../Components/Shared/SectionHeading";
+import { useLocation } from "react-router-dom";
 
 const Certification = () => {
   const [users, setUsers] = useState([]);
@@ -75,7 +76,11 @@ const Certification = () => {
       setHasSearched(false);
     }
   };
+  const { pathname } = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // top-left corner
+  }, [pathname]);
   return (
     <div className="lg:bg-white bg-[#ecfcfb] py-16 md:py-24">
       <div className="w-11/12 lg:w-9/12 mx-auto">

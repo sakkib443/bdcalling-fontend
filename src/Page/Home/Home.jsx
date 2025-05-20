@@ -66,7 +66,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <div
-        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-16 bg-cover bg-center bg-no-repeat w-full relative"
+        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-24 bg-cover bg-center bg-no-repeat w-full relative"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="flex items-center 2xl:py-14">
@@ -92,7 +92,7 @@ const Home = () => {
       <WhatWeProvide />
       <Concerns />
       <SuccesHistory />
-      <Employe />
+      {/* <Employe /> */}
     </div>
   );
 };

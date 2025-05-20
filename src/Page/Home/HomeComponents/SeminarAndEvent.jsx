@@ -1,14 +1,10 @@
 import React from "react";
-import img1 from "../../../assets/img/heroSeminar.png";
 import img2 from "../../../assets/img/seminar02.png";
-import mentor from "../../../assets/img/Mentors/seminar.png";
 import { LuBookOpenCheck } from "react-icons/lu";
 import { LuAlarmClockMinus } from "react-icons/lu";
 import { PiCertificateThin } from "react-icons/pi";
-import { GrWorkshop } from "react-icons/gr";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
-
-
+import bgImage from "../../../assets/img/bg1.png";
 
 const SeminarAndEvent = () => {
   return (
@@ -70,7 +66,7 @@ const SeminarAndEvent = () => {
           </div>
         </div>
       </div> */}
-      <div className="flex lg:flex-row flex-col justify-center items-center gap-12 bg-[] container mx-auto bg-[#e8f9f9] py-16 rounded-2xl">
+      <div className="flex lg:flex-row flex-col justify-center items-center gap-12 border border-gray-200 bg-cover  container mx-auto bg-[#e8f9f9] py-16 rounded-2xl" style={{ backgroundImage: `url(${bgImage})` }}>
         <div className="lg:w-6/12">
           <div className="flex justify-end ">  <img className="md:w-[650px] px-4 md:px-0  " src={img2} alt="" /></div>
         </div>

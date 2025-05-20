@@ -14,7 +14,7 @@ const Course = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchParams, setSearchParams] = useSearchParams();
-  const coursesPerPage = 10;
+  const coursesPerPage = 12;
   const detailsRef = useRef(null);
   const [scrollY, setScrollY] = useState(0);
 
@@ -125,12 +125,12 @@ const Course = () => {
 
   return (
     <>
-      <div className="bg-[#ecfcfb] py-12">
-        <div className="mb-24 mt-4">
+      <div className="bg-[#ecfcfb] py-8">
+        <div className="mb-24 ">
           <SectionHeading
             title={"Discover Your Next Skill"}
             description={
-              "Unlock a variety of practical and in-demand courses tailored to your career goals. Whether you're starting fresh or aiming higher, our learning paths are made to guide you every step of the way.Each course is crafted by industry experts to ensure you gain real-world skills that make a difference."
+              "Unlock a wide range of practical, in-demand courses designed to match your career goals. Whether you're taking your first step into tech or advancing your skills, our learning paths are crafted by industry experts to ensure you gain real-world knowledge that truly matters."
             }
           ></SectionHeading>
         </div>

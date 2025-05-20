@@ -13,11 +13,11 @@ const Hero = () => {
           <div className="font-poppins">
             <div className="flex items-center gap-2 mb-2">
               <FiBookOpen className="text-2xl sm:text-3xl animate-bounce" />
-              <p className="text-lg  sm:text-xl md:text-[22px] crd work">
+              <p className="text-sm sm:text-xl md:text-[22px] crd work">
                      A Leading Platform for Skills
               </p>
             </div>
-            <h1 className="md:text-6xl my-4 text-5xl csd  outfit">
+            <h1 className="md:text-6xl my-4 text-4xl csd  outfit">
               {/* Become Learner{" "}
               <span className="text-4xl sm:text-5xl md:text-6xl 2xl:text-4xl text-[#41bfb8]">
                 To Leader{" "}

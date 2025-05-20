@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import {
   FiMail,
   FiPhone,
@@ -12,6 +12,11 @@ import { FiFacebook, FiLinkedin } from "react-icons/fi";
 import SectionHeading from "../../Components/Shared/SectionHeading";
 
 const Contact = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // top-left corner
+  }, [pathname]);
   return (
     <div className=" bg-[#ECFCFB] font-sans text-gray-800">
 
