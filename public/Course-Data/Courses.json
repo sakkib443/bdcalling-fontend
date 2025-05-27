@@ -68,10 +68,77 @@
     ]
   },
   {
+    "id": 12,
+    "title": "IELTS - International English Language Testing System ",
+    "category": "Language Skills",
+    "type": "Offline",
+    "image": "https://i.ibb.co/JRKZDhNW/IELTS-1.jpg",
+    "fee": "15000৳",
+    "rating": 4.8,
+    "totalRating": 120,
+    "totalStudentsEnroll": 90,
+    "instructorName": "Nafisa Rahman",
+    "instructorImg": "instructor_nafisa.jpg",
+    "technology": "Listening, Reading, Writing, Speaking, Grammar, Vocabulary",
+    "courseStart": "15-July-2025",
+    "duration": 3,
+    "lectures": 36,
+    "totalExam": 4,
+    "totalProject": 2,
+    "details": "The IELTS Preparation Masterclass is designed to help students achieve a high band score in the IELTS exam through a structured curriculum covering all four modules—Listening, Reading, Writing, and Speaking. The course provides mock tests, real exam strategies, grammar polishing, and vocabulary building to ensure success in both Academic and General Training formats.",
+    "courseOverview": "",
+    "curriculum": [
+      "Introduction to IELTS: Format, Band Score & Tips",
+      "Listening Strategies and Practice with Sample Tests",
+      "Reading Techniques: Skimming, Scanning, and Time Management",
+      "Writing Task 1 & 2: Structure, Grammar, and Coherence",
+      "Speaking Practice: Cue Cards, Fluency, and Pronunciation",
+      "Vocabulary Enhancement for Academic & General IELTS",
+      "Grammar Correction for IELTS Success",
+      "Mock Tests & Individual Feedback",
+      "Time Management & Test-Day Preparation",
+      "Final Review & Speaking Simulation with Instructor"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Regular Mock Tests and Performance Analysis"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Interactive Speaking Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "Writing Correction and Personalized Feedback"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Band Score-Oriented Training"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentorship and Support"
+      }
+    ],
+    "softwareYoullLearn": [
+      "IELTS Prep App",
+      "Google Docs (for writing feedback)",
+      "Zoom (for speaking practice)",
+      "Cambridge IELTS Books (PDF)"
+    ],
+    "jobPositions": [
+      "IELTS Instructor",
+      "English Language Trainer",
+      "Overseas Education Consultant",
+      "Freelance English Tutor"
+    ]
+  },
+  {
     "id": 4,
     "title": "Mastering Graphic Design with AI",
     "category": "Art & Design",
-    "type": "Offline/Online",
+    "type": "Offline",
     "image": "https://i.ibb.co/zWvWjS9X/GD-Card-1.jpg",
     "fee": "15000৳",
     "rating": 4.8,
@@ -147,7 +214,7 @@
   {
     "id": 5,
     "title": "Specialized Certification on Digital Marketing",
-    "category": "Marketing",
+    "category": "Digital Marketing",
     "type": "Offline",
     "image": "https://i.ibb.co/GvS6k4FJ/DM-caed.jpg",
     "fee": "16000৳",
@@ -295,7 +362,7 @@
     "title": "Web Development with React",
     "category": "Programming",
     "type": "Offline",
-    "image": "https://i.ibb.co/YQcbVdd/react-course-card.jpg",
+    "image": "https://i.ibb.co/HpM4Tn9y/react.jpg",
     "fee": "20000৳",
     "rating": 4.8,
     "totalRating": 73,
@@ -428,7 +495,7 @@
     "title": "Mastering Advanced Photography",
     "category": "Media & Flim",
     "type": "Online",
-    "image": "https://i.ibb.co/yourimageplaceholder/advanced-photography.jpg",
+    "image": "https://i.ibb.co/PzDfxLXW/mas-photography.jpg",
     "fee": "18000৳",
     "rating": 4.9,
     "totalRating": 0,
@@ -566,7 +633,7 @@
     "title": "Mastering Cyber Security & Penetration Testing",
     "category": "Cybersecurity",
     "type": "Offline",
-    "image": "https://i.ibb.co/yourimageplaceholder/cyber-security-penetration-testing.jpg",
+    "image": "https://i.ibb.co/gFJrxFkg/Cyber.jpg",
     "fee": "30000৳",
     "rating": 0,
     "totalRating": 0,
@@ -642,7 +709,7 @@
     "title": "CompTIA A+, CCNA & MTCNA",
     "category": "Networking & Server",
     "type": "Offline",
-    "image": "https://i.ibb.co/yourimageplaceholder/networking-course.jpg",
+    "image": "https://i.ibb.co/Q3CfyHYN/Networking-card.jpg",
     "fee": "25000৳",
     "rating": 0,
     "totalRating": 0,
@@ -711,7 +778,7 @@
     "title": "Diploma in Multimedia",
     "category": "Diploma",
     "type": "Offline",
-    "image": "https://i.ibb.co/yourimageplaceholder/diploma-multimedia.jpg",
+    "image": "https://i.ibb.co/RxCwQff/Diploma-multimedia.jpg",
     "fee": "25000৳/10000৳",
     "rating": 0,
     "totalRating": 0,
@@ -771,8 +838,8 @@
       "Freelance Creative Professional"
     ]
   },
-    {
-    "id": 1,
+  {
+    "id": 51,
     "title": "Mastering MERN Stack Web Development",
     "category": "Programming",
     "type": "Online",
@@ -840,7 +907,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 54,
     "title": "Mastering Graphic Design with AI",
     "category": "Art & Design",
     "type": "Online",
@@ -917,9 +984,9 @@
     ]
   },
   {
-    "id": 5,
+    "id": 55,
     "title": "Specialized Certification on Digital Marketing",
-    "category": "Marketing",
+    "category": "Digital Marketing",
     "type": "Online",
     "image": "https://i.ibb.co/GvS6k4FJ/DM-caed.jpg",
     "fee": "8000৳",
@@ -990,7 +1057,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 52,
     "title": "Professional WordPress Development",
     "category": "Programming",
     "type": "Online",

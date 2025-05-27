@@ -12,6 +12,7 @@ import SingleCourse from "./Page/Single Course/SingleCourse";
 import OurTeam from "./Page/Our Team/OurTeam";
 import Certification from "./Page/Certification/Certification";
 import OfferModal from "./Components/OfferModel";
+import Seminar from "./Page/Seminar/Seminar";
 
 function App() {
   const location = useLocation();
@@ -39,7 +40,7 @@ function App() {
           <Route path="/" element={<Root />}>
             <Route index element={<Home />} />
             <Route path="courses" element={<Course />} />
-            <Route path="events" element={<Events />} />
+            <Route path="events" element={<Seminar></Seminar>} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="login" element={<LoginPage />} />

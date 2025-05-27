@@ -18,6 +18,7 @@ const Course = () => {
   const detailsRef = useRef(null);
   const [scrollY, setScrollY] = useState(0);
 
+
   useEffect(() => {
     window.scrollTo(0, 0);
 

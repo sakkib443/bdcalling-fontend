@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom';
 const categories = [
     { img: img1, title: 'Art & Design', subtitle: 'Platform for Creativity' },
     { img: img2, title: 'Programming', subtitle: 'Code & Confident' },
-    { img: img3, title: 'Marketing', subtitle: 'The Art of Influence' },
+    { img: img3, title: 'Digital Marketing', subtitle: 'The Art of Influence' },
     { img: img4, title: 'Media & Flim', subtitle: 'Storytelling in Motion' },
     { img: img5, title: 'Networking & Server', subtitle: 'Protector of the IT Industry' },
     { img: img6, title: 'Management', subtitle: 'Leading with Strategy' },

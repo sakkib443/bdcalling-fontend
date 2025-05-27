@@ -85,16 +85,17 @@ const SingleCourse = () => {
       <div>
         <div className="bg-[#ECFCFB] pb-6">
           <div className="space-y-14">
-            <div className="py-32">
-              <div className="container mx-auto">
+            <div className="py-22 border-b border-gray-300">
+              <div className="container mx-auto px-24">
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-6">
-                  <div className="space-y-6 w-full lg:w-1/2">
-                    <h1 className="text-[#141F51] font-bold outfit text-3xl xl:text-5xl">
+                  <div className="space-y-2 w-full lg:w-1/2">
+                  <p className="text-xl outfit-semibold crd">Intodusing to our</p>
+                    <h1 className="crd font-bold mb-4 outfit text-3xl xl:text-5xl">
                       {course?.title}
                     </h1>
                     <div className="flex gap-3">
                       <div className="py-2 px-12 border border-gray-200 rounded-md text-center">
-                        <p className="text-black outfit font-bold text-lg lg:text-md">
+                        <p className="crd outfit font-bold text-lg lg:text-md">
                           {course?.duration} Month
                         </p>
                          <p className="crd text-base work lg:text-md">Duration</p>
