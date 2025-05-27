@@ -47,7 +47,9 @@ const SeminarHero = () => {
     }, [pathname]);
     return (
         <div>
-            <div className='bg-cover bg-center'  style={{ backgroundImage: `url("https://scontent.fdac177-1.fna.fbcdn.net/v/t39.30808-6/490296322_1085750183597401_5712161885394260277_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=E5t3W2JZECMQ7kNvwHeSRGd&_nc_oc=Adm_xDoOefFQPpzzfazwNkKTygdAi0hHLGW76NxSlYixYgbJN6PLg9d5oqnRIIacl4A&_nc_zt=23&_nc_ht=scontent.fdac177-1.fna&_nc_gid=1iNYmsmxH7sywWvIVIMCeA&oh=00_AfKVJVsHcGKt6wItmoHodirhtaOMOeL5ZvsLl3v0gqa8sA&oe=683B4D9C")` }}>
+            <div className='bg-cover bg-center relative'  style={{ backgroundImage: `url("https://scontent.fdac177-1.fna.fbcdn.net/v/t39.30808-6/490296322_1085750183597401_5712161885394260277_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=E5t3W2JZECMQ7kNvwHeSRGd&_nc_oc=Adm_xDoOefFQPpzzfazwNkKTygdAi0hHLGW76NxSlYixYgbJN6PLg9d5oqnRIIacl4A&_nc_zt=23&_nc_ht=scontent.fdac177-1.fna&_nc_gid=1iNYmsmxH7sywWvIVIMCeA&oh=00_AfKVJVsHcGKt6wItmoHodirhtaOMOeL5ZvsLl3v0gqa8sA&oe=683B4D9C")` }}>
+                 <div className="absolute inset-0 bg-gray-900 bg-opacity-70"></div>
+               
                 <div className='flex flex-col justify-center items-center lg:py-12'>
 
                     <div className="flex flex-col lg:flex-row justify-between items-center gap-6 md:gap-8 relative container">
