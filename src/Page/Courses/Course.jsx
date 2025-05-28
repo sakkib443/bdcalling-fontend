@@ -143,7 +143,7 @@ const Course = () => {
               </div>
             ) : (
               <div className="flex flex-col-reverse lg:flex-row gap-4">
-                <div className="w-full lg:w-[20%] lg:sticky lg:top-24 lg:self-start">
+                <div className="w-full lg:w-[20%] lg:sticky lg:top-30 lg:self-start">
                   <LeftCategory
                     courseCategories={courseCategories}
                     selectedCategories={selectedCategories}

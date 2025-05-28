@@ -36,7 +36,7 @@ const Navbar = () => {
     { to: "/about", label: "About" },
     { to: "/contact", label: "Contact" },
     // { to: "/our-team", label: "Our Team" },
-    { to: "/certification", label: "Certification" }
+    { to: "/certification", label: "Certification" },
   ];
   const navigate = useNavigate()
   const handleClick = category =>{

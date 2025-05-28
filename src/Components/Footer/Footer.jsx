@@ -3,8 +3,9 @@ import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
-import logo from "../../assets/img/logo.png"
-import pay from "../../assets/img/pay_with.png"
+import logo from "../../assets/img/logo.png";
+import pay from "../../assets/img/pay_with.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,10 +19,7 @@ const Footer = () => {
             <div className="py-4 md:py-6 border-b border-gray-300 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-8">
               <div className="flex flex-col items-center md:items-start justify-center gap-4">
                 <div className="flex items-center justify-center w-30 md:w-40">
-                  <img
-                    src={ logo }
-                    alt=""
-                  />
+                  <img src={logo} alt="" />
                 </div>
                 <p className="font-montserrat text-xs md:text-sm text-gray-500 md:text-left">
                   Bdcalling Academy is a leading online learning platform in
@@ -30,16 +28,28 @@ const Footer = () => {
                 </p>
                 <div className="flex gap-4">
                   <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-blue-600 hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
-                    <FaFacebook className="text-xl" />
-                  </div>
-                  <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-black hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
-                    <FaSquareXTwitter className="text-xl" />
+                    <a
+                      href="https://www.facebook.com/bdcallingacademy"
+                      target="_blank"
+                    >
+                      <FaFacebook className="text-xl" />
+                    </a>
                   </div>
                   <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-blue-600 hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
-                    <FaLinkedin className="text-xl" />
+                    <a
+                      href="https://www.linkedin.com/company/bdcallingitltd"
+                      target="_blank"
+                    >
+                      <FaLinkedin className="text-xl" />
+                    </a>
                   </div>
                   <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-red-600 hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
-                    <FaYoutube className="text-xl" />
+                    <a
+                      href="https://www.youtube.com/@bdCalling"
+                      target="_blank"
+                    >
+                      <FaYoutube className="text-xl" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -49,42 +59,48 @@ const Footer = () => {
                     Quick Links
                   </h2>
                   <div className="flex flex-col items-start gap-1">
-                    <p
+                    <Link
+                      to="/"
+                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
+after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
+                    >
+                      Home
+                    </Link>
+                    <Link
+                      to="/about"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
                       About Us
-                    </p>
-                    <p
+                    </Link>
+                    <Link
+                      to="/contact"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
                       Contact Us
-                    </p>
-                    <p
+                    </Link>
+                    <Link
+                      to="/courses"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
-                      Success Story
-                    </p>
-                    <p
+                      Courses
+                    </Link>
+                    <Link
+                      to="/contact"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
-                      Mentors
-                    </p>
-                    <p
+                      Contact
+                    </Link>
+                    <Link
+                      to="/certification"
                       className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
                     >
-                      Team
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Refund Policy
-                    </p>
+                      Certification
+                    </Link>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
@@ -92,42 +108,22 @@ after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:d
                     Course Categories
                   </h2>
                   <div className="flex flex-col items-start gap-1">
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
+                    {[
+                      "Programming",
+                      "Digital Marketing",
+                      "Networking & Server",
+                      "Database",
+                      "Language Skills",
+                    ].map((cat) => (
+                      <Link
+                        key={cat}
+                        to={`/courses?category=${encodeURIComponent(cat)}`}
+                        className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Multimedia
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Web Technology
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Networking & Server
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Software Development
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Programming
-                    </p>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      Database
-                    </p>
+                      >
+                        {cat}
+                      </Link>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -136,27 +132,35 @@ after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:d
                   Contact Info
                 </h2>
                 <div className="space-y-2.5">
-                  <div className="flex items-center gap-3">
-                    <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-black hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
-                      <IoCallOutline className="text-xl" />
-                    </div>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
+                  <div>
+                    <a href="tel:+88 01321231802">
+                      <div className="flex items-center gap-3">
+                        <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-black hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
+                          <IoCallOutline className="text-xl" />
+                        </div>
+                        <p
+                          className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      +88 01321231802
-                    </p>
+                        >
+                          +88 01321231802
+                        </p>
+                      </div>
+                    </a>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-black hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
-                      <MdOutlineMailOutline className="text-xl" />
-                    </div>
-                    <p
-                      className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
-after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
-                    >
-                      info@bdcallingacademy.com
-                    </p>
+                  <div>
+                    <a href="maitlo:info@bdcallingacademy.com">
+                      <div className="flex items-center gap-3">
+                        <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-black hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
+                          <MdOutlineMailOutline className="text-xl" />
+                        </div>
+                        <p
+                          className="text-xs md:text-sm text-gray-600 hover:text-[#F79952] ease-in-out cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 
+                      after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-300 after:scale-x-0 after:origin-left hover:after:scale-x-100 relative pb-1 transition-all duration-300 text-nowrap"
+                        >
+                          info@bdcallingacademy.com
+                        </p>
+                      </div>
+                    </a>{" "}
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-black hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer">
