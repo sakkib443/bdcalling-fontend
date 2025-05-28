@@ -1,163 +1,228 @@
-
-import { useState } from 'react';
+import { useState } from "react";
 import React from "react";
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import { motion } from 'framer-motion';
-import SectionHeading from '../../../Components/Shared/SectionHeading';
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { motion } from "framer-motion";
+import SectionHeading from "../../../Components/Shared/SectionHeading";
 import bgImage from "../../../assets/img/bg1.png";
 
+import OurConcernimg1 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/1_softvence.png";
+import OurConcernimg2 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/2_sm_technology.png";
+import OurConcernimg3 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/3_backbencher_studio.png";
+import OurConcernimg4 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/4_sparktech.png";
+import OurConcernimg5 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/5_scaleup.png";
+import OurConcernimg6 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/6_Data-insight.png";
+
+import ColaborationWithimg1 from "../../../assets/img/Our Working Partner Images/Working with all images/1_bteb.png";
+import ColaborationWithimg2 from "../../../assets/img/Our Working Partner Images/Working with all images/2_ict.png";
+import ColaborationWithimg3 from "../../../assets/img/Our Working Partner Images/Working with all images/3_iitu.png";
+import ColaborationWithimg4 from "../../../assets/img/Our Working Partner Images/Working with all images/4_edge.png";
+import ColaborationWithimg5 from "../../../assets/img/Our Working Partner Images/Working with all images/5_nsda.png";
+import ColaborationWithimg6 from "../../../assets/img/Our Working Partner Images/Working with all images/6_dhaka_university.jpg";
+import ColaborationWithimg7 from "../../../assets/img/Our Working Partner Images/Working with all images/7_crown_institute_of_business_and_technology.jpg";
+import ColaborationWithimg8 from "../../../assets/img/Our Working Partner Images/Working with all images/8_eastern_eniversity.png";
+import ColaborationWithimg9 from "../../../assets/img/Our Working Partner Images/Working with all images/9_jagannath_university.png";
+import ColaborationWithimg10 from "../../../assets/img/Our Working Partner Images/Working with all images/10_dhaka_college.png";
+import ColaborationWithimg11 from "../../../assets/img/Our Working Partner Images/Working with all images/11_united_international_university.png";
+import ColaborationWithimg12 from "../../../assets/img/Our Working Partner Images/Working with all images/12_metropolitan_university.png";
+import ColaborationWithimg13 from "../../../assets/img/Our Working Partner Images/Working with all images/13_north_south_university.png";
+import ColaborationWithimg14 from "../../../assets/img/Our Working Partner Images/Working with all images/14_east_west_university.png";
+import ColaborationWithimg15 from "../../../assets/img/Our Working Partner Images/Working with all images/15_smuct.png";
+import ColaborationWithimg16 from "../../../assets/img/Our Working Partner Images/Working with all images/16_bracu.png";
+import ColaborationWithimg17 from "../../../assets/img/Our Working Partner Images/Working with all images/17_polytechnic.png";
+import ColaborationWithimg18 from "../../../assets/img/Our Working Partner Images/Working with all images/18_polytechnic.png";
+import ColaborationWithimg19 from "../../../assets/img/Our Working Partner Images/Working with all images/19_polytechnic.jpg";
+import ColaborationWithimg20 from "../../../assets/img/Our Working Partner Images/Working with all images/20_polytechnic.jpg";
+import ColaborationWithimg21 from "../../../assets/img/Our Working Partner Images/Working with all images/21_polytechnic.png";
+import ColaborationWithimg22 from "../../../assets/img/Our Working Partner Images/Working with all images/22_polytechnic.jpg";
+import ColaborationWithimg23 from "../../../assets/img/Our Working Partner Images/Working with all images/23_polytechnic.png";
+import ColaborationWithimg24 from "../../../assets/img/Our Working Partner Images/Working with all images/24_polytechnic.png";
+import ColaborationWithimg25 from "../../../assets/img/Our Working Partner Images/Working with all images/25_polytechnic.png";
+import ColaborationWithimg26 from "../../../assets/img/Our Working Partner Images/Working with all images/26_polytechnic.png";
+import ColaborationWithimg27 from "../../../assets/img/Our Working Partner Images/Working with all images/27_polytechnic.jpg";
+import ColaborationWithimg28 from "../../../assets/img/Our Working Partner Images/Working with all images/28_polytechnic.png";
+import ColaborationWithimg29 from "../../../assets/img/Our Working Partner Images/Working with all images/29_polytechnic.png";
+import ColaborationWithimg30 from "../../../assets/img/Our Working Partner Images/Working with all images/30_polytechnic.png";
+import ColaborationWithimg31 from "../../../assets/img/Our Working Partner Images/Working with all images/31_polytechnic.jpg";
+import ColaborationWithimg32 from "../../../assets/img/Our Working Partner Images/Working with all images/32_polytechnic.png";
+import ColaborationWithimg33 from "../../../assets/img/Our Working Partner Images/Working with all images/33_polytechnic.jpg";
+import ColaborationWithimg34 from "../../../assets/img/Our Working Partner Images/Working with all images/34_polytechnic.png";
+import ColaborationWithimg35 from "../../../assets/img/Our Working Partner Images/Working with all images/35_polytechnic.jpg";
+import ColaborationWithimg36 from "../../../assets/img/Our Working Partner Images/Working with all images/36_polytechnic.jpg";
+import ColaborationWithimg37 from "../../../assets/img/Our Working Partner Images/Working with all images/37_polytechnic.png";
+import ColaborationWithimg38 from "../../../assets/img/Our Working Partner Images/Working with all images/38_polytechnic.png";
+
+import MemberOfimg1 from "../../../assets/img/Our Working Partner Images/Members of all images/1_basis.png";
+import MemberOfimg2 from "../../../assets/img/Our Working Partner Images/Members of all images/2_bangladesh_computer_samity.png";
+
 const Concerns = () => {
-    const images = [
-        { id: 1, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/1_bteb.png' },
-        { id: 2, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/2_ict.png' },
-        { id: 3, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/3_iitu.png' },
-        { id: 4, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/4_edge.png' },
-        { id: 5, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/5_nsda.png' },
-        { id: 6, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/6_dhaka_university.jpg' },
-        { id: 7, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/7_crown_institute_of_business_and_technology.jpg' },
-        { id: 8, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/8_eastern_eniversity.png' },
-        { id: 9, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/9_jagannath_university.png' },
-        { id: 10, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/10_dhaka_college.png' },
-        { id: 11, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/11_united_international_university.png' },
-        { id: 12, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/12_metropolitan_university.png' },
-        { id: 13, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/1_bteb.png' },
-        { id: 14, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/2_ict.png' },
-        { id: 15, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/3_iitu.png' },
-        { id: 16, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/4_edge.png' },
-        { id: 17, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/5_nsda.png' },
-        { id: 18, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/6_dhaka_university.jpg' },
-        { id: 19, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/7_crown_institute_of_business_and_technology.jpg' },
-        { id: 20, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/8_eastern_eniversity.png' },
-        { id: 21, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/9_jagannath_university.png' },
-        { id: 22, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/10_dhaka_college.png' },
-        { id: 23, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/11_united_international_university.png' },
-        { id: 24, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/12_metropolitan_university.png' },
-        { id: 25, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/1_bteb.png' },
-        { id: 26, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/2_ict.png' },
-        { id: 27, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/3_iitu.png' },
-        { id: 28, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/4_edge.png' },
-        { id: 29, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/5_nsda.png' },
-        { id: 30, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/6_dhaka_university.jpg' },
-        { id: 31, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/7_crown_institute_of_business_and_technology.jpg' },
-        { id: 32, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/8_eastern_eniversity.png' },
-        { id: 33, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/9_jagannath_university.png' },
-        { id: 34, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/10_dhaka_college.png' },
-        { id: 35, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/11_united_international_university.png' },
-        { id: 36, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/12_metropolitan_university.png' },
-        { id: 37, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/1_bteb.png' },
-        { id: 38, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/2_ict.png' },
-        { id: 39, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/3_iitu.png' },
-        { id: 40, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/4_edge.png' },
-        { id: 41, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/5_nsda.png' },
-        { id: 42, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/6_dhaka_university.jpg' },
-        { id: 43, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/7_crown_institute_of_business_and_technology.jpg' },
-        { id: 44, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/8_eastern_eniversity.png' },
-        { id: 45, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/9_jagannath_university.png' },
-        { id: 46, category: 'Our Concern', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/10_dhaka_college.png' },
-        { id: 47, category: 'Colaboration With', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/11_united_international_university.png' },
-        { id: 48, category: 'Member Of', src: 'https://www.bdcallingacademy.com/images/assest/assosiate/working/12_metropolitan_university.png' },
-    ];
+  const images = [
+    // Our Concerns
+    { id: 1, category: "Our Concern", src: OurConcernimg1 },
+    { id: 2, category: "Our Concern", src: OurConcernimg2 },
+    { id: 3, category: "Our Concern", src: OurConcernimg3 },
+    { id: 4, category: "Our Concern", src: OurConcernimg4 },
+    { id: 5, category: "Our Concern", src: OurConcernimg5 },
+    { id: 6, category: "Our Concern", src: OurConcernimg6 },
 
-    const [selectedCategory, setSelectedCategory] = useState('Our Concern');
-    const [page, setPage] = useState(0);
-    const imagesPerPage = 10;
+    // Collaborations With
+    { id: 7, category: "Colaboration With", src: ColaborationWithimg1 },
+    { id: 8, category: "Colaboration With", src: ColaborationWithimg2 },
+    { id: 9, category: "Colaboration With", src: ColaborationWithimg3 },
+    { id: 10, category: "Colaboration With", src: ColaborationWithimg4 },
+    { id: 11, category: "Colaboration With", src: ColaborationWithimg5 },
+    { id: 12, category: "Colaboration With", src: ColaborationWithimg6 },
+    { id: 13, category: "Colaboration With", src: ColaborationWithimg7 },
+    { id: 14, category: "Colaboration With", src: ColaborationWithimg8 },
+    { id: 15, category: "Colaboration With", src: ColaborationWithimg9 },
+    { id: 16, category: "Colaboration With", src: ColaborationWithimg10 },
+    { id: 17, category: "Colaboration With", src: ColaborationWithimg11 },
+    { id: 18, category: "Colaboration With", src: ColaborationWithimg12 },
+    { id: 19, category: "Colaboration With", src: ColaborationWithimg13 },
+    { id: 20, category: "Colaboration With", src: ColaborationWithimg14 },
+    { id: 21, category: "Colaboration With", src: ColaborationWithimg15 },
+    { id: 22, category: "Colaboration With", src: ColaborationWithimg16 },
+    { id: 23, category: "Colaboration With", src: ColaborationWithimg17 },
+    { id: 24, category: "Colaboration With", src: ColaborationWithimg18 },
+    { id: 25, category: "Colaboration With", src: ColaborationWithimg19 },
+    { id: 26, category: "Colaboration With", src: ColaborationWithimg20 },
+    { id: 27, category: "Colaboration With", src: ColaborationWithimg21 },
+    { id: 28, category: "Colaboration With", src: ColaborationWithimg22 },
+    { id: 29, category: "Colaboration With", src: ColaborationWithimg23 },
+    { id: 30, category: "Colaboration With", src: ColaborationWithimg24 },
+    { id: 31, category: "Colaboration With", src: ColaborationWithimg25 },
+    { id: 32, category: "Colaboration With", src: ColaborationWithimg26 },
+    { id: 33, category: "Colaboration With", src: ColaborationWithimg27 },
+    { id: 34, category: "Colaboration With", src: ColaborationWithimg28 },
+    { id: 35, category: "Colaboration With", src: ColaborationWithimg29 },
+    { id: 36, category: "Colaboration With", src: ColaborationWithimg30 },
+    { id: 37, category: "Colaboration With", src: ColaborationWithimg31 },
+    { id: 38, category: "Colaboration With", src: ColaborationWithimg32 },
+    { id: 39, category: "Colaboration With", src: ColaborationWithimg33 },
+    { id: 40, category: "Colaboration With", src: ColaborationWithimg34 },
+    { id: 41, category: "Colaboration With", src: ColaborationWithimg35 },
+    { id: 42, category: "Colaboration With", src: ColaborationWithimg36 },
+    { id: 43, category: "Colaboration With", src: ColaborationWithimg37 },
+    { id: 44, category: "Colaboration With", src: ColaborationWithimg38 },
 
-    const handleCategoryChange = (category) => {
-        setSelectedCategory(category);
-        setPage(0);
-    };
+    // Members Of
+    { id: 45, category: "Member Of", src: MemberOfimg1 },
+    { id: 46, category: "Member Of", src: MemberOfimg2 },
+  ];
 
-    const handleNext = () => {
-        const totalPages = Math.ceil(filteredImages.length / imagesPerPage);
-        if (page + 1 < totalPages) {
-            setPage(prev => prev + 1);
-        } else {
-            setPage(0)
-        }
-    };
+  //   const [selectedCategory, setSelectedCategory] = useState("Our Concern");
+  //   const [page, setPage] = useState(0);
+  //   const imagesPerPage = 10;
 
-    const handlePrev = () => {
-        if (page > 0) {
-            setPage(prev => prev - 1);
-        }
-    };
+  //   const handleCategoryChange = (category) => {
+  //     setSelectedCategory(category);
+  //     setPage(0);
+  //   };
 
-    const filteredImages = images.filter(image => image.category === selectedCategory);
-    const paginatedImages = filteredImages.slice(page * imagesPerPage, (page + 1) * imagesPerPage);
-    // const hasMoreImages = filteredImages.length > (page + 1) * imagesPerPage;
+  //   const handleNext = () => {
+  //     const totalPages = Math.ceil(filteredImages.length / imagesPerPage);
+  //     if (page + 1 < totalPages) {
+  //       setPage((prev) => prev + 1);
+  //     } else {
+  //       setPage(0);
+  //     }
+  //   };
 
-    return (
-        <div className='bg-white py-12 md:py-12 relative  '>
-            <div className='relative w-11/12 lg:w-10/12 border border-gray-200 bg-cover  mx-auto py-12 px-6 rounded-2xl '  style={{ backgroundImage: `url(${bgImage})` }}>
-                {/* Background Image Overlay */}
-                <div
-                    className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-10"
-                    style={{
-                        backgroundImage: `url('https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/491185347_1085730833599336_6679927905642902823_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFMxqaiP5Vt0I1t6mXG8XC1dNnDbsVyffx02cNuxXJ9_MPyrTfVZTCx0vCN0yD0Cw46plaADOVLbLgLlZvYSbs_&_nc_ohc=OC5TdUjhyRMQ7kNvwHj744_&_nc_oc=AdlLq8prVk2-PMmbvhvxZ5JJ-svcd-XzkDbsbytax2LOvrG26hQPIxjJa-cd_ZN65Gg&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=cde8rQ94wWzg9tFxRh0r0g&oh=00_AfEXNuJppYlJjdSf1dPIGLW1sTGCxo5vvrocvFLGD1Rt_A&oe=68112840')`,
-                    }}
-                ></div>
+  //   const handlePrev = () => {
+  //     if (page > 0) {
+  //       setPage((prev) => prev - 1);
+  //     }
+  //   };
 
-                {/* All your foreground content below */}
-                <div className='relative z-10'>
-                    {/* Section Heading and Filter Buttons */}
-                    <SectionHeading title={"Our Working Partner"} />
-                    <div className='flex flex-wrap justify-center gap-3 work pl-6 pb-8 pr-6 mt-12'>
-                        {['Our Concern', 'Colaboration With', 'Member Of'].map((cat, idx) => (
-                            <label key={idx} className="fieldset-label dark:text-gray-600">
-                                <p
-                                    onClick={() => handleCategoryChange(cat)}
-                                    className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${selectedCategory === cat ? 'bg-[#41bfb8] text-white' : 'bg-[#ecfcfb] dark:text-gray-500'
-                                        }`}
-                                >
-                                    {cat}
-                                </p>
-                            </label>
-                        ))}
-                    </div>
+  //   const filteredImages = images.filter(
+  //     (image) => image.category === selectedCategory
+  //   );
+  //   const paginatedImages = filteredImages.slice(
+  //     page * imagesPerPage,
+  //     (page + 1) * imagesPerPage
+  //   );
+  // const hasMoreImages = filteredImages.length > (page + 1) * imagesPerPage;
 
-                    {/* Image Grid */}
-                    <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
-                        <div className='w-full lg:w-3/4 relative'>
-                            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2'>
-                                {paginatedImages.length > 0 ? (
-                                    paginatedImages.map((image, index) => (
-                                        <motion.div
-                                            key={image.id}
-                                            className='flex items-center justify-center'
-                                            initial={{ opacity: 0, y: 20 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            transition={{ duration: 0.4, delay: index * 0.05 }}
-                                        >
-                                            <div className='w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl'>
-                                                <img src={image.src} alt={`Image ${image.id}`} className="w-20" />
-                                            </div>
-                                        </motion.div>
-                                    ))
-                                ) : (
-                                    <p>No images to display. Select a category.</p>
-                                )}
-                            </div>
+  const [selectedCategory, setSelectedCategory] = useState("Our Concern");
 
-                            {/* Pagination Buttons */}
-                            <button
-                                onClick={handlePrev}
-                                className="absolute cursor-pointer md:-left-15 -left-15 top-1/2 transform -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white transition duration-500"
-                            >
-                                <FaChevronLeft className='cpr' size={18} />
-                            </button>
-                            <button
-                                onClick={handleNext}
-                                className="absolute md:-right-15 -right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md p-3 rounded-full hover:bg-[#41bfb8] hover:text-white border border-gray-300 transition duration-500 cursor-pointer"
-                            >
-                                <FaChevronRight className='cpr' size={18} />
-                            </button>
-                        </div>
-                    </div>
+  const filteredImages = images.filter(
+    (image) => image.category === selectedCategory
+  );
+
+  return (
+    <>
+      <div>
+        <div className="bg-white py-12 md:py-12 relative">
+          <div
+            className="relative w-11/12 lg:w-10/12 border border-gray-200 bg-cover mx-auto py-12 px-6 rounded-2xl"
+            style={{ backgroundImage: `url(${bgImage})` }}
+          >
+            {/* Background Overlay */}
+            <div
+              className="absolute inset-0 rounded-2xl bg-cover bg-center opacity-10"
+              style={{
+                backgroundImage: `url('https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/491185347_1085730833599336_6679927905642902823_n.jpg?...')`,
+              }}
+            ></div>
+
+            {/* Foreground Content */}
+            <div className="relative z-10">
+              <SectionHeading title={"Our Working Partner"} />
+              <div className="flex flex-wrap justify-center gap-3 work pl-6 pb-8 pr-6 mt-12">
+                {["Our Concern", "Colaboration With", "Member Of"].map(
+                  (cat, idx) => (
+                    <label
+                      key={idx}
+                      className="fieldset-label dark:text-gray-600"
+                    >
+                      <p
+                        onClick={() => setSelectedCategory(cat)}
+                        className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${
+                          selectedCategory === cat
+                            ? "bg-[#41bfb8] text-white"
+                            : "bg-[#ecfcfb] dark:text-gray-500"
+                        }`}
+                      >
+                        {cat}
+                      </p>
+                    </label>
+                  )
+                )}
+              </div>
+
+              {/* All Images (no pagination) */}
+              <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
+                <div className="w-full lg:w-3/4 relative">
+                  <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2">
+                    {filteredImages.length > 0 ? (
+                      filteredImages.map((image, index) => (
+                        <motion.div
+                          key={image.id}
+                          className="flex items-center justify-center"
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.4, delay: index * 0.05 }}
+                        >
+                          <div className="w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl">
+                            <img
+                              src={image.src}
+                              alt={`Image ${image.id}`}
+                              className="w-20"
+                            />
+                          </div>
+                        </motion.div>
+                      ))
+                    ) : (
+                      <p>No images to display. Select a category.</p>
+                    )}
+                  </div>
                 </div>
+              </div>
             </div>
-
+          </div>
         </div>
-    );
+      </div>
+    </>
+  );
 };
 
 export default Concerns;
