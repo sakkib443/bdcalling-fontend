@@ -13,6 +13,7 @@ import OurTeam from "./Page/Our Team/OurTeam";
 import Certification from "./Page/Certification/Certification";
 import OfferModal from "./Components/OfferModel";
 import Seminar from "./Page/Seminar/Seminar";
+import SuccessStory from "./Page/Success Story/SuccessStory";
 
 function App() {
   const location = useLocation();
@@ -48,6 +49,7 @@ function App() {
             <Route path="/courses/:id" element={<SingleCourse />} />
             <Route path="our-team" element={<OurTeam />} />
             <Route path="certification" element={<Certification />} />
+            <Route path="success-story" element={<SuccessStory />} />
           </Route>
         </Routes>
       </div>
