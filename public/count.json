@@ -1,6 +1,6 @@
 [
     {
-        "count": 6200,
+        "count": 3800,
         "label": "Successful Students",
         "icon": "FaUserGraduate",
         "suffix": "+"
@@ -12,7 +12,7 @@
         "suffix": "+"
     },
     {
-        "count": 150,
+        "count": 1350,
         "label": "Skilled Job Holders",
         "icon": "FaBriefcase",
         "suffix": "+"
@@ -24,7 +24,7 @@
         "suffix": "+"
     },
     {
-        "count": 95,
+        "count": 92,
         "label": "Success Ratio",
         "icon": "FaChartLine",
         "suffix": "%"

@@ -875,6 +875,502 @@
     ]
   },
   {
+    "id": 13,
+    "title": "Basic English Communication",
+    "category": "Language Skills",
+    "type": "Offline/Online",
+    "image": "https://i.ibb.co/5RMSVqz/basic-english.jpg",
+    "fee": "10000৳/5000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Niaz Rashid",
+    "instructorImg": "instructor_niaz_rashid.jpg",
+    "instructorReviews": 150,
+    "instructorExperience": "3+ years in English Language Training",
+    "instructorBio": "Niaz Rashid is an experienced English language trainer specializing in spoken English and communication skills for professionals and students. With over 3 years of experience, he focuses on vocabulary development, grammar structure, and real-world speaking practice.",
+    "technology": "Notion, Padlet, AI-powered pronunciation tools",
+    "courseStart": "TBD",
+    "duration": "2 Months",
+    "lectures": 24,
+    "totalExam": 2,
+    "totalProject": 2,
+    "details": "This course is designed for beginners and basic English learners to build strong communication skills through structured vocabulary building, sentence structure, reading-writing practice, and real-life conversation scenarios.",
+    "courseOverview": "Everyday vocabulary, grammar fundamentals, sentence construction, polite expressions, pronunciation, writing practice, reading comprehension, and conversational fluency using modern tools like Notion and AI-powered speaking apps.",
+    "curriculum": [
+      "Everyday vocabulary & grammar fundamentals",
+      "Sentence structure and proper questioning",
+      "Polite expressions, greetings, and etiquette",
+      "Basic pronunciation, word stress, and intonation",
+      "Writing short messages, emails, and notes",
+      "Reading comprehension and interpreting signs",
+      "Conversational fluency through role-play and practice"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Vocabulary Building & Sentence Structure"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Speaking & Listening Practice"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "Role-playing Conversations"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Email, Writing & Grammar Skills"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Feedback and Final Review Sessions"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Google Docs",
+      "Grammarly",
+      "AI-based English Pronunciation Tools (e.g., Elsa Speak)"
+    ],
+    "jobPositions": [
+      "Customer Support (Foreign)",
+      "Sales & Marketing",
+      "Telecommunication",
+      "Retail & Service Industry",
+      "Freelancing (Virtual Assistant, Customer Service Rep)",
+      "International Communication-Based Jobs"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Content Writing with SEO",
+    "category": "Language",
+    "type": "Offline/Online",
+    "image": "https://i.ibb.co/vhDvRJ1/content-seo.jpg",
+    "fee": "12000৳/6000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Ashraf Hossain, Farzia Haque Farin",
+    "instructorImg": "instructor_ashraf_farin.jpg",
+    "instructorReviews": 180,
+    "instructorExperience": "4+ years in SEO and Content Marketing",
+    "instructorBio": "Ashraf Hossain and Farzia Haque Farin are professionals in the field of SEO and content marketing with over 4 years of experience. They have successfully worked with agencies and freelance clients across various industries, helping brands grow with strategic content and SEO.",
+    "technology": "Google Search Console, Google Analytics, Ahrefs, SEMrush, Grammarly, WordPress, Surfer SEO",
+    "courseStart": "TBD",
+    "duration": "3 Months",
+    "lectures": 24,
+    "totalExam": 1,
+    "totalProject": 2,
+    "details": "This 3-month comprehensive course is designed with a combination of technical learning, hands-on projects, and freelancing insights. You’ll be prepared to boost visibility, grow traffic, and earn through SEO and writing.",
+    "courseOverview": "Keyword research, technical & on-page SEO, blog/content writing, storytelling, freelancing strategies, SEO tools, and WordPress integration.",
+    "curriculum": [
+      "Keyword Research & Analysis",
+      "On-Page, Off-Page and Technical SEO",
+      "SEO Audits, Local SEO, E-Commerce SEO",
+      "SEO for YouTube and Voice Search",
+      "Content Writing for Blogs, Ads, Emails, Social Media",
+      "Storytelling & Branding through Content",
+      "Freelancing Strategies in SEO & Content Writing"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "14 SEO Classes (Basics to Advanced)"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "10 Content Writing Classes"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "Industry-relevant Projects & Assignments"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Freelancing & Career Guidance Session"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Practice Materials and Final Assessment"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Google Analytics",
+      "Google Search Console",
+      "SEMrush",
+      "Ahrefs",
+      "Grammarly",
+      "Surfer SEO",
+      "WordPress"
+    ],
+    "jobPositions": [
+      "SEO Executive",
+      "Content Writer",
+      "SEO Content Strategist",
+      "Freelance SEO Specialist",
+      "Copywriter",
+      "Content Marketer"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "SAP (ABAP)",
+    "category": "Management",
+    "type": "Offline-Online Both",
+    "image": "https://i.ibb.co/3cfb8fy/sap-abap.jpg",
+    "fee": "17000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Mahi Khan, Mohammad Salah Uddin",
+    "instructorImg": "instructor_mahi_salah.jpg",
+    "instructorReviews": 220,
+    "instructorExperience": "5+ years of experience in SAP ABAP and enterprise systems",
+    "instructorBio": "Mahi Khan and Mohammad Salah Uddin are experienced SAP consultants who specialize in ABAP development, system integration, and performance optimization. They have worked with several ERP clients and successfully led multiple implementation projects.",
+    "technology": "SAP ECC, SAP GUI, ABAP Workbench, ALV, Smart Forms, BDC, LSMW, OData, SAP Gateway",
+    "courseStart": "TBD",
+    "duration": "15 Class",
+    "lectures": 30,
+    "totalExam": 1,
+    "totalProject": 2,
+    "details": "This course is designed to cover everything from the basics of SAP architecture to advanced ABAP development techniques, including OOP, Smart Forms, BDC, and HANA Optimisations.",
+    "courseOverview": "ABAP syntax, SE11, ALV reports, Object-oriented ABAP, Smart Forms, BDC/LSMW migration, OData/Web Services, Debugging, and HANA integration.",
+    "curriculum": [
+      "ABAP Development Environment & Syntax",
+      "SAP Data Dictionary (SE11)",
+      "Report Programming (Classical, Interactive, ALV)",
+      "Object-Oriented ABAP",
+      "User Exits, BAdIs, Enhancements",
+      "Data Migration using BDC and LSMW",
+      "Debugging & Performance Optimisation",
+      "Working with Web Services and OData",
+      "Real-Time Projects and Interview Preparation"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "15 Modules with 30+ Lectures"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "SAP GUI and Workbench Hands-On"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "Dialog & Form Programming (SE51, Smart Forms)"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Real-Time Development Scenarios"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Bonus: Interview Q&A + Debugging + HANA Optimization"
+      }
+    ],
+    "softwareYoullLearn": [
+      "SAP GUI",
+      "SE11, SE38, SE80, SE93",
+      "SE30 / SAT, ST05, ST22",
+      "SAP Gateway (for OData)",
+      "ALV (Function Module & Object-Oriented)",
+      "Smart Forms & SAP Scripts"
+    ],
+    "jobPositions": [
+      "SAP ABAP Developer",
+      "ERP Technical Consultant",
+      "SAP Technical Analyst",
+      "SAP Freelancer"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "SAP (FICO)",
+    "category": "Management",
+    "type": "Offline-Online Both",
+    "image": "https://i.ibb.co/QDDn3Dx/sap-fico.jpg",
+    "fee": "17000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Pallab Kumar Moholanobish",
+    "instructorImg": "instructor_pallab.jpg",
+    "instructorReviews": 90,
+    "instructorExperience": "5+ years in SAP Finance and Controlling (FICO)",
+    "instructorBio": "Pallab Kumar Moholanobish is a seasoned SAP FICO Consultant with experience in implementing and managing ERP financial modules across various sectors. His teaching method focuses on hands-on configuration and real-world business process simulations.",
+    "technology": "SAP ERP, SAP GUI, FICO Module, ECC, General Ledger, Asset Accounting, COPA",
+    "courseStart": "TBD",
+    "duration": "15 Class",
+    "lectures": 30,
+    "totalExam": 1,
+    "totalProject": 2,
+    "details": "This course is designed to equip you with a strong foundational and practical understanding of SAP FICO — the most in-demand ERP financial module.",
+    "courseOverview": "Gain hands-on experience in financial accounting and controlling through real-time simulations, configuration practices, and understanding the full financial cycle in SAP ERP.",
+    "curriculum": [
+      "SAP ERP Navigation & Organisational Structure",
+      "General Ledger (GL), Accounts Payable (AP), Accounts Receivable (AR)",
+      "Asset & Bank Accounting",
+      "Internal Orders, Cost Centers, and Profit Centers",
+      "CO: Controlling Area, Cost Elements & Product Costing",
+      "Real-Time Business Cycle Simulation (P2P & O2C)",
+      "Manual Bank Reconciliation and Loan Posting",
+      "Profitability Analysis (COPA)",
+      "Financial Statements: P&L, Balance Sheet, Trial Balance"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "15 Classes with Step-by-Step Practice"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Real-Time Financial Process Simulations"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "End-to-End Configuration and Posting Practice"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Manual and Automated Reporting"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Interview Questions & Troubleshooting Tips"
+      }
+    ],
+    "softwareYoullLearn": [
+      "SAP GUI",
+      "SAP ECC (FI & CO Modules)",
+      "SAP Reports and Statements Tools",
+      "Navigation with Company Code/Cost Centre Setup",
+      "Bank Reconciliation Tools"
+    ],
+    "jobPositions": [
+      "SAP FICO Consultant",
+      "ERP Finance Executive",
+      "Accounts Manager (SAP Specialisation)",
+      "Cost Controller in ERP Environment",
+      "Financial Analyst (SAP Platform)",
+      "SAP End User in Finance/Controlling"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "SAP (MM)",
+    "category": "Management",
+    "type": "Offline-Online Both",
+    "image": "https://i.ibb.co/w6cMcBr/sap-mm.jpg",
+    "fee": "17000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Borson Sarker",
+    "instructorImg": "instructor_borson.jpg",
+    "instructorReviews": 75,
+    "instructorExperience": "5+ years of SAP MM module experience in procurement and supply chain",
+    "instructorBio": "Borson Sarker is an experienced SAP MM Consultant, with a focus on procurement processes, inventory management, and material valuation. He has worked in enterprise SAP environments across multiple industries and brings hands-on knowledge into the classroom.",
+    "technology": "SAP ERP, SAP GUI, SAP MM, ECC, Procurement, Inventory Management, MRP",
+    "courseStart": "TBD",
+    "duration": "13 Classes",
+    "lectures": 26,
+    "totalExam": 1,
+    "totalProject": 2,
+    "details": "SAP MM is a key module in the SAP ERP system focused on procurement and inventory functions. This course enables learners to manage purchasing processes, material valuation, and inventory movement efficiently using SAP MM tools.",
+    "courseOverview": "Master SAP MM fundamentals including PR to PO cycle, goods movements, invoice verification, and MRP. Real-world practice with cross-module integration.",
+    "curriculum": [
+      "Organisational Structure and Master Data in MM",
+      "PR, RFQ, PO, Contracts, and Scheduling Agreements",
+      "Goods Movement: GR, GI, Transfer Posting, Stock Types",
+      "Invoice and Service Entry Verification",
+      "Special Stocks: Consignment, Subcontracting, Third-Party",
+      "Pricing Procedure and Account Determination",
+      "MRP and Integration with Other SAP Modules",
+      "Physical Inventory and Inventory Reports"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "13 Classes with Hands-On SAP Practice"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Business-Cycle-Based Mini Projects"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "MM-FI-CO-SD Module Integration Practice"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Real-Time Procurement and Inventory Scenarios"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "Troubleshooting Common SAP MM Issues"
+      }
+    ],
+    "softwareYoullLearn": [
+      "SAP GUI",
+      "SAP ECC (MM Module)",
+      "Material Valuation Tools",
+      "MRP Configuration & Reporting Tools"
+    ],
+    "jobPositions": [
+      "SAP MM Consultant",
+      "Purchase Executive with SAP Knowledge",
+      "Procurement Analyst",
+      "Inventory & Warehouse Coordinator",
+      "Logistics & Supply Chain Specialist",
+      "SAP End User in Procurement and Inventory"
+    ]
+  },
+
+  {
+    "id": 19,
+    "title": "SAP (SD)",
+    "category": "Management",
+    "type": "Offline-Online Both",
+    "image": "https://i.ibb.co/z8xgbvW/sap-sd.jpg",
+    "fee": "17000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Md. Ali Ashraf, Mohammad Salah Uddin",
+    "instructorImg": "instructor_ali_salah.jpg",
+    "instructorReviews": 88,
+    "instructorExperience": "6+ years of SAP SD & logistics domain expertise with multinational projects",
+    "instructorBio": "Md. Ali Ashraf and Mohammad Salah Uddin are SAP SD experts with strong experience in implementing sales and distribution solutions across industries. They bring a hands-on approach and real-world insight into each class.",
+    "technology": "SAP ERP, SAP SD, SAP GUI, Sales Order Processing, Logistics Execution",
+    "courseStart": "TBD",
+    "duration": "21 Classes",
+    "lectures": 21,
+    "totalExam": 1,
+    "totalProject": 2,
+    "details": "SAP SD is a core module in SAP ERP that manages the entire sales and distribution process, from order to delivery to billing. Learners will gain insight into how SD integrates with FI, MM, and PP modules to enable complete order-to-cash (O2C) processing.",
+    "courseOverview": "Learn the full SAP SD sales cycle from inquiry to billing with hands-on projects, configuration practice, and industry-grade integration knowledge.",
+    "curriculum": [
+      "Sales Cycle from Inquiry to Billing",
+      "Customer, Material & Pricing Master Data",
+      "Sales Order Types, Delivery & Invoicing",
+      "Discounts, Freight, Credit/Debit Memos",
+      "Availability Check & Credit Management",
+      "Integration with FI, MM, PP Modules",
+      "SD Configuration and Output Determination",
+      "Real-time Project Scenarios and Reporting"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Regular Mock Tests and Performance Analysis"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Interactive Speaking Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "Writing Correction and Personalized Feedback"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Band Score-Oriented Training"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentorship and Support"
+      }
+    ],
+    "softwareYoullLearn": [
+      "SAP GUI",
+      "SAP SD Module in SAP ECC",
+      "T-Codes: VA01, VL01N, VF01, NACE, FD32, VK11, etc.",
+      "Output Determination and Pricing Configuration Tools"
+    ],
+    "jobPositions": [
+      "SAP SD Consultant",
+      "Sales & Order Processing Executive",
+      "Order Fulfilment Analyst",
+      "Customer Relationship & Billing Specialist",
+      "ERP End User—Sales & Logistics"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Oracle Database 19c/21c",
+    "category": "Database",
+    "type": "Offline/Online",
+    "image": "https://i.ibb.co/YBNPSSBZ/oracle-card.jpg",
+    "fee": "20000৳/8000৳",
+    "rating": 0,
+    "totalRating": 0,
+    "totalStudentsEnroll": 0,
+    "instructorName": "Md. Mijanur Rahman",
+    "instructorImg": "instructor_mijan.jpg",
+    "instructorReviews": 75,
+    "instructorExperience": "10+ years of experience in Oracle DB administration and development across telecom and banking sectors.",
+    "instructorBio": "Md. Mijanur Rahman is an Oracle Certified Professional (OCP) with over a decade of experience as a senior Oracle DBA and instructor. He has led large-scale database deployments and performance tuning projects in multiple enterprise environments.",
+    "technology": "Oracle 19c/21c, Oracle SQL, PL/SQL, SQL Developer, RMAN, Oracle Data Pump, AWR Reports",
+    "courseStart": "TBD",
+    "duration": "28 Classes",
+    "lectures": 28,
+    "totalExam": 2,
+    "totalProject": 2,
+    "details": "Oracle Database 19c/21c is a powerful RDBMS platform widely used for enterprise applications. The course also includes certification guidance and DBA tools used in real-life projects.",
+    "courseOverview": "Master Oracle SQL, PL/SQL, DBA Tools, and Performance Tuning with hands-on labs, real-world projects, and certification-focused lessons.",
+    "curriculum": [
+      "Oracle Database Architecture & Environment",
+      "SQL Syntax, Joins, Subqueries, Aggregates",
+      "PL/SQL Programming, Functions, and Triggers",
+      "DBA Essentials: Backup, Recovery, Performance Tuning",
+      "Partitioning, Indexing, Security, JSON in Oracle",
+      "User & Role Management, Oracle Scheduler",
+      "Oracle Data Pump, RMAN, AWR Reports",
+      "Certification Preparation and Practical Scenarios"
+    ],
+    "courseIncludes": [
+      {
+        "icon": "RiLiveLine",
+        "text": "Regular Mock Tests and Performance Analysis"
+      },
+      {
+        "icon": "MdLiveTv",
+        "text": "Interactive Speaking Sessions"
+      },
+      {
+        "icon": "RiExpandLeftRightLine",
+        "text": "Writing Correction and Personalized Feedback"
+      },
+      {
+        "icon": "TfiCup",
+        "text": "Band Score-Oriented Training"
+      },
+      {
+        "icon": "MdWorkOutline",
+        "text": "1-on-1 Mentorship and Support"
+      }
+    ],
+    "softwareYoullLearn": [
+      "Oracle Database 19c/21c",
+      "Oracle SQL Developer",
+      "SQL*Plus",
+      "Oracle RMAN",
+      "Oracle Data Pump",
+      "Performance Tuning Tools (AWR Reports)",
+      "Oracle Scheduler"
+    ],
+    "jobPositions": [
+      "Oracle Database Administrator (DBA)",
+      "PL/SQL Developer",
+      "SQL Analyst",
+      "Data Engineer (Oracle Ecosystem)",
+      "Technical Support: Oracle SQL & DB",
+      "Database Automation Engineer"
+    ]
+  },
+  {
     "id": 51,
     "title": "Mastering MERN Stack Web Development",
     "category": "Programming",

@@ -37,7 +37,7 @@ const Footer = () => {
                   </div>
                   <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-blue-600 hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer shadow-sm hover:shadow-md">
                     <a
-                      href="https://www.linkedin.com/company/bdcallingitltd"
+                      href="https://www.linkedin.com/company/bdcalling-academy/"
                       target="_blank"
                     >
                       <FaLinkedin className="text-xl" />
@@ -45,7 +45,7 @@ const Footer = () => {
                   </div>
                   <div className="flex items-center justify-center rounded-lg border border-gray-300 p-2 text-red-600 hover:bg-[#F79952] hover:text-white transition duration-300 ease-in-out cursor-pointer shadow-sm hover:shadow-md">
                     <a
-                      href="https://www.youtube.com/@bdCalling"
+                      href="https://www.youtube.com/@bdcallingacademy"
                       target="_blank"
                     >
                       <FaYoutube className="text-xl" />

@@ -84,8 +84,8 @@ const SingleCourse = () => {
     <>
       <div>
         <div className="bg-[#ECFCFB] pb-6">
-          <div className="space-y-6 md:space-y-14">
-            <div className="py-10 md:py-16 lg:py-22 border-b border-gray-300">
+          <div className="space-y-6 md:space-y-6">
+            <div className="py-10 md:py-16 lg:py-20 border-b border-gray-300">
               <div className="container mx-auto px-4 md:px-24">
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-6">
                   <div className="space-y-2 w-full lg:w-1/2">
@@ -178,70 +178,68 @@ const SingleCourse = () => {
             </div>
 
             {/* Tab Navigation */}
-            <div className="container mx-auto">
-              <div className="flex gap-4 border-b border-gray-300 pb-6 md:pb-14 px-4">
-                <button
-                  className={`px-5 py-2.5 rounded-md transition-all duration-300 cursor-pointer ${
-                    activeTab === "overview"
-                      ? "bg-[#43c3bc] text-white shadow-lg border-[#43c3bc]"
-                      : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
-                  }`}
-                  onClick={() => setActiveTab("overview")}
-                >
-                  Overview
-                </button>
-                <button
-                  className={`px-5 py-2.5 rounded-lg font-medium text-sm transition-all duration-300 ease-in-out cursor-pointer ${
-                    activeTab === "curriculum"
-                      ? "bg-[#43c3bc] text-white shadow-lg border-[#43c3bc]"
-                      : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
-                  }`}
-                  onClick={() => setActiveTab("curriculum")}
-                >
-                  Curriculum
-                </button>
 
-                <button
-                  className={`px-5 py-2.5 rounded-md transition-all duration-300 cursor-pointer ${
-                    activeTab === "instructor"
-                      ? "bg-[#43c3bc] text-white shadow-lg border-[#43c3bc]"
-                      : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
-                  }`}
-                  onClick={() => setActiveTab("instructor")}
-                >
-                  Instructor
-                </button>
-              </div>
-            </div>
+            <div className="flex flex-col lg:flex-row gap-10 container mx-auto px-4 md:px-24 ">
+              <div className="space-y-6 w-full lg:w-2/3 border border-gray-100 px-8 py-8 shadow-sm rounded-md bg-[#E1FCF9]">
+                <div className="">
+                  <div className="flex gap-4  rounded-md border-gray-300  py-3 px-4">
+                    <button
+                      className={`px-5 py-2.5 rounded-md transition-all border border-gray-300  shadow-none duration-300 cursor-pointer ${activeTab === "overview"
+                        ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
+                        : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
+                        }`}
+                      onClick={() => setActiveTab("overview")}
+                    >
+                      Overview
+                    </button>
+                    <button
+                      className={`px-5 py-2.5 rounded-lg font-medium shadow-none border border-gray-300 text-sm transition-all duration-300 ease-in-out cursor-pointer ${activeTab === "curriculum"
+                        ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
+                        : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
+                        }`}
+                      onClick={() => setActiveTab("curriculum")}
+                    >
+                      Curriculum
+                    </button>
 
-            <div className="flex flex-col lg:flex-row gap-10 w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
-              <div className="space-y-14 w-full lg:w-2/3">
+                    <button
+                      className={`px-5 py-2.5 rounded-md shadow-none border border-gray-300 transition-all duration-300 cursor-pointer ${activeTab === "instructor"
+                        ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
+                        : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
+                        }`}
+                      onClick={() => setActiveTab("instructor")}
+                    >
+                      Instructor
+                    </button>
+                  </div>
+                </div>
+
                 {/* Overview Tab Content */}
                 {activeTab === "overview" && (
-                  <div className="space-y-10">
+                  <div className="">
                     <div>
                       <h2 className="outfit-semibold text-2xl md:text-5xl">
-                        Course <span className="cpr">Overview</span>
+                        Course <span className="csd">Overview</span>
                       </h2>
-                      <p className="crd text-lg lg:text-md work leading-8 mt-4">
+                      <p className="crd  lg:text-md work leading-8 mt-4">
                         {course?.details}
                       </p>
                     </div>
 
-                    <div className="space-y-4">
+                    <div className="space-y-4 mt-12">
                       <h2 className="outfit-semibold text-2xl md:text-5xl">
-                        This course<span className="cpr"> Includes</span>
+                        This course<span className="csd"> Includes</span>
                       </h2>
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3  rounded-md">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                         {course?.courseIncludes.map((item, index) => (
                           <div
                             key={index}
-                            className=" border p-4 rounded-md border-gray-300 flex flex-col items-center justify-center  gap-1.5"
+                            className=" flex gap-2 items-top border items-center border-gray-200 p-2 rounded-md work"
                           >
                             {React.cloneElement(iconMap[item.icon], {
-                              className: "text-gray-400 csd  text-4xl",
+                              className: "text-gray-400  text-xl",
                             })}
-                            <p className="text-md work crd">{item.text}</p>
+                            <p className="text-md work ">{item.text}</p>
                           </div>
                         ))}
                       </div>
@@ -253,7 +251,7 @@ const SingleCourse = () => {
                 {activeTab === "curriculum" && (
                   <div className="space-y-10">
                     <h2 className="outfit-semibold text-2xl md:text-5xl">
-                      What <span className="cpr">You'll Learn</span>
+                      What <span className="csd">You'll Learn</span>
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {course?.curriculum.map((item, index) => (
@@ -269,16 +267,16 @@ const SingleCourse = () => {
 
                     <div className="my-6 md:my-10 space-y-4">
                       <h2 className="outfit-semibold text-2xl md:text-5xl">
-                        Software<span className="cpr"> You'll Learn</span>
+                        Software<span className="csd"> You'll Learn</span>
                       </h2>
                       <div className="border border-gray-300 rounded-lg p-6 space-y-4">
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                           {course?.softwareYoullLearn.map((software, index) => (
                             <div
                               key={index}
                               className="flex items-center gap-1.5"
                             >
-                              <FaCheck className="cpr text-base" />
+                              <BsArrowRightCircle className="text-gray-400  text-base " />
                               <p className="text-md crd">{software}</p>
                             </div>
                           ))}
@@ -288,7 +286,7 @@ const SingleCourse = () => {
 
                     <div className="space-y-4">
                       <h2 className="outfit-semibold text-2xl md:text-5xl">
-                        Open<span className="cpr"> Job Positions</span>
+                        Open<span className="csd"> Job Positions</span>
                       </h2>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 border border-gray-300 rounded-lg p-6">
                         {course?.jobPositions.map((job, index) => (
@@ -296,7 +294,7 @@ const SingleCourse = () => {
                             key={index}
                             className="flex items-center gap-1.5"
                           >
-                            <div className="w-3 h-3 rounded-full bg-[#F79952]"></div>
+                            <BsArrowRightCircle className="text-gray-400 text-base " />
                             <p className="crd text-md">{job}</p>
                           </div>
                         ))}
@@ -306,7 +304,7 @@ const SingleCourse = () => {
                 )}
 
                 {/* Instructor Tab Content */}
-                {activeTab === "instructor" && (
+                {/* {activeTab === "instructor" && (
                   <div className="space-y-4">
                     <h2 className="outfit-semibold text-2xl md:text-5xl">
                       <span className="cpr">Instructor</span>
@@ -346,13 +344,13 @@ const SingleCourse = () => {
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
                     </p>
                   </div>
-                )}
+                )} */}
               </div>
 
               {/* Popular Courses Sidebar */}
               <div className="w-full lg:w-1/3 lg:sticky lg:top-25 lg:self-start ">
                 <div className="space-y-6">
-                  <h3 className="text-[#f81515] text-2xl md:text-5xl outfit-semibold text-center">
+                  <h3 className="cpr text-2xl md:text-5xl outfit-semibold text-center">
                     Popular <span className="crd">Courses</span>
                   </h3>
                   <div className="flex flex-wrap justify-center gap-6">

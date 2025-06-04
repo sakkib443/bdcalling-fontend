@@ -11,6 +11,9 @@ import OurConcernimg3 from "../../../assets/img/Our Working Partner Images/Our C
 import OurConcernimg4 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/4_sparktech.png";
 import OurConcernimg5 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/5_scaleup.png";
 import OurConcernimg6 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/6_Data-insight.png";
+import OurConcernimg7 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/1738666687308.jpeg";
+import OurConcernimg8 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/zenex.png";
+import OurConcernimg9 from "../../../assets/img/Our Working Partner Images/Our Concerns all images/bdcalling.png";
 
 import ColaborationWithimg1 from "../../../assets/img/Our Working Partner Images/Working with all images/1_bteb.png";
 import ColaborationWithimg2 from "../../../assets/img/Our Working Partner Images/Working with all images/2_ict.png";
@@ -57,13 +60,60 @@ import MemberOfimg2 from "../../../assets/img/Our Working Partner Images/Members
 const Concerns = () => {
   const images = [
     // Our Concerns
-    { id: 1, category: "Our Concern", src: OurConcernimg1 },
-    { id: 2, category: "Our Concern", src: OurConcernimg2 },
-    { id: 3, category: "Our Concern", src: OurConcernimg3 },
-    { id: 4, category: "Our Concern", src: OurConcernimg4 },
-    { id: 5, category: "Our Concern", src: OurConcernimg5 },
-    { id: 6, category: "Our Concern", src: OurConcernimg6 },
-
+    {
+      id: 1,
+      category: "Our Concern",
+      src: OurConcernimg1,
+      link: "https://softvence.agency/",
+    },
+    {
+      id: 2,
+      category: "Our Concern",
+      src: OurConcernimg2,
+      link: "https://smtech24.com/",
+    },
+    {
+      id: 3,
+      category: "Our Concern",
+      src: OurConcernimg3,
+      link: "https://backbencher.studio/",
+    },
+    {
+      id: 4,
+      category: "Our Concern",
+      src: OurConcernimg4,
+      link: "https://www.sparktech.agency/",
+    },
+    {
+      id: 5,
+      category: "Our Concern",
+      src: OurConcernimg5,
+      link: "https://scaleupadsagency.com/",
+    },
+    {
+      id: 6,
+      category: "Our Concern",
+      src: OurConcernimg6,
+      link: "https://www.facebook.com/profile.php?id=61568359432521",
+    },
+    {
+      id: 7,
+      category: "Our Concern",
+      src: OurConcernimg7,
+      link: "https://www.joinventureai.com/", // যদি এইটির লিংক এখনো না থাকে
+    },
+    {
+      id: 8,
+      category: "Our Concern",
+      src: OurConcernimg8,
+      link: "https://zenexcloud.com/",
+    },
+    {
+      id: 9,
+      category: "Our Concern",
+      src: OurConcernimg9,
+      link: "https://bdcalling.com/",
+    },
     // Collaborations With
     { id: 7, category: "Colaboration With", src: ColaborationWithimg1 },
     { id: 8, category: "Colaboration With", src: ColaborationWithimg2 },
@@ -109,38 +159,7 @@ const Concerns = () => {
     { id: 46, category: "Member Of", src: MemberOfimg2 },
   ];
 
-  //   const [selectedCategory, setSelectedCategory] = useState("Our Concern");
-  //   const [page, setPage] = useState(0);
-  //   const imagesPerPage = 10;
 
-  //   const handleCategoryChange = (category) => {
-  //     setSelectedCategory(category);
-  //     setPage(0);
-  //   };
-
-  //   const handleNext = () => {
-  //     const totalPages = Math.ceil(filteredImages.length / imagesPerPage);
-  //     if (page + 1 < totalPages) {
-  //       setPage((prev) => prev + 1);
-  //     } else {
-  //       setPage(0);
-  //     }
-  //   };
-
-  //   const handlePrev = () => {
-  //     if (page > 0) {
-  //       setPage((prev) => prev - 1);
-  //     }
-  //   };
-
-  //   const filteredImages = images.filter(
-  //     (image) => image.category === selectedCategory
-  //   );
-  //   const paginatedImages = filteredImages.slice(
-  //     page * imagesPerPage,
-  //     (page + 1) * imagesPerPage
-  //   );
-  // const hasMoreImages = filteredImages.length > (page + 1) * imagesPerPage;
 
   const [selectedCategory, setSelectedCategory] = useState("Our Concern");
 
@@ -176,11 +195,10 @@ const Concerns = () => {
                     >
                       <p
                         onClick={() => setSelectedCategory(cat)}
-                        className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${
-                          selectedCategory === cat
-                            ? "bg-[#41bfb8] text-white"
-                            : "bg-[#ecfcfb] dark:text-gray-500"
-                        }`}
+                        className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${selectedCategory === cat
+                          ? "bg-[#41bfb8] text-white"
+                          : "bg-[#ecfcfb] dark:text-gray-500"
+                          }`}
                       >
                         {cat}
                       </p>
@@ -202,13 +220,17 @@ const Concerns = () => {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.4, delay: index * 0.05 }}
                         >
-                          <div className="w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl">
-                            <img
-                              src={image.src}
-                              alt={`Image ${image.id}`}
-                              className="w-20"
-                            />
-                          </div>
+                          <a href={image.link} target="_blank">
+                            <div className="w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl">
+
+                              <img
+                                src={image.src}
+                                alt={`Image ${image.id}`}
+                                className="w-20"
+                              />
+
+                            </div>
+                          </a>
                         </motion.div>
                       ))
                     ) : (

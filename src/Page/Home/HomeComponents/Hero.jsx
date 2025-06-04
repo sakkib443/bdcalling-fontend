@@ -30,7 +30,7 @@ const Hero = () => {
 
             </h1>
             <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] work">
-              Welcome to Bdcalling Academy – the best place to build your IT career! We offer a range of expert-led courses to boost your tech skills and help you grow. Learn from real-world professionals, gain hands-on experience, and turn your dreams into reality. Start your journey with Bdcalling Academy today!
+            Welcome to Bdcalling Academy, a concern of Betopia Group, where you can hone your skills and reach out to the sky with your dreams. We offer a wide range of courses to boost your tech skills and advance your career. Learn from expert instructors and turn your IT knowledge into a pathway to success with Bdcalling Academy.
             </p>
 
             {/* Stats */}
@@ -104,7 +104,7 @@ const Hero = () => {
                   <p className="text-white  work ">Join Seminar & Events</p>
                 </button>
               </Link>
-              <Link to="/successStory">
+              <Link to="/success-story">
                 <button className="flex gap-2 text-base sm:text-lg md:text-xl items-center border border-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-gray-50 transition-colors">
                   <LuBookOpenCheck className="text-xl sm:text-2xl text-[#41bfb8] font-semibold" />
                   <p className="text-[#41bfb8] work font-semibold">Success Story</p>

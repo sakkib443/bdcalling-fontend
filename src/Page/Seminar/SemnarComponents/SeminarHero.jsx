@@ -8,7 +8,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const SeminarHero = () => {
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-06-30T00:00:00"); // 🎯 Your target date/time
+        const targetDate = new Date("2025-07-30T00:00:00"); // 🎯 Your target date/time
         const now = new Date();
         const difference = targetDate - now;
 
@@ -47,8 +47,8 @@ const SeminarHero = () => {
     }, [pathname]);
     return (
         <div>
-            <div className='bg-cover bg-center relative'  style={{ backgroundImage: `url("https://scontent.fdac177-1.fna.fbcdn.net/v/t39.30808-6/490296322_1085750183597401_5712161885394260277_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=E5t3W2JZECMQ7kNvwHeSRGd&_nc_oc=Adm_xDoOefFQPpzzfazwNkKTygdAi0hHLGW76NxSlYixYgbJN6PLg9d5oqnRIIacl4A&_nc_zt=23&_nc_ht=scontent.fdac177-1.fna&_nc_gid=1iNYmsmxH7sywWvIVIMCeA&oh=00_AfKVJVsHcGKt6wItmoHodirhtaOMOeL5ZvsLl3v0gqa8sA&oe=683B4D9C")` }}>
-                 <div className="absolute inset-0 bg-gray-900 bg-opacity-70"></div>
+            <div className='bg-[#ECFCFB] relative' >
+              
                
                 <div className='flex flex-col justify-center items-center lg:py-12'>
 
@@ -79,7 +79,7 @@ const SeminarHero = () => {
                         </div>
 
 
-                        <div className="flex-1  items-center border border-gray-300 rounded-2xl w-full  py-12 lg:mt-0 bg-gray-100">
+                        <div className="flex-1  items-center border border-gray-100 rounded-2xl w-full  py-12 lg:mt-0 shadow-2xl">
                             <div className='flex justify-center items-end gap-24'>
                                 <div>
                                     <p className='work'>Start</p>
