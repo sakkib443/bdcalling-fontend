@@ -91,6 +91,10 @@ const Events = () => {
           </div>
         </div>
       </div>
+
+      <div>
+        <p>Thank You</p>
+      </div>
     </div>
   );
 };
