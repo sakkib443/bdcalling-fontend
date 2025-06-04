@@ -32,7 +32,7 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                 </p>
               </div>
 
-              <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd">
+              <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd line-clamp-2">
                 {title}
               </h2>
 

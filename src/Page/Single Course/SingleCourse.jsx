@@ -15,9 +15,11 @@ import { Link } from "react-router-dom";
 import { BiCategory } from "react-icons/bi";
 import { CiCircleCheck } from "react-icons/ci";
 import { BsArrowRightCircle } from "react-icons/bs";
+
 const SingleCourse = () => {
   const [course, setCourse] = useState(null);
   const [populerCourse, setPopulerCourse] = useState([]);
+  const [activeTab, setActiveTab] = useState("overview");
   const { id } = useParams();
 
   const iconMap = {
@@ -43,7 +45,6 @@ const SingleCourse = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  // Render star ratings dynamically
   const renderStars = (rating) => {
     const stars = [];
     const fullStars = Math.floor(rating);
@@ -60,7 +61,6 @@ const SingleCourse = () => {
     return stars;
   };
 
-  // Render icons based on name
   const renderIcon = (iconName) => {
     switch (iconName) {
       case "RiLiveLine":
@@ -84,43 +84,47 @@ const SingleCourse = () => {
     <>
       <div>
         <div className="bg-[#ECFCFB] pb-6">
-          <div className="space-y-14">
-            <div className="py-22 border-b border-gray-300">
-              <div className="container mx-auto px-24">
+          <div className="space-y-6 md:space-y-14">
+            <div className="py-10 md:py-16 lg:py-22 border-b border-gray-300">
+              <div className="container mx-auto px-4 md:px-24">
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-6">
                   <div className="space-y-2 w-full lg:w-1/2">
-                  <p className="text-xl outfit-semibold crd">Intodusing to our</p>
+                    <p className="text-xl outfit-semibold crd">
+                      Introducing to our
+                    </p>
                     <h1 className="crd font-bold mb-4 outfit text-3xl xl:text-5xl">
                       {course?.title}
                     </h1>
-                    <div className="flex gap-3">
+                    <div className="flex flex-wrap gap-3">
                       <div className="py-2 px-12 border border-gray-200 rounded-md text-center">
                         <p className="crd outfit font-bold text-lg lg:text-md">
                           {course?.duration} Month
                         </p>
-                         <p className="crd text-base work lg:text-md">Duration</p>
+                        <p className="crd text-base work lg:text-md">
+                          Duration
+                        </p>
                       </div>
                       <div className="py-2  px-12 border border-gray-200 rounded-md text-center">
-                       
                         <p className="text-black font-bold text-lg lg:text-md">
                           {course?.lectures}+
                         </p>
-                         <p className="crd text-base lg:text-md">Lectures</p>
+                        <p className="crd text-base lg:text-md">Lectures</p>
                       </div>
                       <div className="py-2  px-12 border border-gray-200 rounded-md text-center">
-                      
                         <p className="text-black font-bold text-lg outfit lg:text-md">
                           {course?.totalProject} +
                         </p>
-                          <p className="crd text-base lg:text-md work">Projects</p>
+                        <p className="crd text-base lg:text-md work">
+                          Projects
+                        </p>
                       </div>
                     </div>
                     <div>
                       <p className="text-base md:text-md crd work w-11/12">
-                          {course?.details}
-                        </p>
+                        {course?.details}
+                      </p>
                     </div>
-              
+
                     <div className="flex flex-wrap items-center gap-6">
                       <p className="text-xl md:text-3xl text-gray-800 outfit-semibold">
                         Course Fee: {course?.fee}
@@ -173,61 +177,101 @@ const SingleCourse = () => {
               </div>
             </div>
 
+            {/* Tab Navigation */}
+            <div className="container mx-auto">
+              <div className="flex gap-4 border-b border-gray-300 pb-6 md:pb-14 px-4">
+                <button
+                  className={`px-5 py-2.5 rounded-md transition-all duration-300 cursor-pointer ${
+                    activeTab === "overview"
+                      ? "bg-[#43c3bc] text-white shadow-lg border-[#43c3bc]"
+                      : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
+                  }`}
+                  onClick={() => setActiveTab("overview")}
+                >
+                  Overview
+                </button>
+                <button
+                  className={`px-5 py-2.5 rounded-lg font-medium text-sm transition-all duration-300 ease-in-out cursor-pointer ${
+                    activeTab === "curriculum"
+                      ? "bg-[#43c3bc] text-white shadow-lg border-[#43c3bc]"
+                      : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
+                  }`}
+                  onClick={() => setActiveTab("curriculum")}
+                >
+                  Curriculum
+                </button>
 
-
-            
-            {/* <div className="border border-gray-200 py-14">
-              <div className="space-y-10 w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
-                <h2 className="font-bold  text-2xl md:text-5xl outfit">
-                  Course <span className="cpr"> Overview</span>
-                </h2>
-                <p className="crd text-lg lg:text-md work leading-8 ">
-                  {course?.courseOverview}
-                </p>
+                <button
+                  className={`px-5 py-2.5 rounded-md transition-all duration-300 cursor-pointer ${
+                    activeTab === "instructor"
+                      ? "bg-[#43c3bc] text-white shadow-lg border-[#43c3bc]"
+                      : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
+                  }`}
+                  onClick={() => setActiveTab("instructor")}
+                >
+                  Instructor
+                </button>
               </div>
-            </div> */}
+            </div>
+
             <div className="flex flex-col lg:flex-row gap-10 w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
               <div className="space-y-14 w-full lg:w-2/3">
-                <div className="">
-                  <div className="">
-                    <div className="pb-8 lg:pb-14 space-y-10">
-                      <div className=" border-gray-300 rounded-lg  space-y-4">
-                        <h2 className="outfit-semibold  text-2xl md:text-5xl">
-                          What <span className="cpr">You'll Learn</span>
-                        </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                          {course?.curriculum.map((item, index) => (
-                            <div key={index} className="flex gap-1.5 items-top border border-gray-200 p-2 rounded-md work">
-                              <BsArrowRightCircle className="text-gray-400 mt-2 text-base " />
-                              <p className="text-md crd">{item}</p>
-                            </div>
-                          ))}
-                        </div>
+                {/* Overview Tab Content */}
+                {activeTab === "overview" && (
+                  <div className="space-y-10">
+                    <div>
+                      <h2 className="outfit-semibold text-2xl md:text-5xl">
+                        Course <span className="cpr">Overview</span>
+                      </h2>
+                      <p className="crd text-lg lg:text-md work leading-8 mt-4">
+                        {course?.details}
+                      </p>
+                    </div>
+
+                    <div className="space-y-4">
+                      <h2 className="outfit-semibold text-2xl md:text-5xl">
+                        This course<span className="cpr"> Includes</span>
+                      </h2>
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3  rounded-md">
+                        {course?.courseIncludes.map((item, index) => (
+                          <div
+                            key={index}
+                            className=" border p-4 rounded-md border-gray-300 flex flex-col items-center justify-center  gap-1.5"
+                          >
+                            {React.cloneElement(iconMap[item.icon], {
+                              className: "text-gray-400 csd  text-4xl",
+                            })}
+                            <p className="text-md work crd">{item.text}</p>
+                          </div>
+                        ))}
                       </div>
-                      <div className="space-y-4 lg:mt-24">
-                        <h2 className="outfit-semibold  text-2xl md:text-5xl">
-                          This course<span className="cpr"> includes</span>
-                        </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3  rounded-md">
-                          {course?.courseIncludes.map((item, index) => (
-                            <div key={index} className=" border p-4 rounded-md border-gray-300 flex flex-col items-center justify-center  gap-1.5">
-                              {React.cloneElement(iconMap[item.icon], {
-                                className: "text-gray-400 csd  text-4xl",
-                              })}
-                              <p className="text-md work crd">{item.text}</p>
-                            </div>
-                          ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Curriculum Tab Content */}
+                {activeTab === "curriculum" && (
+                  <div className="space-y-10">
+                    <h2 className="outfit-semibold text-2xl md:text-5xl">
+                      What <span className="cpr">You'll Learn</span>
+                    </h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {course?.curriculum.map((item, index) => (
+                        <div
+                          key={index}
+                          className="flex gap-1.5 items-top border border-gray-200 p-2 rounded-md work"
+                        >
+                          <BsArrowRightCircle className="text-gray-400 mt-2 text-base " />
+                          <p className="text-md crd">{item}</p>
                         </div>
-                      </div>
+                      ))}
+                    </div>
 
-
-
-
-                      
+                    <div className="my-6 md:my-10 space-y-4">
+                      <h2 className="outfit-semibold text-2xl md:text-5xl">
+                        Software<span className="cpr"> You'll Learn</span>
+                      </h2>
                       <div className="border border-gray-300 rounded-lg p-6 space-y-4">
-                        <h2 className="outfit-semibold csd text-2xl md:text-3xl">
-                          Software You'll Learn
-                        </h2>
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                           {course?.softwareYoullLearn.map((software, index) => (
                             <div
@@ -240,57 +284,69 @@ const SingleCourse = () => {
                           ))}
                         </div>
                       </div>
-                      <div className="space-y-4">
-                        <h2 className="outfit-semibold csd text-2xl md:text-3xl">
-                          Open Job Positions
-                        </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 border border-gray-300 rounded-lg p-6">
-                          {course?.jobPositions.map((job, index) => (
-                            <div
-                              key={index}
-                              className="flex items-center gap-1.5"
-                            >
-                              <div className="w-3 h-3 rounded-full bg-[#F79952]"></div>
-                              <p className="crd text-md">{job}</p>
-                            </div>
-                          ))}
+                    </div>
+
+                    <div className="space-y-4">
+                      <h2 className="outfit-semibold text-2xl md:text-5xl">
+                        Open<span className="cpr"> Job Positions</span>
+                      </h2>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 border border-gray-300 rounded-lg p-6">
+                        {course?.jobPositions.map((job, index) => (
+                          <div
+                            key={index}
+                            className="flex items-center gap-1.5"
+                          >
+                            <div className="w-3 h-3 rounded-full bg-[#F79952]"></div>
+                            <p className="crd text-md">{job}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {/* Instructor Tab Content */}
+                {activeTab === "instructor" && (
+                  <div className="space-y-4">
+                    <h2 className="outfit-semibold text-2xl md:text-5xl">
+                      <span className="cpr">Instructor</span>
+                    </h2>
+                    <div className="flex items-center gap-6 rounded-lg">
+                      <div className="size-26 rounded-full overflow-hidden">
+                        <img
+                          className="w-full h-full object-cover"
+                          src={course?.instructorImg}
+                          alt={course?.instructorName}
+                        />
+                      </div>
+                      <div className="space-y-1 outfit-semibold crd">
+                        <h5 className="text-lg md:text-xl">
+                          {course?.instructorName}
+                        </h5>
+                        <p className="text-base md:text-lg">
+                          {course?.instructorEmail ||
+                            "Expert Photography Instructor"}
+                        </p>
+                        <div className="flex items-center gap-2 mt-3">
+                          <div className="flex">{renderStars(4.9)}</div>
+                          <span className="text-gray-600">
+                            ({course?.instructorReviews} Reviews)
+                          </span>
+                          <span className="text-gray-600 hidden md:block">
+                            ({course?.instructorExperience} Experience)
+                          </span>
                         </div>
                       </div>
-           
                     </div>
+                    <p className="text-gray-600 outfit-semibold block md:hidden crd">
+                      ({course?.instructorExperience} Experience)
+                    </p>
+                    <p className="text-gray-600 text-base md:text-lg font-medium">
+                      {course?.instructorBio ||
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
+                    </p>
                   </div>
-                </div>
-
-
-
-
-
-
-
-
-                {/* Instructor Section */}
-                <div className="space-y-4">
-                  <h2 className="outfit-semibold csd text-2xl md:text-3xl">
-                    Instructor
-                  </h2>
-                  <div className="flex items-center gap-6 rounded-lg">
-                    <div className="size-26 rounded-full overflow-hidden">
-                      <img
-                        className="w-full h-full object-cover"
-                        src={course?.instructorImg}
-                        alt={course?.instructorName}
-                      />
-                    </div>
-                    <div className="space-y-1 outfit-semibold crd">
-                      <h5 className="text-lg md:text-xl">
-                        {course?.instructorName}
-                      </h5>
-                      <p className="text-base md:text-lg">
-                        {course?.instructorEmail}
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                )}
               </div>
 
               {/* Popular Courses Sidebar */}
@@ -325,7 +381,7 @@ const SingleCourse = () => {
                                 {item.type}
                               </p>
                             </div>
-                            <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd">
+                            <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd line-clamp-2">
                               {item.title}
                             </h2>
                             <div className="flex justify-between pr-8 items-center">
