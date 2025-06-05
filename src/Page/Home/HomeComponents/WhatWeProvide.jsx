@@ -15,23 +15,18 @@ const WhatWeProvide = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8 ">
-          
+
           {/* Card 1 */}
           <div className="px-6 py-8 md:px-8 md:py-10 lg:px-12 lg:py-12 bg-[#f0fdfc] rounded-2xl  cursor-pointer
             transition-all duration-300 ease-in-out 
             hover:scale-105 hover:shadow-2xl hover:bg-[#e0f7f5]">
-            
+
             <FcCollaboration className="text-5xl md:text-6xl" />
             <h2 className="outfit-semibold my-4 text-xl md:text-2xl font-bold text-black">
               Job Placement Support 🎯
             </h2>
             <p className="work crd text-sm md:text-base">
-              At Bdcalling Academy, we believe in building a lasting
-              relationship with our students. Our commitment doesn't end with
-              the course—our dedicated support team is here for you 24/7, even
-              long after you've completed your training. With personalized
-              guidance and continuous support, we help you overcome career
-              challenges and grow every single day.
+              At Bdcalling Academy, we offer more than just technical skills. Our soft skills & CV class is designed to help you pursue your dream career. Above all, our dedicated placement support team is here to offer personalised advice, interview preparation, and valuable industry connections to help you snag your desired position. So why wait? Take the next step in your career journey with us at Bdcalling Academy!
             </p>
           </div>
 
@@ -39,7 +34,7 @@ const WhatWeProvide = () => {
           <div className="px-6 py-8 md:px-8 md:py-10 lg:px-12 lg:py-12 bg-[#fafaee] rounded-2xl  cursor-pointer
             transition-all duration-300 ease-in-out 
             hover:scale-105 hover:shadow-2xl hover:bg-[#f3f3d6]">
-            
+
             <FcCollaboration className="text-5xl md:text-6xl" />
             <h2 className="outfit-semibold my-4 text-xl md:text-2xl font-bold text-black">
               Lifetime Support 🚀
@@ -58,7 +53,7 @@ const WhatWeProvide = () => {
           <div className="px-6 py-8 md:px-8 md:py-10 lg:px-12 lg:py-12 bg-[#ecfcfb] rounded-2xl  cursor-pointer
             transition-all duration-300 ease-in-out 
             hover:scale-105 hover:shadow-2xl hover:bg-[#d7f7f6]">
-            
+
             <FcCollaboration className="text-5xl md:text-6xl" />
             <h2 className="outfit-semibold my-4 text-xl md:text-2xl font-bold text-black">
               Get Certification 🏅

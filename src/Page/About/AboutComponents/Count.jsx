@@ -47,7 +47,7 @@ const Count = () => {
 
     return (
         <div className="py-12 bg-[#ecfcfb]">
-            <div className=" w-9/12 mx-auto  px-4 sm:px-6 lg:px-8">
+            <div className=" container mx-auto  px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
                     {counters.map((item, index) => {
                         const Icon = getIconComponent(item?.icon);

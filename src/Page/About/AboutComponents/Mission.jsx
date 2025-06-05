@@ -11,9 +11,9 @@ const Mission = () => {
                     </div>
                     <p>How We Start Journey</p>
                 </div>
-                <h1 className="outfit-semibold lg:text-[40px] md:text-[30px] text-2xl my-2 md:my-0">
+                <h1 className="outfit-semibold lg:text-[40px] md:text-[30px] text-4xl my-2 md:my-0">
                     Our Mission
-                    <span className="cpr"> & Vition</span>  <br />
+                    <span className="cpr"> & Vision</span>  <br />
 
                 </h1>
 

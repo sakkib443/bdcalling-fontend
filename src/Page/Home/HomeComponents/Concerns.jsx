@@ -221,7 +221,7 @@ const Concerns = () => {
                           transition={{ duration: 0.4, delay: index * 0.05 }}
                         >
                           <a href={image.link} target="_blank">
-                            <div className="w-44 h-36 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl">
+                            <div className="lg:w-44 lg:h-36 w-24 h-18 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl">
 
                               <img
                                 src={image.src}

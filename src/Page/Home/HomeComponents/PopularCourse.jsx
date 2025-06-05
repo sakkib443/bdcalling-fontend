@@ -10,7 +10,7 @@ const PopularCourse = () => {
         <SectionHeading
           title={"Popular Courses"}
           description={
-            "Bdcalling Academy offers a variety of courses, and upon successful completion, we provide job in our company Additionally,  we offer scholarships  in different categories   to support aspiring individuals. Our training programs include hands-on experience with real client projects,  ensuring a comprehensive and practical learning experience. "
+            "At Bdcalling Academy, we provide diverse courses tailored to fit the demands of today’s job market. Whether you’re just starting and eager to dive into a new field or a seasoned professional looking to enhance your skills, we have the perfect course for you. "
           }
         ></SectionHeading>
         <PopularCourseCard></PopularCourseCard>

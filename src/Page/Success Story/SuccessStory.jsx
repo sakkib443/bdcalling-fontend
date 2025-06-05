@@ -37,7 +37,7 @@ const SuccessHistory = () => {
           <div className="">
             <SectionHeading
               title={"Success Stories"}
-              description={"Bdcalling Academy offers a variety of courses, and upon successful completion, we provide job opportunities within our company. Additionally, we offer scholarships in different categories to support aspiring individuals. Our training programs include hands-on experience with real client projects, ensuring a comprehensive and practical learning experience."}
+              description={"At Bdcalling Academy, our students gain more than just skills—they gain opportunities. With real client project-based training, they graduate with the skills for real-world challenges. Many go on to secure roles within our company, supported by hands-on learning that sets them apart. Every success story starts with a single step, and we’re here to guide you all the way."}
             />
 
             {/* Filter Buttons */}

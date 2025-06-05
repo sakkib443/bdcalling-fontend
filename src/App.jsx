@@ -47,7 +47,7 @@ function App() {
             <Route path="login" element={<LoginPage />} />
             <Route path="signup" element={<RegisterPage />} />
             <Route path="/courses/:id" element={<SingleCourse />} />
-            <Route path="our-team" element={<OurTeam />} />
+            <Route path="team" element={<OurTeam />} />
             <Route path="certification" element={<Certification />} />
             <Route path="success-story" element={<SuccessStory />} />
           </Route>

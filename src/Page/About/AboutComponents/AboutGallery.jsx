@@ -33,7 +33,7 @@ const AboutGallery = () => {
 
     return (
         <div className="bg-[#f0fdfa] py-16 px-4">
-            <div className="w-10/12 mx-auto space-y-6">
+            <div className="container mx-auto space-y-6">
                 {/* Large Image */}
                 {images.length > 0 && (
                     <div className="w-10/12 mx-auto h-[500px] overflow-hidden rounded-xl shadow-lg">

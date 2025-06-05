@@ -6,7 +6,7 @@ import hero3 from "../../../assets/img/aboutpage/hero3.jpg"
 const AboutHero = () => {
     return (
         <div className='pt-10 bg-[#ecfcfb] '>
-            <div className='mx-auto w-9/12'>
+            <div className='mx-auto container px-4 lg:px-12'>
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-8 ">
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="overflow-hidden ">
