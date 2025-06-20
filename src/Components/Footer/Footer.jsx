@@ -12,7 +12,7 @@ import rocket from "../../assets/img/rocket.png";
 const Footer = () => {
   return (
     <>
-      <div>
+      <div className="mt-12">
         <div >
           <div className="">
             <h2 className="text-center outfit text-4xl mb-4 crd">Our Payment Mathod</h2>

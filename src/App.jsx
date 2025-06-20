@@ -14,6 +14,7 @@ import Certification from "./Page/Certification/Certification";
 import OfferModal from "./Components/OfferModel";
 import Seminar from "./Page/Seminar/Seminar";
 import SuccessStory from "./Page/Success Story/SuccessStory";
+import Mentors from "./Page/Mentors/Mentors";
 
 function App() {
   const location = useLocation();
@@ -26,7 +27,7 @@ function App() {
       const timer = setTimeout(() => {
         setShowModal(true);
         sessionStorage.setItem("bdc_session_seen_offer", "true");
-      }, 2000);
+      }, 1000);
 
       return () => clearTimeout(timer);
     }
@@ -50,6 +51,7 @@ function App() {
             <Route path="team" element={<OurTeam />} />
             <Route path="certification" element={<Certification />} />
             <Route path="success-story" element={<SuccessStory />} />
+            <Route path="mentors" element={<Mentors></Mentors>} />
           </Route>
         </Routes>
       </div>
