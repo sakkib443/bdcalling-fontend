@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import LeftCategory from "./Courses Components/Left Section/LeftCategory";
 import RightCoursesDetalis from "./Courses Components/Right Section/RightCoursesDetalis";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import SectionHeading from "../../Components/Shared/SectionHeading";
 
 const Course = () => {
@@ -126,6 +126,15 @@ const Course = () => {
 
   return (
     <>
+      <div
+
+        className="animated-bg fixed z-50 left-0 top-7/12 -translate-y-1/2 text-white px-6 py-2 rounded-l-lg cursor-pointer shadow-2xl "
+        style={{ writingMode: 'vertical-rl', transform: 'translateY(-50%) rotate(180deg)' }}
+      >
+        <Link to='/events'>
+          <h3 className=" outfit-semibold uppercase">Join Seminar</h3>
+        </Link>
+      </div>
       <div className="bg-[#ecfcfb] py-8">
         <div className="mb-24 ">
           <SectionHeading
@@ -165,11 +174,10 @@ const Course = () => {
                         <button
                           onClick={loadMorecourses}
                           disabled={loadMoreLoading}
-                          className={`px-6 py-2 cursor-pointer ${
-                            loadMoreLoading
+                          className={`px-6 py-2 cursor-pointer ${loadMoreLoading
                               ? "bg-[#F79952]cursor-not-allowed"
                               : "bg-[#f2a56a] hover:bg-[#F79952]"
-                          } text-white rounded-lg transition duration-300`}
+                            } text-white rounded-lg transition duration-300`}
                         >
                           {loadMoreLoading ? "Loading..." : "Load More"}
                         </button>

@@ -27,6 +27,15 @@ const Contact = () => {
   return (
     <div className="bg-[#ECFCFB] font-sans text-gray-800 relative min-h-screen">
       {/* Blur background overlay */}
+         <div
+      
+              className="animated-bg fixed z-50 left-0 top-7/12 -translate-y-1/2 text-white px-6 py-2 rounded-l-lg cursor-pointer shadow-2xl "
+              style={{ writingMode: 'vertical-rl', transform: 'translateY(-50%) rotate(180deg)' }}
+            >
+              <Link to='/events'>
+                <h3 className=" outfit-semibold uppercase">Join Seminar</h3>
+              </Link>
+            </div>
       {messageSent && (
         <div className="fixed inset-0  backdrop-blur-sm z-40"></div>
       )}

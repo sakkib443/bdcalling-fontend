@@ -10,6 +10,7 @@ import Employe from "./HomeComponents/Employe";
 import Concerns from "./HomeComponents/Concerns";
 import SeminarAndEvent from "./HomeComponents/SeminarAndEvent";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -22,8 +23,16 @@ const Home = () => {
   };
 
   return (
-    <div className="">
+    <div className="relative">
+      <div
 
+        className="animated-bg fixed z-50 left-0 top-7/12 -translate-y-1/2 text-white px-6 py-2 rounded-l-lg cursor-pointer shadow-2xl "
+        style={{ writingMode: 'vertical-rl', transform: 'translateY(-50%) rotate(180deg)' }}
+      >
+        <Link to='/events'>
+          <h3 className=" outfit-semibold uppercase">Join Seminar</h3>
+        </Link>
+      </div>
       {/* WhatsApp Button */}
       <div
         onClick={handleWhatsAppClick}

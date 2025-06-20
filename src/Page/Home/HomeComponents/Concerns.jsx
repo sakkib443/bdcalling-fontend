@@ -226,7 +226,7 @@ const Concerns = () => {
                               <img
                                 src={image.src}
                                 alt={`Image ${image.id}`}
-                                className="w-20"
+                                className="w-28"
                               />
 
                             </div>

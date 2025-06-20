@@ -5,7 +5,7 @@ import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 import logo from "../../assets/img/logo.png";
 import { Link } from "react-router-dom";
-import bkash from "../../assets/img/bkash.png";
+import bkash from "../../assets/img/bkash.webp";
 import nagad from "../../assets/img/nagad.png";
 import rocket from "../../assets/img/rocket.png";
 
@@ -13,8 +13,24 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div>
-       
+        <div >
+          <div className="">
+            <h2 className="text-center outfit text-4xl mb-4 crd">Our Payment Mathod</h2>
+          </div>
+          <div className="flex  flex-col md:flex-row items-center justify-center md:gap-18 gap-6 mb-6 ">
+            <div className="flex flex-col items-center border border-gray-200 px-12 py-8 rounded-md">
+              <img src={bkash} alt="Bkash Logo" className="w-16 aspect-[4/3] object-contain" />
+              <h3 className="work text-2xl">01321231808</h3>
+            </div>
+            <div className="flex flex-col items-center border border-gray-200 px-12 py-8 rounded-md">
+              <img src={nagad} alt="Nagad Logo" className="w-16 aspect-[4/3] object-contain" />
+              <h3 className="work text-2xl">01992079607</h3>
+            </div>
+            <div className="flex flex-col items-center border border-gray-200 px-12 py-8 rounded-md">
+              <img src={rocket} alt="Rocket Logo" className="w-16 aspect-[4/3] object-contain" />
+              <h3 className="work text-2xl">01321231808</h3>
+            </div>
+          </div>
         </div>
         <div className="bg-gray-50 border-t border-gray-200">
           <div>
@@ -154,7 +170,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="flex flex-wrap md:flex-nowrap justify-between gap-4 py-6 md:py-8 border-t border-gray-200">
+              <div className="flex flex-wrap md:flex-nowrap justify-center gap-4 py-6 md:py-8 border-t border-gray-200">
                 {/* Copyright */}
                 <p className="font-montserrat text-sm md:text-base text-gray-700 text-center py-4 md:py-6">
                   Copyright &copy; 2025 Bdcalling Academy. All Rights Reserved.{" "}
@@ -162,11 +178,7 @@ const Footer = () => {
                     Trade License - TRAD/DNCC/032933/2023
                   </span>
                 </p>
-                <div className="flex items-center justify-center gap-8">
-                  <img src={bkash} alt="Bkash Logo" className="w-16 aspect-[4/3] object-contain" />
-                  <img src={nagad} alt="Nagad Logo" className="w-16 aspect-[4/3] object-contain" />
-                  <img src={rocket} alt="Rocket Logo" className="w-16 aspect-[4/3] object-contain" />
-                </div>
+
               </div>
             </div>
           </div>
