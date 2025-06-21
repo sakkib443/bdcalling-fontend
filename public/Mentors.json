@@ -1,105 +1,105 @@
 [
-    {
-        "name": "Sheikh Sakibul Hasan",
-        "designation": "Department Head",
-        "subject" : "Web Development",
-        "specialized_area": [
-            "Graphic Design",
-            "Brand Design",
-            "Logo Design",
-            "Animation"
-        ],
-        "education_qualification": [
-            "MBS (Accounting)",
-            "Diploma In Graphic Design",
-            "Diploma In Merchandising",
-            "CBT&A (Level 5)"
-        ],
-        "work_experience": [
-            "Former Trainer Bangladesh Computer Council (B.C.C)",
-            "Guest Trainer BUTEX",
-            "Freelancer"
-        ],
-        "training_experience": {
-            "years": "10",
-            "students": "4000"
-        },
-        "image": "https://i.ibb.co.com/7xY7G6rK/472009300-557526777119280-533781909713140935-n.jpg"
-    },
-    {
-        "name": "Asraf Hossain",
-        "designation": "Department Head",
-        "subject" : "Digital Marketing",
-        "specialized_area": [
-            "UI/UX Design",
-            "Web Design",
-            "Front-End Development",
-            "Design Thinking"
-        ],
-        "education_qualification": [
-            "BSc in Computer Science",
-            "Diploma in UX/UI Design",
-            "Certificate in Web Development"
-        ],
-        "work_experience": [
-            "Former UI Designer at TechnoNext",
-            "Lead Trainer at Creative IT",
-            "Freelance Web Designer"
-        ],
-        "training_experience": {
-            "years": "8",
-            "students": "3000"
-        },
-        "image": "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/457562284_122165830130112340_5803340726988999662_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH1gtNe03NcskxHQSAIN2qLrEGPpBkPtrSsQY-kGQ-2tOqCXkgTcJAPs-EcbuQntWl5mX1gSOw2eC3VhRGCssen&_nc_ohc=L3Rs1PCH6yUQ7kNvwEWdhTR&_nc_oc=AdnZ9PogR9CtPqG4wAspq7KgzSDVeh28VZmUnkcFj1W1Z5-bhBFmpfgude50ExF8h5c&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=d_pXJmyKMIzaqfwMqLe0aQ&oh=00_AfK-4Js9zN5D2FYu0j7nyElJ7XyTsG-dICcsLf7LV9KV6w&oe=6824F44C"
-    },
-    {
-        "name": "Kamrul Hasan",
-        "designation": "Visual Content Specialist",
-        "specialized_area": [
-            "Motion Graphics",
-            "2D Animation",
-            "Video Editing",
-            "Storyboarding"
-        ],
-        "education_qualification": [
-            "BA in Fine Arts",
-            "Diploma in Animation",
-            "Certification in Adobe After Effects"
-        ],
-        "work_experience": [
-            "Animator at Channel i",
-            "Video Editor at Pathao Studios",
-            "Freelance Motion Designer"
-        ],
-        "training_experience": {
-            "years": "6",
-            "students": "2500"
-        },
-        "image": "https://t3.ftcdn.net/jpg/02/68/56/00/360_F_268560012_H1efJHOgwhsE9avs3D9fL8DqAqkG88eG.jpg"
-    },
-    {
-        "name": "Nusrat Jahan",
-        "designation": "Lead Branding Consultant",
-        "specialized_area": [
-            "Brand Strategy",
-            "Corporate Identity Design",
-            "Packaging Design",
-            "Market Research"
-        ],
-        "education_qualification": [
-            "MBA in Marketing",
-            "Diploma in Brand Design",
-            "Training in Strategic Communication"
-        ],
-        "work_experience": [
-            "Former Brand Consultant at Unilever",
-            "Guest Lecturer at NSU",
-            "Branding Consultant (Freelance)"
-        ],
-        "training_experience": {
-            "years": "9",
-            "students": "3200"
-        },
-        "image": "https://media.istockphoto.com/id/1048700250/photo/handsome-nerd-on-grey-background.jpg?s=612x612&w=0&k=20&c=pxOLrYhynMg8TK3QuflJ_iv3n7tA8GakecdorASg60E="
-    }
+  {
+    "id": 1,
+    "name": "Sheikh Sakibul Hasan",
+    "designation": "Department Head",
+    "subject": "Web Development",
+    "specialized_area": [
+      "Graphic Design",
+      "Brand Design",
+      "Logo Design",
+      "Animation"
+    ],
+    "education_qualification": [
+      "MBS (Accounting)",
+      "Diploma In Graphic Design",
+      "Diploma In Merchandising",
+      "CBT&A (Level 5)"
+    ],
+    "work_experience": [
+      "Former Trainer Bangladesh Computer Council (B.C.C)",
+      "Guest Trainer BUTEX",
+      "Freelancer"
+    ],
+    "training_experience": { "years": "10", "students": "4000" },
+    "image": "https://i.ibb.co.com/7xY7G6rK/472009300-557526777119280-533781909713140935-n.jpg",
+    "details": "Sheikh Sakibul Hasan is a Department Head specializing in Web Development. With a strong foundation in Graphic Design, Brand Design, Logo Design, Animation, they have educated over 4000 students across 10 years. They are known for their commitment to excellence and creativity in professional training.",
+    "lifeJourney": "Sheikh Sakibul Hasan began their journey in the world of education and professional training with a passion for Graphic Design. After completing their studies in MBS (Accounting), they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma In Graphic Design, Diploma In Merchandising, CBT&A (Level 5), they became proficient in various aspects of Brand Design. Their early work experience at places like Former Trainer Bangladesh Computer Council (B.C.C) and Guest Trainer BUTEX shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 4000 students over the course of 10 years. Today, Sheikh Sakibul Hasan is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
+  },
+  {
+    "id": 2,
+    "name": "Asraf Hossain",
+    "designation": "Department Head",
+    "subject": "Digital Marketing",
+    "specialized_area": [
+      "UI/UX Design",
+      "Web Design",
+      "Front-End Development",
+      "Design Thinking"
+    ],
+    "education_qualification": [
+      "BSc in Computer Science",
+      "Diploma in UX/UI Design",
+      "Certificate in Web Development"
+    ],
+    "work_experience": [
+      "Former UI Designer at TechnoNext",
+      "Lead Trainer at Creative IT",
+      "Freelance Web Designer"
+    ],
+    "training_experience": { "years": "8", "students": "3000" },
+    "image": "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/457562284_122165830130112340_5803340726988999662_n.jpg",
+    "details": "Asraf Hossain is a Department Head specializing in Digital Marketing. With a strong foundation in UI/UX Design, Web Design, Front-End Development, Design Thinking, they have educated over 3000 students across 8 years. They are known for their commitment to excellence and creativity in professional training.",
+    "lifeJourney": "Asraf Hossain began their journey in the world of education and professional training with a passion for UI/UX Design. After completing their studies in BSc in Computer Science, they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma in UX/UI Design, Certificate in Web Development, they became proficient in various aspects of Web Design. Their early work experience at places like Former UI Designer at TechnoNext and Lead Trainer at Creative IT shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 3000 students over the course of 8 years. Today, Asraf Hossain is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
+  },
+  {
+    "id": 3,
+    "name": "Kamrul Hasan",
+    "designation": "Visual Content Specialist",
+    "specialized_area": [
+      "Motion Graphics",
+      "2D Animation",
+      "Video Editing",
+      "Storyboarding"
+    ],
+    "education_qualification": [
+      "BA in Fine Arts",
+      "Diploma in Animation",
+      "Certification in Adobe After Effects"
+    ],
+    "work_experience": [
+      "Animator at Channel i",
+      "Video Editor at Pathao Studios",
+      "Freelance Motion Designer"
+    ],
+    "training_experience": { "years": "6", "students": "2500" },
+    "image": "https://t3.ftcdn.net/jpg/02/68/56/00/360_F_268560012_H1efJHOgwhsE9avs3D9fL8DqAqkG88eG.jpg",
+    "details": "Kamrul Hasan is a Visual Content Specialist specializing in various fields. With a strong foundation in Motion Graphics, 2D Animation, Video Editing, Storyboarding, they have educated over 2500 students across 6 years. They are known for their commitment to excellence and creativity in professional training.",
+    "lifeJourney": "Kamrul Hasan began their journey in the world of education and professional training with a passion for Motion Graphics. After completing their studies in BA in Fine Arts, they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma in Animation, Certification in Adobe After Effects, they became proficient in various aspects of 2D Animation. Their early work experience at places like Animator at Channel i and Video Editor at Pathao Studios shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 2500 students over the course of 6 years. Today, Kamrul Hasan is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "designation": "Lead Branding Consultant",
+    "specialized_area": [
+      "Brand Strategy",
+      "Corporate Identity Design",
+      "Packaging Design",
+      "Market Research"
+    ],
+    "education_qualification": [
+      "MBA in Marketing",
+      "Diploma in Brand Design",
+      "Training in Strategic Communication"
+    ],
+    "work_experience": [
+      "Former Brand Consultant at Unilever",
+      "Guest Lecturer at NSU",
+      "Branding Consultant (Freelance)"
+    ],
+    "training_experience": { "years": "9", "students": "3200" },
+    "image": "https://media.istockphoto.com/id/1048700250/photo/handsome-nerd-on-grey-background.jpg?s=612x612&w=0&k=20&c=pxOLrYhynMg8TK3QuflJ_iv3n7tA8GakecdorASg60E=",
+    "details": "Nusrat Jahan is a Lead Branding Consultant specializing in various fields. With a strong foundation in Brand Strategy, Corporate Identity Design, Packaging Design, Market Research, they have educated over 3200 students across 9 years. They are known for their commitment to excellence and creativity in professional training.",
+    "lifeJourney": "Nusrat Jahan began their journey in the world of education and professional training with a passion for Brand Strategy. After completing their studies in MBA in Marketing, they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma in Brand Design, Training in Strategic Communication, they became proficient in various aspects of Corporate Identity Design. Their early work experience at places like Former Brand Consultant at Unilever and Guest Lecturer at NSU shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 3200 students over the course of 9 years. Today, Nusrat Jahan is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
+  }
 ]

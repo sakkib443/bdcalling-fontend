@@ -15,6 +15,7 @@ import OfferModal from "./Components/OfferModel";
 import Seminar from "./Page/Seminar/Seminar";
 import SuccessStory from "./Page/Success Story/SuccessStory";
 import Mentors from "./Page/Mentors/Mentors";
+import SingleMentor from "./Page/Single Mentor/SingleMentor";
 
 function App() {
   const location = useLocation();
@@ -52,6 +53,7 @@ function App() {
             <Route path="certification" element={<Certification />} />
             <Route path="success-story" element={<SuccessStory />} />
             <Route path="mentors" element={<Mentors></Mentors>} />
+            <Route path="/mentors/:id" element={<SingleMentor />} />
           </Route>
         </Routes>
       </div>
