@@ -11,7 +11,7 @@ import Concerns from "./HomeComponents/Concerns";
 import SeminarAndEvent from "./HomeComponents/SeminarAndEvent";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { Link } from "react-router-dom";
-
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const Home = () => {
   // WhatsApp message and number
@@ -34,7 +34,7 @@ const Home = () => {
         </Link>
       </div>
       {/* WhatsApp Button */}
-      <div
+      {/* <div
         onClick={handleWhatsAppClick}
         style={{
           position: 'fixed',
@@ -57,8 +57,9 @@ const Home = () => {
             loop
             autoplay
           />
+          <FaWhatsappSquare  />
         </div>
-      </div>
+      </div> */}
 
       {/* Inline animation */}
       <style>

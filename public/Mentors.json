@@ -21,85 +21,110 @@
       "Guest Trainer BUTEX",
       "Freelancer"
     ],
-    "training_experience": { "years": "10", "students": "4000" },
+    "training_experience": {
+      "years": "6",
+      "students": "4000"
+    },
     "image": "https://i.ibb.co.com/7xY7G6rK/472009300-557526777119280-533781909713140935-n.jpg",
     "details": "Sheikh Sakibul Hasan is a Department Head specializing in Web Development. With a strong foundation in Graphic Design, Brand Design, Logo Design, Animation, they have educated over 4000 students across 10 years. They are known for their commitment to excellence and creativity in professional training.",
     "lifeJourney": "Sheikh Sakibul Hasan began their journey in the world of education and professional training with a passion for Graphic Design. After completing their studies in MBS (Accounting), they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma In Graphic Design, Diploma In Merchandising, CBT&A (Level 5), they became proficient in various aspects of Brand Design. Their early work experience at places like Former Trainer Bangladesh Computer Council (B.C.C) and Guest Trainer BUTEX shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 4000 students over the course of 10 years. Today, Sheikh Sakibul Hasan is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
   },
   {
     "id": 2,
-    "name": "Asraf Hossain",
+    "name": "Ashraf Hossain",
     "designation": "Department Head",
     "subject": "Digital Marketing",
     "specialized_area": [
-      "UI/UX Design",
-      "Web Design",
-      "Front-End Development",
-      "Design Thinking"
+      "Digital Marketing",
+      "SEO ",
+      "Social Media Marketing",
+      "Facebook & Google Ads"
     ],
     "education_qualification": [
-      "BSc in Computer Science",
-      "Diploma in UX/UI Design",
-      "Certificate in Web Development"
+      "BBA in Marketing",
+      "Certified Digital Marketing Expert (Google)",
+      "Professional Diploma in Social Media Marketing"
     ],
     "work_experience": [
       "Former UI Designer at TechnoNext",
       "Lead Trainer at Creative IT",
       "Freelance Web Designer"
     ],
-    "training_experience": { "years": "8", "students": "3000" },
-    "image": "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/457562284_122165830130112340_5803340726988999662_n.jpg",
-    "details": "Asraf Hossain is a Department Head specializing in Digital Marketing. With a strong foundation in UI/UX Design, Web Design, Front-End Development, Design Thinking, they have educated over 3000 students across 8 years. They are known for their commitment to excellence and creativity in professional training.",
-    "lifeJourney": "Asraf Hossain began their journey in the world of education and professional training with a passion for UI/UX Design. After completing their studies in BSc in Computer Science, they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma in UX/UI Design, Certificate in Web Development, they became proficient in various aspects of Web Design. Their early work experience at places like Former UI Designer at TechnoNext and Lead Trainer at Creative IT shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 3000 students over the course of 8 years. Today, Asraf Hossain is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
+    "training_experience": {
+      "years": "8",
+      "students": "3000"
+    },
+    "image": "https://i.ibb.co/FqkWWC5D/Untitled-1-copy.jpg",
+    "details": "Ashraf Hossain is the Department Head specializing in Digital Marketing. With expertise in UI/UX Design, Web Design, Front-End Development, and Design Thinking, he has trained over 3000 students over the past 8 years. His sessions are known for creativity, clarity, and career-focused mentoring.",
+    "lifeJourney": "Ashraf Hossain began his journey in the world of education and professional training with a passion for UI/UX Design. After completing his BSc in Computer Science, he pursued specialized studies in UX/UI Design and Web Development. His early career as a UI Designer at TechnoNext and Lead Trainer at Creative IT helped him bridge the academic and industry worlds. Over time, he has mentored over 3000 students and gained a reputation for impactful, trend-aligned training. As a Department Head, Ashraf continues to inspire learners with updated strategies and a strong emphasis on practical skill development."
   },
   {
     "id": 3,
-    "name": "Kamrul Hasan",
-    "designation": "Visual Content Specialist",
+    "name": "Md. Abu Sayeed",
+    "designation": "Department Head",
+    "subject": "Graphic Design",
     "specialized_area": [
-      "Motion Graphics",
-      "2D Animation",
-      "Video Editing",
-      "Storyboarding"
+      "Graphic Design",
+      "UI/UX Design",
+      "Adobe Premier Pro",
+      "Adobe After Effect"
     ],
     "education_qualification": [
-      "BA in Fine Arts",
-      "Diploma in Animation",
-      "Certification in Adobe After Effects"
+      "MSC in Geography & Environment",
+      "Diploma in Graphic Design",
+      "Diploma In Computer Software Application",
+      "Graphic Design Assessor & Trainer CBT&A (Level-4)"
     ],
     "work_experience": [
-      "Animator at Channel i",
-      "Video Editor at Pathao Studios",
-      "Freelance Motion Designer"
+      "Graphic Design Assessor & Trainer CBT&A (Level-4), BTEB & NSDA",
+      "Master Trainer, SEIP-Project, Bangladesh Ministry Of ICT",
+      "Trainer, LGSP-Project, DC Office, Bogura",
+      "Guest Instructor, NECTAR",
+      "Mentor, LEDP-Project, BCS-PRIMAX Software (Bangladesh) Ltd & Pencil Box",
+      "Mentor, Asset-Project, SAIC Group",
+      "Mentor, BYETS-Project, Swisscontact",
+      "Graphic Design In-charge, SEO Experte Bangladesh Ltd",
+      "Freelancer"
     ],
-    "training_experience": { "years": "6", "students": "2500" },
-    "image": "https://t3.ftcdn.net/jpg/02/68/56/00/360_F_268560012_H1efJHOgwhsE9avs3D9fL8DqAqkG88eG.jpg",
-    "details": "Kamrul Hasan is a Visual Content Specialist specializing in various fields. With a strong foundation in Motion Graphics, 2D Animation, Video Editing, Storyboarding, they have educated over 2500 students across 6 years. They are known for their commitment to excellence and creativity in professional training.",
-    "lifeJourney": "Kamrul Hasan began their journey in the world of education and professional training with a passion for Motion Graphics. After completing their studies in BA in Fine Arts, they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma in Animation, Certification in Adobe After Effects, they became proficient in various aspects of 2D Animation. Their early work experience at places like Animator at Channel i and Video Editor at Pathao Studios shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 2500 students over the course of 6 years. Today, Kamrul Hasan is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
+    "training_experience": {
+      "years": "12",
+      "students": "4500"
+    },
+    "image": "https://i.ibb.co/sdVcqFHr/gdd.png",
+    "details": "Md. Abu Sayeed is a Department Head specializing in Graphic Design. With a strong foundation in Graphic Design, Brand Design, Logo Design, and Animation, he has educated over 4500 students across 12 years. He is known for his commitment to excellence and creativity in professional training.",
+    "lifeJourney": "Md. Abu Sayeed began his journey in the world of education and professional training with a passion for Graphic Design. After completing his MSC in Geography & Environment, he quickly realized the importance of staying ahead in the digital and creative fields. With further education including a Diploma in Graphic Design and certification as an Assessor & Trainer CBT&A (Level-4), he became proficient in various aspects of Brand Design. His early work experiences at places like the SEIP-Project under the Bangladesh Ministry Of ICT and the LEDP-Project by BCS-PRIMAX Software & Pencil Box gave him deep insight into both academic and corporate training sectors. As he continued teaching and mentoring students, his impact grew—eventually training more than 4500 students over the course of 12 years. Today, Md. Abu Sayeed is recognized not only for his expertise but also for his inspirational teaching methods and ability to connect with learners from all backgrounds. He remains dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep his training relevant and impactful."
   },
   {
     "id": 4,
-    "name": "Nusrat Jahan",
-    "designation": "Lead Branding Consultant",
+    "name": "Topu Bhowmick",
+    "designation": "Assistant Mentor",
+    "subject": "Digital Marketing",
     "specialized_area": [
-      "Brand Strategy",
-      "Corporate Identity Design",
-      "Packaging Design",
-      "Market Research"
+      "Digital Marketing",
+      "Facebook Ads",
+      "Google Ads",
+      "SEO"
+     
     ],
     "education_qualification": [
-      "MBA in Marketing",
-      "Diploma in Brand Design",
-      "Training in Strategic Communication"
+      "MA in English",
+      "BA in English",
+      "Higher Secondary School Certificate",
+      "Secondary School Certificate",
+      "Training: Certified in Digital Marketing"
     ],
     "work_experience": [
-      "Former Brand Consultant at Unilever",
-      "Guest Lecturer at NSU",
-      "Branding Consultant (Freelance)"
+      "Assistant Mentor, BDCalling Academy",
+      "Digital Marketing Practitioner & Strategist",
+      "Campaign Manager for Various Local Businesses",
+      "Freelancer"
     ],
-    "training_experience": { "years": "9", "students": "3200" },
-    "image": "https://media.istockphoto.com/id/1048700250/photo/handsome-nerd-on-grey-background.jpg?s=612x612&w=0&k=20&c=pxOLrYhynMg8TK3QuflJ_iv3n7tA8GakecdorASg60E=",
-    "details": "Nusrat Jahan is a Lead Branding Consultant specializing in various fields. With a strong foundation in Brand Strategy, Corporate Identity Design, Packaging Design, Market Research, they have educated over 3200 students across 9 years. They are known for their commitment to excellence and creativity in professional training.",
-    "lifeJourney": "Nusrat Jahan began their journey in the world of education and professional training with a passion for Brand Strategy. After completing their studies in MBA in Marketing, they quickly realized the importance of staying ahead in the digital and creative fields. With further education including Diploma in Brand Design, Training in Strategic Communication, they became proficient in various aspects of Corporate Identity Design. Their early work experience at places like Former Brand Consultant at Unilever and Guest Lecturer at NSU shaped their understanding of both the academic and corporate training sectors. As they continued teaching and mentoring students, their impact grew—eventually training more than 3200 students over the course of 9 years. Today, Nusrat Jahan is recognized not only for their expertise but also for their inspirational teaching methods and ability to connect with learners from all backgrounds. They remain dedicated to nurturing the next generation of professionals, always adapting to new trends and technologies to keep their training relevant and impactful."
+    "training_experience": {
+      "years": "3",
+      "students": "500"
+    },
+    "image": "https://i.ibb.co/N5mC8sx/97a6dc70-55e4-425f-a7c8-510b5ad6b0b5.jpg",
+    "details": "Topu Bhowmick is an Assistant Mentor in Digital Marketing with expertise in Facebook Ads, Google Ads, SEO, Affiliate Marketing, Google Analytics, Google Search Console, and Social Media Marketing. He is passionate about helping students and businesses grow through effective digital strategies, ad campaigns, and data-driven marketing solutions.",
+    "lifeJourney": "Topu Bhowmick began his journey in the digital marketing world with a deep interest in how the digital landscape shapes modern business. Motivated by this curiosity, he started developing his skills in areas such as Facebook Ads, Google Ads, SEO, Affiliate Marketing, Google Analytics, Google Search Console, and Social Media Marketing. Through continuous learning and practical application, he transformed his passion into professional expertise. Over the years, he has worked on various campaigns and digital projects that helped sharpen his technical abilities and strategic thinking. As an Assistant Mentor, he has had the privilege of guiding students and young professionals to build solid foundations in digital marketing. His teaching focuses on hands-on experience, real-world problem solving, and staying updated with the latest tools and trends. He is committed to empowering the next generation of marketers and making a lasting impact on the businesses and communities he works with."
   }
 ]

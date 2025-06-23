@@ -29,12 +29,11 @@ const MentorsSection = () => {
                       <h2 className="text-2xl font-bold text-gray-800 outfit">
                         {mentor.name}
                       </h2>
-                      <p className="csd text-lg font-semibold">
-                        {mentor.designation}
-                      </p>
-                      <p className="text-gray-700 work">{mentor.subject}</p>
+                     <p className="csd work">
+                  {mentor.designation} {mentor.subject && `• ${mentor.subject}`}
+                </p>
                       <p className="text-sm text-gray-500 mt-2 work">
-                        ✅ 14+ Years of Training Experience
+                        ✅ {mentor.training_experience.years} Years of Training Experience
                       </p>
 
                       <Link to={`/mentors/${mentor.id}`}>

@@ -56,6 +56,7 @@ import ColaborationWithimg38 from "../../../assets/img/Our Working Partner Image
 
 import MemberOfimg1 from "../../../assets/img/Our Working Partner Images/Members of all images/1_basis.png";
 import MemberOfimg2 from "../../../assets/img/Our Working Partner Images/Members of all images/2_bangladesh_computer_samity.png";
+import MemberOfimg3 from "../../../assets/img/memberOf/member og -bitm.webp";
 
 const Concerns = () => {
   const images = [
@@ -157,6 +158,7 @@ const Concerns = () => {
     // Members Of
     { id: 45, category: "Member Of", src: MemberOfimg1 },
     { id: 46, category: "Member Of", src: MemberOfimg2 },
+    { id: 47, category: "Member Of", src: MemberOfimg3 },
   ];
 
 
