@@ -47,7 +47,7 @@ const OfferModal = ({ onClose }) => {
 
         <div>
           <a target="_blank" href="https://forms.gle/JZPac32fN6r4fLJA9 ">
-            <img className="w-120 rounded-md shadow-2xl cursor-pointer" src={event01} alt="" />
+            <img className="md:w-120 w-86 rounded-md shadow-2xl cursor-pointer" src={event01} alt="" />
 
           </a>
         </div>

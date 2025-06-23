@@ -50,7 +50,7 @@ const Value = () => {
                     <div className=" rounded-full p-3 bg-[#D8F7F6]">
                         <LuAlarmClockMinus />
                     </div>
-                    <p>How We Start Journey</p>
+                    <p>Core Values That Define Us</p>
                 </div>
                 <h1 className="outfit-semibold lg:text-[40px] md:text-[30px] text-4xl my-2 md:my-0">
                     Our Values

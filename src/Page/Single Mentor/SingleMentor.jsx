@@ -84,12 +84,12 @@ const SingleMentor = () => {
           </div>
 
           {/* Content Section - Scrollable */}
-          <div className="w-full lg:w-2/3 p-6 pl-0">
+          <div className="w-full lg:w-2/3 lg:p-6 pl-0">
             {/* Profile Summary */}
             <div className="mb-8">
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h3 className="text-5xl outfit font-bold text-gray-800">{mentor.name}</h3>
+                  <h3 className="md:text-5xl text-4xl outfit font-bold text-gray-800">{mentor.name}</h3>
                   <p className="text-2xl cpr font-medium outfit-semibold">
                     {mentor.designation}
                   </p>

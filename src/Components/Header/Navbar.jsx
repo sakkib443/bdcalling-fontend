@@ -33,24 +33,24 @@ const Navbar = () => {
     { to: "/", label: "Home" },
     { to: "/courses", label: "Courses" },
     { to: "/events", label: "Events" },
-      { to: "/mentors", label: "Mentors" },
+    { to: "/mentors", label: "Mentors" },
     { to: "/about", label: "About" },
     { to: "/contact", label: "Contact" },
-  
+
     { to: "/certification", label: "Certification" },
   ];
   const navigate = useNavigate()
-  const handleClick = category =>{
+  const handleClick = category => {
     navigate(`/courses?type=${category}`)
   }
   return (
     <>
       {/* Mobile Menu Dropdown */}
-      <div
-        className={`fixed top-0 left-0 w-[70%] bg-white shadow-lg z-40 transform transition-all duration-300 ease-in-out ${isMobileMenuOpen
-          ? "translate-y-0 opacity-100"
-          : "-translate-y-full opacity-0"
-          }`}
+
+      <div className={`fixed top-0  left-0 w-[70%] bg-white shadow-lg z-40 transform transition-all duration-300 ease-in-out ${isMobileMenuOpen
+        ? "translate-y-0 opacity-100"
+        : "-translate-y-full opacity-0"
+        }`}
         style={{
           height: "calc(100vh - 80px)",
           marginTop: "68px", // Height of your navbar
@@ -92,13 +92,13 @@ const Navbar = () => {
       </div>
 
       {/* Main Navbar */}
-      <div
-        className={`border-b border-gray-200 font-poppins sticky top-0 z-50 bg-white
+
+      <div className={`border-b px-3 border-gray-200 font-poppins sticky top-0 z-50 bg-white
           transition-all duration-500 ease-in-out
           ${isSticky
-            ? "shadow-md opacity-100 translate-y-0"
-            : "shadow-none"
-          }
+          ? "shadow-md opacity-100 translate-y-0"
+          : "shadow-none"
+        }
         `}
       >
         <div className="container mx-auto">
@@ -121,9 +121,9 @@ const Navbar = () => {
                   {/* Dropdown items */}
                   <div className="absolute top-full mt-2 left-0 w-48 bg-white dark:bg-gray-200 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                     <ul className="py-2 px-4 space-y-2 text-black work">
-                      <li onClick={()=>handleClick("Online")} className="hover:text-[#41BFB8] cursor-pointer">Online Course</li>
-                      <li onClick={()=>handleClick("Offline")}  className="hover:text-[#41BFB8] cursor-pointer">Offline Course</li>
-                      <li onClick={()=>handleClick("Recorded")} className="hover:text-[#41BFB8] cursor-pointer">Recorded Course</li>
+                      <li onClick={() => handleClick("Online")} className="hover:text-[#41BFB8] cursor-pointer">Online Course</li>
+                      <li onClick={() => handleClick("Offline")} className="hover:text-[#41BFB8] cursor-pointer">Offline Course</li>
+                      <li onClick={() => handleClick("Recorded")} className="hover:text-[#41BFB8] cursor-pointer">Recorded Course</li>
                     </ul>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ const Navbar = () => {
       {/* Overlay when mobile menu is open */}
       {isMobileMenuOpen && (
         <div
-          className="fixed inset-0 bg-black/10  backdrop-blur-sm z-30 lg:hidden"
+          className="fixed  inset-0 bg-black/10  backdrop-blur-sm z-30 lg:hidden"
           onClick={closeMobileMenu}
         ></div>
       )}

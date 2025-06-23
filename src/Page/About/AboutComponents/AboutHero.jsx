@@ -1,7 +1,7 @@
 import React from 'react';
-import hero1 from "../../../assets/img/aboutpage/1.jpg"
-import hero2 from "../../../assets/img/aboutpage/hero2.jpg"
-import hero3 from "../../../assets/img/aboutpage/hero3.jpg"
+import hero1 from "../../../assets/img/aboutpage/02.jpg"
+import hero2 from "../../../assets/img/aboutpage/022.jpg"
+import hero3 from "../../../assets/img/aboutpage/033.jpg"
 
 const AboutHero = () => {
     return (
@@ -27,9 +27,9 @@ const AboutHero = () => {
                         <div className="flex flex-col gap-2">
                             <h2 className="text-4xl outfit text-gray-700">
                                 Our Dream
-                                <span className="cpr"> & Our Purpose</span>
+                                <span className="cpr">  Our Purpose</span>
                             </h2>
-                            <p className="text-lg font-semibold csd uppercase outfit-semibold">
+                            <p className="text-lg font-semibold csd capitalize  outfit-semibold">
                                 Hub of skill development. We are committed to building a skilled and digitally empowered Bangladesh.
 
                             </p>

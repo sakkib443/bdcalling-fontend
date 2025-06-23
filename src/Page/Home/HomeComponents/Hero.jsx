@@ -119,7 +119,7 @@ const Hero = () => {
           <div className="relative w-full h-[400px]  overflow-hidden rounded-xl shadow-lg">
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/ohRdvaEzpJQ?si=ShAqobFXDT2Xoqag"
+              src="https://www.youtube.com/embed/ZaIZPOgVj3I?si=1NZGV3894Wa6C-E0"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
