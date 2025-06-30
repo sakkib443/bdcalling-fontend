@@ -16,6 +16,7 @@ import Seminar from "./Page/Seminar/Seminar";
 import SuccessStory from "./Page/Success Story/SuccessStory";
 import Mentors from "./Page/Mentors/Mentors";
 import SingleMentor from "./Page/Single Mentor/SingleMentor";
+import SeminarAndEvent from "./Page/SeminarAndEvent/SeminarAndEvent";
 
 function App() {
   const location = useLocation();
@@ -43,7 +44,7 @@ function App() {
           <Route path="/" element={<Root />}>
             <Route index element={<Home />} />
             <Route path="courses" element={<Course />} />
-            <Route path="events" element={<Seminar></Seminar>} />
+            <Route path="events" element={<SeminarAndEvent></SeminarAndEvent>} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="login" element={<LoginPage />} />
