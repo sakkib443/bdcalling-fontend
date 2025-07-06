@@ -10,10 +10,15 @@ import { Link } from "react-router-dom";
 const SeminarAndEvent = () => {
   return (
     <>
-
-      <div className="flex lg:flex-row flex-col justify-center items-center gap-12 border border-gray-200 bg-cover  container mx-auto bg-[#e8f9f9] py-16 rounded-2xl" style={{ backgroundImage: `url(${bgImage})` }}>
+      <div
+        className="flex lg:flex-row flex-col justify-center items-center gap-12 border crd border-gray-200 bg-cover  container mx-auto bg-[#e8f9f9] py-16 rounded-2xl"
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
         <div className="lg:w-6/12">
-          <div className="flex justify-end ">  <img className="md:w-[650px] px-4 md:px-0  " src={img2} alt="" /></div>
+          <div className="flex justify-end ">
+            {" "}
+            <img className="md:w-[650px] px-4 md:px-0  " src={img2} alt="" />
+          </div>
         </div>
         <div className="lg:w-6/12 container">
           <div className="lg:w-[550px] px-6 md:px-0">
@@ -26,11 +31,14 @@ const SeminarAndEvent = () => {
               </div>
               <h1 className="outfit-semibold lg:text-[40px] md:text-[30px] text-2xl my-2 md:my-0 ">
                 Let’s Explore the
-                <span className="csd"> World of IT </span>  <br />
-
+                <span className="csd"> World of IT</span> <br />
               </h1>
-              <p className="work crd mt-2">Whether you're a student or professional, our seminars and events are designed to inspire, educate, and prepare you for a successful tech career. Connect with industry experts, expand your knowledge, and gain practical insights into the latest tech trends.
-
+              <p className="work crd mt-2">
+                Whether you're a student or a professional, our seminars and
+                events are designed to inspire, educate, and prepare you for a
+                successful career in tech. Connect with industry experts, expand
+                your knowledge, and gain practical insights into the latest
+                technology trends.
               </p>
             </div>
 
@@ -43,7 +51,9 @@ const SeminarAndEvent = () => {
                   </div>
                   <div>
                     <p className="outfit-semibold text-xl">Join Our Seminar</p>
-                    <p className="work">Explore your potential with industry experts.</p>
+                    <p className="work">
+                      Unlock your potential with guidance from industry leaders.
+                    </p>
                   </div>
                 </div>
               </Link>
@@ -56,12 +66,13 @@ const SeminarAndEvent = () => {
                   </div>
                   <div>
                     <p className="outfit-semibold text-xl">Enjoy Our Events</p>
-                    <p className="work">Expand your network with meaningful connections.</p>
+                    <p className="work">
+                      Build your network through meaningful connections.
+                    </p>
                   </div>
                 </div>
               </Link>
             </div>
-
           </div>
         </div>
       </div>

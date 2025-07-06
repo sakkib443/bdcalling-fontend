@@ -13,29 +13,41 @@ const Footer = () => {
   return (
     <>
       <div className="mt-12">
-        <div >
-          <div className="">
-            <h2 className="text-center outfit text-4xl mb-4 crd">Our Payment Mathod</h2>
+        <div className="crd">
+          <div>
+            <h2 className="text-center outfit text-4xl mb-4 crd">
+              Our Payment Mathod
+            </h2>
           </div>
           <div className="flex  flex-col md:flex-row items-center justify-center md:gap-18 gap-6 mb-6 ">
             <div className="flex flex-col items-center border border-gray-200 px-12 py-8 rounded-md">
-              <img src={bkash} alt="Bkash Logo" className="w-16 aspect-[4/3] object-contain" />
+              <img
+                src={bkash}
+                alt="Bkash Logo"
+                className="w-16 aspect-[4/3] object-contain"
+              />
               <h3 className="work text-2xl">01321231808</h3>
             </div>
             <div className="flex flex-col items-center border border-gray-200 px-12 py-8 rounded-md">
-              <img src={nagad} alt="Nagad Logo" className="w-16 aspect-[4/3] object-contain" />
+              <img
+                src={nagad}
+                alt="Nagad Logo"
+                className="w-16 aspect-[4/3] object-contain"
+              />
               <h3 className="work text-2xl">01992079607</h3>
             </div>
             <div className="flex flex-col items-center border border-gray-200 px-12 py-8 rounded-md">
-              <img src={rocket} alt="Rocket Logo" className="w-16 aspect-[4/3] object-contain" />
+              <img
+                src={rocket}
+                alt="Rocket Logo"
+                className="w-16 aspect-[4/3] object-contain"
+              />
               <h3 className="work text-2xl">01321231808</h3>
             </div>
           </div>
         </div>
         <div className="bg-gray-50 border-t border-gray-200">
-          <div>
-
-          </div>
+          <div></div>
           <div className="w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
             <div className="space-y-6 md:space-y-8">
               <div className="py-6 md:py-10 grid grid-cols-1 md:grid-cols-6 justify-between gap-12">
@@ -172,13 +184,12 @@ const Footer = () => {
 
               <div className="flex flex-wrap md:flex-nowrap justify-center gap-4 py-6 md:py-8 border-t border-gray-200">
                 {/* Copyright */}
-                <p className="font-montserrat text-sm md:text-base text-gray-700 text-center py-4 md:py-6">
+                <p className="font-montserrat text-sm md:text-base crd text-center py-4 md:py-6">
                   Copyright &copy; 2025 Bdcalling Academy. All Rights Reserved.{" "}
                   <span className="text-xs md:text-sm text-gray-500 hover:text-[#F79952] ease-in-out cursor-pointer relative pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform after:duration-200 after:scale-x-0 after:origin-left hover:after:scale-x-100">
                     Trade License - TRAD/DNCC/032933/2023
                   </span>
                 </p>
-
               </div>
             </div>
           </div>

@@ -36,8 +36,10 @@ const SingleMentor = () => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-cyan-100">
         <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8 text-center">
-          <h2 className="text-2xl font-bold text-red-600 mb-4">Mentor Not Found</h2>
-          <p className="text-gray-700 mb-6">{error}</p>
+          <h2 className="text-2xl font-bold text-red-600 mb-4">
+            Mentor Not Found
+          </h2>
+          <p className="crd mb-6">{error}</p>
           <button
             onClick={() => window.history.back()}
             className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-6 rounded-full transition duration-300"
@@ -54,8 +56,12 @@ const SingleMentor = () => {
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-cyan-100">
         <div className="text-center">
           <div className="inline-block animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-500 mb-6"></div>
-          <h3 className="text-xl font-medium text-gray-800">Loading mentor profile...</h3>
-          <p className="text-gray-600 mt-2">We're gathering all the details for you</p>
+          <h3 className="text-xl font-medium text-gray-800">
+            Loading mentor profile...
+          </h3>
+          <p className="text-gray-600 mt-2">
+            We're gathering all the details for you
+          </p>
         </div>
       </div>
     );
@@ -89,7 +95,9 @@ const SingleMentor = () => {
             <div className="mb-8">
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h3 className="md:text-5xl text-4xl outfit font-bold text-gray-800">{mentor.name}</h3>
+                  <h3 className="md:text-5xl text-4xl outfit font-bold text-gray-800">
+                    {mentor.name}
+                  </h3>
                   <p className="text-2xl cpr font-medium outfit-semibold">
                     {mentor.designation}
                   </p>
@@ -111,23 +119,27 @@ const SingleMentor = () => {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-700 leading-relaxed  work">
-                {mentor.details}
-              </p>
+              <p className="crd leading-relaxed  work">{mentor.details}</p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               <div className="bg-[#ECFCFB] border border-gray-200 p-4 rounded-xl text-center">
-                <p className="text-3xl font-bold  csd">{mentor.training_experience.years}+</p>
+                <p className="text-3xl font-bold  csd">
+                  {mentor.training_experience.years}+
+                </p>
                 <p className="text-gray-600 work">Years Experience</p>
               </div>
               <div className="bg-[#ECFCFB] border border-gray-200 p-4 rounded-xl text-center">
-                <p className="text-3xl font-bold text-cyan-700">{mentor.training_experience.students}+</p>
+                <p className="text-3xl font-bold text-cyan-700">
+                  {mentor.training_experience.students}+
+                </p>
                 <p className="text-gray-600 work">Students Trained</p>
               </div>
               <div className="bg-[#ECFCFB] border border-gray-200 p-4 rounded-xl text-center">
-                <p className="text-3xl font-bold csd">{mentor.specialized_area?.length || 0}</p>
+                <p className="text-3xl font-bold csd">
+                  {mentor.specialized_area?.length || 0}
+                </p>
                 <p className="text-gray-600 work">Specializations</p>
               </div>
             </div>
@@ -160,10 +172,20 @@ const SingleMentor = () => {
                 <ul className="space-y-2 work">
                   {mentor.education_qualification?.map((edu, idx) => (
                     <li key={idx} className="flex items-start">
-                      <svg className="h-5 w-5 text-[#41bfb8] mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <svg
+                        className="h-5 w-5 text-[#41bfb8] mr-2 mt-0.5 flex-shrink-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
                       </svg>
-                      <span className="text-gray-700">{edu}</span>
+                      <span className="crd">{edu}</span>
                     </li>
                   ))}
                 </ul>
@@ -178,10 +200,20 @@ const SingleMentor = () => {
                 <ul className="space-y-2 work">
                   {mentor.work_experience?.map((work, idx) => (
                     <li key={idx} className="flex items-start">
-                      <svg className="h-5 w-5 cpr mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      <svg
+                        className="h-5 w-5 cpr mr-2 mt-0.5 flex-shrink-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                        />
                       </svg>
-                      <span className="text-gray-700">{work}</span>
+                      <span className="crd">{work}</span>
                     </li>
                   ))}
                 </ul>
@@ -195,7 +227,7 @@ const SingleMentor = () => {
                 Life Journey
               </h3>
               <div className="bg-[#ECFCFB] shadow-xl work border-l-4 border-yellow-400 p-4 rounded-r-lg">
-                <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+                <p className="crd leading-relaxed whitespace-pre-line">
                   {mentor.lifeJourney}
                 </p>
               </div>

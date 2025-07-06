@@ -59,7 +59,7 @@ const SeminarAndEventCard = () => {
           return (
             <li
               key={event.id}
-              className="flex flex-col md:flex-row  md:items-center border-b border-gray-200 shadow md:shadow-none rounded-b-2xl gap-4 px-4 py-3 hover:shadow-md transition"
+              className="flex flex-col md:flex-row  md:items-center border-b border-gray-200 shadow md:shadow-none rounded-b-2xl gap-4 px-4 py-3 hover:shadow-md transition crd"
             >
               <div className="text-3xl font-mono text-gray-300 w-10 text-center">
                 {String(index + 1).padStart(2, "0")}
@@ -71,8 +71,10 @@ const SeminarAndEventCard = () => {
               />
               <div className="flex-1">
                 <div className="work flex gap-3">
-                  <button className="btn btn-xs bg-transparent">Offline</button>
-                  <button className="btn btn-xs  bg-transparent">Seminar</button>
+                  <button className="btn btn-xs bg-transparent crd">Offline</button>
+                  <button className="btn btn-xs  bg-transparent crd">
+                    Seminar
+                  </button>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800">
                   {event.title}
@@ -97,7 +99,7 @@ const SeminarAndEventCard = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="btn bg-transparent mb-1">Join</button>
+                    <button className="btn bg-transparent mb-1 crd">Join</button>
                   </a>
                 </div>
                 <div className="font-mono translate-y-3 text-gray-800">

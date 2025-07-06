@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-24 relative">
-
+    <div className="container mx-auto px-4 sm:px-6 lg:px-24 relative crd">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-6 md:gap-8 relative">
         {/* Left Section */}
         <div className="flex-1 flex flex-col justify-between w-full">
@@ -14,7 +13,7 @@ const Hero = () => {
             <div className="flex items-center gap-2 mb-2">
               <FiBookOpen className="text-2xl sm:text-3xl animate-bounce" />
               <p className="text-sm sm:text-xl md:text-[22px] crd work">
-                     A Leading Platform for Skills
+                A Leading Platform for Skills
               </p>
             </div>
             <h1 className="md:text-6xl my-4 text-4xl csd  outfit">
@@ -23,23 +22,23 @@ const Hero = () => {
                 To Leader{" "}
               </span> */}
               Bdcalling Academy
-
             </h1>
-            <h1 className=" text-3xl sm:text-4xl md:text-6xl 2xl:text-4xl font-semibold outfit">
-         
-
-            </h1>
+            <h1 className=" text-3xl sm:text-4xl md:text-6xl 2xl:text-4xl font-semibold outfit"></h1>
             <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] work">
-            Welcome to Bdcalling Academy, a concern of Betopia Group, where you can hone your skills and reach out to the sky with your dreams. We offer a wide range of courses to boost your tech skills and advance your career. Learn from expert instructors and turn your IT knowledge into a pathway to success with Bdcalling Academy.
+              Welcome to Bdcalling Academy, a part of Betopia Group, where you
+              can hone your skills and reach for the sky to achieve your dreams.
+              We offer a wide range of courses to boost your tech skills and
+              advance your career. Learn from expert instructors and turn your
+              IT knowledge into a pathway toward success.
             </p>
 
             {/* Stats */}
-            <div className="mb-4 w-auto lg:w-12/12 ">
+            <div className="mb-4 w-auto lg:w-12/12">
               <div className="stats shadow md:w-full w-[99%] overflow-hidden py-3 pz-4">
                 {/* Total Courses */}
-                <div className=" flex items-center gap-1.5 sm:w-auto pl-4 ">
+                <div className=" flex items-center gap-1.5 sm:w-auto pl-4">
                   <div>
-                    <div className="stat-title text-xs sm:text-sm">
+                    <div className="stat-title text-xs sm:text-sm crd">
                       Our Courses
                     </div>
                     <div className="flex items-center gap-2">
@@ -47,8 +46,8 @@ const Hero = () => {
                         50+
                       </div>
                     </div>
-                    <div className="stat-desc text-xs md:block hidden">
-                     Including Vendor Certfied Courses
+                    <div className="stat-desc text-xs md:block hidden crd">
+                      Including Vendor Certfied Courses
                     </div>
                   </div>
                 </div>
@@ -56,7 +55,7 @@ const Hero = () => {
                 {/* Total Students */}
                 <div className=" flex items-center gap-1.5 w-full sm:w-auto">
                   <div>
-                    <div className="stat-title text-xs sm:text-sm">
+                    <div className="stat-title text-xs sm:text-sm crd">
                       Total Students
                     </div>
                     <div className="flex items-center gap-3">
@@ -64,7 +63,7 @@ const Hero = () => {
                         4200+
                       </div>
                     </div>
-                    <div className="stat-desc text-xs md:block hidden">
+                    <div className="stat-desc text-xs md:block hidden crd">
                       Building a skilled society
                     </div>
                   </div>
@@ -85,11 +84,11 @@ const Hero = () => {
                   </div>
                   <div>
                     <div className="stat-value text-lg sm:text-xl">92%</div>
-                    <div className="stat-title text-xs sm:text-sm">
-                       Career Placement rate
+                    <div className="stat-title text-xs sm:text-sm crd">
+                      Career Placement rate
                     </div>
                     <div className="stat-desc text-[#41bfb8] text-xs md:block hidden">
-                     Targeting to reach 100%
+                      Targeting to reach 100%
                     </div>
                   </div>
                 </div>
@@ -105,9 +104,11 @@ const Hero = () => {
                 </button>
               </Link>
               <Link to="/success-story">
-                <button className="flex gap-2 text-base sm:text-lg md:text-xl items-center border border-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-gray-50 transition-colors">
+                <button className="flex gap-2 text-base sm:text-lg md:text-xl items-center border border-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-gray-50 transition-colors cursor-pointer">
                   <LuBookOpenCheck className="text-xl sm:text-2xl text-[#41bfb8] font-semibold" />
-                  <p className="text-[#41bfb8] work font-semibold">Success Story</p>
+                  <p className="text-[#41bfb8] work font-semibold">
+                    Success Story
+                  </p>
                 </button>
               </Link>
             </div>

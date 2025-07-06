@@ -11,22 +11,38 @@ const SuccessHistory = () => {
 
   const videoData = {
     journey: [
-      { id: "iqiNOsO7Yp8", title: "From Student to Professional - Sarah's Journey" },
+      {
+        id: "iqiNOsO7Yp8",
+        title: "From Student to Professional - Sarah's Journey",
+      },
 
-      { id: "_6cBwuHNKgI", title: "Career Transformation - John's Success Story" },
-      { id: "2GqZBsRqaf0", title: "From Student to Professional - Sarah's Journey" },
+      {
+        id: "_6cBwuHNKgI",
+        title: "Career Transformation - John's Success Story",
+      },
+      {
+        id: "2GqZBsRqaf0",
+        title: "From Student to Professional - Sarah's Journey",
+      },
       { id: "5RrnH4paPSg", title: "Learning to Earning - Maria's Experience" },
-      { id: "0_FsHO7u5Pc", title: "Internship to Full-time - David's Progress" },
-      { id: "MAesoykAUhc", title: "Internship to Full-time - David's Progress" },
+      {
+        id: "0_FsHO7u5Pc",
+        title: "Internship to Full-time - David's Progress",
+      },
+      {
+        id: "MAesoykAUhc",
+        title: "Internship to Full-time - David's Progress",
+      },
     ],
     feedback: [
       { id: "ymFUAUDfHIo", title: "Student Feedback - Course Experience" },
-      { id: "2GqZBsRqaf0", title: "From Student to Professional - Sarah's Journey" },
+      {
+        id: "2GqZBsRqaf0",
+        title: "From Student to Professional - Sarah's Journey",
+      },
       { id: "5HQLWiQP5-E", title: "Student Feedback - Course Experience" },
-    ]
+    ],
   };
-
-
 
   const activeVideos = videoData[activeFilter];
 
@@ -37,7 +53,9 @@ const SuccessHistory = () => {
           <div className="">
             <SectionHeading
               title={"Success Stories"}
-              description={"At Bdcalling Academy, our students gain more than just skills—they gain opportunities. With real client project-based training, they graduate with the skills for real-world challenges. Many go on to secure roles within our company, supported by hands-on learning that sets them apart. Every success story starts with a single step, and we’re here to guide you all the way."}
+              description={
+                "At Bdcalling Academy, our students gain more than just skills — they gain opportunities. Through real client project-based training, they graduate fully prepared for real-world challenges. Many go on to secure roles within our company, supported by hands-on learning that sets them apart. Every success story begins with a single step, and we’re here to guide you every step of the way."
+              }
             />
 
             {/* Filter Buttons */}
@@ -46,10 +64,11 @@ const SuccessHistory = () => {
                 <button
                   key={type}
                   onClick={() => setActiveFilter(type)}
-                  className={`fieldset-label btn rounded-md dark:border-gray-300 dark:shadow-none  ${activeFilter === type
-                    ? "bg-[#41bfb8] text-white"
-                    : "bg-[#ecfcfb] dark:text-gray-500"
-                    }`}
+                  className={`fieldset-label btn rounded-md dark:border-gray-300 dark:shadow-none  ${
+                    activeFilter === type
+                      ? "bg-[#41bfb8] text-white"
+                      : "bg-[#ecfcfb] dark:text-gray-500"
+                  }`}
                 >
                   {type === "journey" ? "Student Story" : "Student Feedback"}
                 </button>
@@ -76,7 +95,7 @@ const SuccessHistory = () => {
                       allowFullScreen
                       className="rounded-xl w-full pointer-events-none"
                     ></iframe>
-                    {/* <p className="mt-2 text-center text-sm font-medium text-gray-700">{video.title}</p> */}
+                    {/* <p className="mt-2 text-center text-sm font-medium crd">{video.title}</p> */}
                   </div>
                 ))}
               </div>

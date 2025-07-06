@@ -181,32 +181,35 @@ const SingleCourse = () => {
 
             <div className="flex flex-col lg:flex-row gap-10 container mx-auto px-4 md:px-24 ">
               <div className="space-y-6 w-full lg:w-2/3 border border-gray-100 px-8 py-8 shadow-sm rounded-md bg-[#E1FCF9]">
-                <div className="">
+                <div className="text-gray-600">
                   <div className="flex gap-4  rounded-md border-gray-300  py-3 px-4">
                     <button
-                      className={`px-5 py-2.5 rounded-md transition-all border border-gray-300  shadow-none duration-300 cursor-pointer ${activeTab === "overview"
-                        ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
-                        : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
-                        }`}
+                      className={`px-5 py-2.5 rounded-md transition-all border border-gray-300  shadow-none duration-300 cursor-pointer ${
+                        activeTab === "overview"
+                          ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
+                          : "bg-white crd hover:bg-gray-50 shadow-md"
+                      }`}
                       onClick={() => setActiveTab("overview")}
                     >
                       Overview
                     </button>
                     <button
-                      className={`px-5 py-2.5 rounded-lg font-medium shadow-none border border-gray-300 text-sm transition-all duration-300 ease-in-out cursor-pointer ${activeTab === "curriculum"
-                        ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
-                        : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
-                        }`}
+                      className={`px-5 py-2.5 rounded-lg font-medium shadow-none border border-gray-300 text-sm transition-all duration-300 ease-in-out cursor-pointer ${
+                        activeTab === "curriculum"
+                          ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
+                          : "bg-white crd hover:bg-gray-50 shadow-md"
+                      }`}
                       onClick={() => setActiveTab("curriculum")}
                     >
                       Curriculum
                     </button>
 
                     <button
-                      className={`px-5 py-2.5 rounded-md shadow-none border border-gray-300 transition-all duration-300 cursor-pointer ${activeTab === "instructor"
-                        ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
-                        : "bg-white text-gray-700 hover:bg-gray-50 shadow-md"
-                        }`}
+                      className={`px-5 py-2.5 rounded-md shadow-none border border-gray-300 transition-all duration-300 cursor-pointer ${
+                        activeTab === "instructor"
+                          ? "bg-[#43c3bc] text-white shadow-none border-[#43c3bc]"
+                          : "bg-white crd hover:bg-gray-50 shadow-md"
+                      }`}
                       onClick={() => setActiveTab("instructor")}
                     >
                       Instructor
@@ -216,7 +219,7 @@ const SingleCourse = () => {
 
                 {/* Overview Tab Content */}
                 {activeTab === "overview" && (
-                  <div className="">
+                  <div className="crd">
                     <div>
                       <h2 className="outfit-semibold text-2xl md:text-5xl">
                         Course <span className="csd">Overview</span>
@@ -249,7 +252,7 @@ const SingleCourse = () => {
 
                 {/* Curriculum Tab Content */}
                 {activeTab === "curriculum" && (
-                  <div className="space-y-10">
+                  <div className="space-y-10 crd">
                     <h2 className="outfit-semibold text-2xl md:text-5xl">
                       What <span className="csd">You'll Learn</span>
                     </h2>
@@ -348,7 +351,7 @@ const SingleCourse = () => {
               </div>
 
               {/* Popular Courses Sidebar */}
-              <div className="w-full lg:w-1/3 lg:sticky lg:top-25 lg:self-start ">
+              <div className="w-full lg:w-1/3 lg:sticky lg:top-25 lg:self-start crd">
                 <div className="space-y-6">
                   <h3 className="cpr text-2xl md:text-5xl outfit-semibold text-center">
                     Popular <span className="crd">Courses</span>

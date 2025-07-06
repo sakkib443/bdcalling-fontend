@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "./HomeComponents/Hero";
 import HomeCategory from "./HomeComponents/HomeCategory";
 import PopularCourse from "./HomeComponents/PopularCourse";
@@ -21,6 +21,10 @@ const Home = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
 
   return (
     <div className="relative">

@@ -10,7 +10,7 @@ import { FiYoutube } from "react-icons/fi";
 
 const TopHeader = () => {
   return (
-    <div className=" bg-[#77dbd6] work hidden lg:block ">
+    <div className=" bg-[#77dbd6] work hidden lg:block">
       <div className="w-full container mx-auto">
         <div className=" flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center gap-5 py-2">
@@ -21,14 +21,19 @@ const TopHeader = () => {
             </a>
 
             {/* Email */}
-            <a href="mailto:info@bdcallingacademy.com" className="flex gap-2 text-[20px] items-center">
+            <a
+              href="mailto:info@bdcallingacademy.com"
+              className="flex gap-2 text-[20px] items-center"
+            >
               <IoMailOutline className="text-xl text-[#F79952]" />
-              <p className="text-[15px] dark:text-black/70">info@bdcallingacademy.com</p>
+              <p className="text-[15px] dark:text-black/70">
+                info@bdcallingacademy.com
+              </p>
             </a>
           </div>
           <div>
             <div className="flex gap-12 items-center">
-              <div className="flex gap-6 text-[20px] text-gray-700 items-start">
+              <div className="flex gap-6 text-[20px] crd items-start">
                 {/* Facebook */}
                 <a
                   href="https://www.facebook.com/bdcallingacademy"

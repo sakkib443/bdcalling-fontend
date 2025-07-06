@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import {
-  FiMail,
-  FiPhone,
-  FiMapPin,
-  FiSend,
-  FiYoutube,
-} from "react-icons/fi";
+import { FiMail, FiPhone, FiMapPin, FiSend, FiYoutube } from "react-icons/fi";
 import { FiFacebook, FiLinkedin } from "react-icons/fi";
 import SectionHeading from "../../Components/Shared/SectionHeading";
 
@@ -27,15 +21,17 @@ const Contact = () => {
   return (
     <div className="bg-[#ECFCFB] font-sans text-gray-800 relative min-h-screen">
       {/* Blur background overlay */}
-         <div
-      
-              className="animated-bg fixed z-50 left-0 top-7/12 -translate-y-1/2 text-white px-6 py-2 rounded-l-lg cursor-pointer shadow-2xl "
-              style={{ writingMode: 'vertical-rl', transform: 'translateY(-50%) rotate(180deg)' }}
-            >
-              <Link to='/events'>
-                <h3 className=" outfit-semibold uppercase">Join Seminar</h3>
-              </Link>
-            </div>
+      <div
+        className="animated-bg fixed z-50 left-0 top-7/12 -translate-y-1/2 text-white px-6 py-2 rounded-l-lg cursor-pointer shadow-2xl "
+        style={{
+          writingMode: "vertical-rl",
+          transform: "translateY(-50%) rotate(180deg)",
+        }}
+      >
+        <Link to="/events">
+          <h3 className=" outfit-semibold uppercase">Join Seminar</h3>
+        </Link>
+      </div>
       {messageSent && (
         <div className="fixed inset-0  backdrop-blur-sm z-40"></div>
       )}
@@ -75,7 +71,10 @@ const Contact = () => {
               Contact With Gmail
             </h3>
             <p className="text-gray-500 text-center mb-3 outfit-semibold text-xl">
-              <a href="mailto:info@bdcallingacademy.com" className="hover:underline">
+              <a
+                href="mailto:info@bdcallingacademy.com"
+                className="hover:underline"
+              >
                 info@bdcallingacademy.com
               </a>
             </p>
@@ -103,7 +102,8 @@ const Contact = () => {
               Location
             </h3>
             <address className="text-gray-500 text-center mb-3 outfit-semibold text-xl not-italic">
-              Daisy Garden, House 14 (Level-5), Block A, Main Road, Banasree, Dhaka
+              Daisy Garden, House 14 (Level-5), Block A, Main Road, Banasree,
+              Dhaka
             </address>
           </div>
         </div>
@@ -113,13 +113,15 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="bg-[#E1FCF9] p-8 rounded-xl shadow-lg border work border-gray-200 transition-transform hover:shadow-xl duration-300 h-full flex flex-col justify-between">
             <div>
-              <h2 className="text-4xl outfit font-bold mb-8">Send Us a Message</h2>
+              <h2 className="text-4xl outfit font-bold mb-8">
+                Send Us a Message
+              </h2>
               <form className="space-y-8" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
                     <label
                       htmlFor="name"
-                      className="block text-base font-medium text-gray-700 mb-2"
+                      className="block text-base font-medium crd mb-2"
                     >
                       Your Name
                     </label>
@@ -134,7 +136,7 @@ const Contact = () => {
                   <div>
                     <label
                       htmlFor="email"
-                      className="block text-base font-medium text-gray-700 mb-2"
+                      className="block text-base font-medium crd mb-2"
                     >
                       Email Address
                     </label>
@@ -150,7 +152,7 @@ const Contact = () => {
                 <div>
                   <label
                     htmlFor="subject"
-                    className="block text-base font-medium text-gray-700 mb-2"
+                    className="block text-base font-medium crd mb-2"
                   >
                     Subject
                   </label>
@@ -165,7 +167,7 @@ const Contact = () => {
                 <div>
                   <label
                     htmlFor="message"
-                    className="block text-base font-medium text-gray-700 mb-2"
+                    className="block text-base font-medium crd mb-2"
                   >
                     Message
                   </label>
@@ -206,7 +208,7 @@ const Contact = () => {
                 <Link
                   to="https://www.facebook.com/bdcallingacademy"
                   target="_blank"
-                  className="bg-gray-100 hover:bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors text-gray-700 hover:text-blue-600"
+                  className="bg-gray-100 hover:bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors crd hover:text-blue-600"
                   aria-label="Facebook"
                 >
                   <FiFacebook size={20} />
@@ -215,7 +217,7 @@ const Contact = () => {
                 <Link
                   to="https://www.youtube.com/@bdCalling"
                   target="_blank"
-                  className="bg-gray-100 hover:bg-sky-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors text-gray-700 hover:text-sky-500"
+                  className="bg-gray-100 hover:bg-sky-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors crd hover:text-sky-500"
                   aria-label="Youtube"
                 >
                   <FiYoutube size={20} />
@@ -224,7 +226,7 @@ const Contact = () => {
                 <Link
                   to="https://www.linkedin.com/company/bdcallingitltd"
                   target="_blank"
-                  className="bg-gray-100 hover:bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors text-gray-700 hover:text-blue-700"
+                  className="bg-gray-100 hover:bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors crd hover:text-blue-700"
                   aria-label="LinkedIn"
                 >
                   <FiLinkedin size={20} />
@@ -232,7 +234,7 @@ const Contact = () => {
 
                 <Link
                   to="mailto:info@bdcallingacademy.com"
-                  className="bg-gray-100 hover:bg-green-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors text-gray-700 hover:text-green-600"
+                  className="bg-gray-100 hover:bg-green-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors crd hover:text-green-600"
                   aria-label="Email"
                 >
                   <FiMail size={20} />
@@ -240,7 +242,7 @@ const Contact = () => {
 
                 <Link
                   to="tel:+8801321231802"
-                  className="bg-gray-100 hover:bg-teal-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors text-gray-700 hover:text-teal-600"
+                  className="bg-gray-100 hover:bg-teal-100 w-12 h-12 rounded-full flex items-center justify-center transition-colors crd hover:text-teal-600"
                   aria-label="Phone"
                 >
                   <FiPhone size={20} />

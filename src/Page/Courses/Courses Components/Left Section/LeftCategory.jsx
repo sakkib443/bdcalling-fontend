@@ -20,7 +20,7 @@ const LeftCategory = ({
     <div className="w-full">
       <div className="relative mb-6">
         <input
-          className="w-full pl-4 pr-10 py-3 text-base text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F79952] focus:border-transparent transition-all duration-200"
+          className="w-full pl-4 pr-10 py-3 text-base crd placeholder-gray-500 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F79952] focus:border-transparent transition-all duration-200"
           type="text"
           placeholder="Search"
           aria-label="Search"
@@ -41,7 +41,7 @@ const LeftCategory = ({
               className={`flex items-center gap-3 cursor-pointer ${
                 selectedCategories.includes(category.name)
                   ? "text-[#F79952] font-medium"
-                  : "text-gray-700 hover:text-[#F79952]"
+                  : "crd hover:text-[#F79952]"
               }`}
               onClick={() => handleCheckboxChange(category.name)}
             >

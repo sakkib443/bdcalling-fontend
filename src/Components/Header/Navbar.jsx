@@ -39,17 +39,19 @@ const Navbar = () => {
 
     { to: "/certification", label: "Certification" },
   ];
-  const navigate = useNavigate()
-  const handleClick = category => {
-    navigate(`/courses?type=${category}`)
-  }
+  const navigate = useNavigate();
+  const handleClick = (category) => {
+    navigate(`/courses?type=${category}`);
+  };
   return (
     <>
       {/* Mobile Menu Dropdown */}
 
-      <div className={`fixed top-0  left-0 w-[70%] bg-white shadow-lg z-40 transform transition-all duration-300 ease-in-out ${isMobileMenuOpen
-        ? "translate-y-0 opacity-100"
-        : "-translate-y-full opacity-0"
+      <div
+        className={`fixed lg:hidden top-0  left-0 w-[70%] bg-white shadow-lg z-40 transform transition-all duration-300 ease-in-out ${
+          isMobileMenuOpen
+            ? "translate-y-0 opacity-100"
+            : "-translate-y-full opacity-0"
         }`}
         style={{
           height: "calc(100vh - 80px)",
@@ -66,9 +68,10 @@ const Navbar = () => {
                     to={to}
                     onClick={closeMobileMenu}
                     className={({ isActive }) =>
-                      `block px-4 py-3 rounded-lg transition-all duration-300 text-lg ${isActive
-                        ? "bg-[#41bfb8] text-white"
-                        : "text-gray-700 hover:bg-gray-100"
+                      `block px-4 py-3 rounded-lg transition-all duration-300 text-lg ${
+                        isActive
+                          ? "bg-[#41bfb8] text-white"
+                          : "crd hover:bg-gray-100"
                       }`
                     }
                   >
@@ -80,11 +83,13 @@ const Navbar = () => {
           </nav>
 
           {/* GetCourse Button */}
-          <Link to='/courses'>
+          <Link to="/courses">
             <div className="mt-auto mb-6">
               <div className="flex gap-2 items-center justify-center bg-[#41bfb8] px-4 py-3 rounded-md cursor-pointer transition-all hover:brightness-110">
                 <LuBookOpenCheck className="text-2xl text-white font-semibold" />
-                <p className="text-white text-[16px] font-semibold">GetCourse</p>
+                <p className="text-white text-[16px] font-semibold">
+                  GetCourse
+                </p>
               </div>
             </div>
           </Link>
@@ -93,12 +98,10 @@ const Navbar = () => {
 
       {/* Main Navbar */}
 
-      <div className={`border-b px-3 border-gray-200 font-poppins sticky top-0 z-50 bg-white
+      <div
+        className={`border-b px-3 border-gray-200 font-poppins sticky top-0 z-50 bg-white
           transition-all duration-500 ease-in-out
-          ${isSticky
-          ? "shadow-md opacity-100 translate-y-0"
-          : "shadow-none"
-        }
+          ${isSticky ? "shadow-md opacity-100 translate-y-0" : "shadow-none"}
         `}
       >
         <div className="container mx-auto">
@@ -106,13 +109,12 @@ const Navbar = () => {
             {/* Logo and Category */}
             <div className="w-full lg:w-auto flex justify-between items-center">
               <div className="flex gap-8">
-                <Link to="/" className="md:border-r border-gray-400 flex gap-8 pr-8 2xl:pr-12">
+                <Link
+                  to="/"
+                  className="md:border-r border-gray-400 flex gap-8 pr-8 2xl:pr-12"
+                >
                   <img className="w-32 lg:w-44" src={logo} alt="Logo" />
                 </Link>
-
-
-
-
 
                 <div className="relative group hidden md:flex items-center gap-2 dark:text-black/70 cursor-pointer">
                   <BiCategory className="text-3xl" />
@@ -121,22 +123,32 @@ const Navbar = () => {
                   {/* Dropdown items */}
                   <div className="absolute top-full mt-2 left-0 w-48 bg-white dark:bg-gray-200 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                     <ul className="py-2 px-4 space-y-2 text-black work">
-                      <li onClick={() => handleClick("Online")} className="hover:text-[#41BFB8] cursor-pointer">Online Course</li>
-                      <li onClick={() => handleClick("Offline")} className="hover:text-[#41BFB8] cursor-pointer">Offline Course</li>
-                      <li onClick={() => handleClick("Recorded")} className="hover:text-[#41BFB8] cursor-pointer">Recorded Course</li>
+                      <li
+                        onClick={() => handleClick("Online")}
+                        className="hover:text-[#41BFB8] cursor-pointer"
+                      >
+                        Online Course
+                      </li>
+                      <li
+                        onClick={() => handleClick("Offline")}
+                        className="hover:text-[#41BFB8] cursor-pointer"
+                      >
+                        Offline Course
+                      </li>
+                      <li
+                        onClick={() => handleClick("Recorded")}
+                        className="hover:text-[#41BFB8] cursor-pointer"
+                      >
+                        Recorded Course
+                      </li>
                     </ul>
                   </div>
                 </div>
-
-
-
-
-
               </div>
 
               {/* Mobile menu button */}
               <button
-                className="lg:hidden text-3xl text-gray-700 focus:outline-none cursor-pointer"
+                className="lg:hidden text-3xl crd focus:outline-none cursor-pointer"
                 onClick={toggleMobileMenu}
               >
                 {isMobileMenuOpen ? <BiX /> : <BiMenu />}
@@ -152,9 +164,10 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `relative pb-1 transition-all duration-300 
                     hover:text-[#41bfb8] text-[16px]
-                    ${isActive
-                      ? "text-[#F79952] after:scale-x-100"
-                      : "text-black after:scale-x-0"
+                    ${
+                      isActive
+                        ? "text-[#F79952] after:scale-x-100"
+                        : "text-black after:scale-x-0"
                     } 
                     after:content-[''] after:absolute after:left-0 after:bottom-0 
                     after:w-full after:h-[2px] after:bg-[#F79952] after:transition-transform 
@@ -167,12 +180,17 @@ const Navbar = () => {
             </div>
 
             {/* GetCourse Button - Desktop */}
-            <Link to='/courses'> <div className="hidden lg:block">
-              <div className="flex gap-2 text-xl items-center bg-[#41bfb8] px-4 py-2 rounded-md cursor-pointer transition-all hover:brightness-110">
-                <LuBookOpenCheck className="text-2xl text-white font-semibold" />
-                <p className="text-white text-[16px] font-semibold">GetCourse</p>
+            <Link to="/courses">
+              {" "}
+              <div className="hidden lg:block">
+                <div className="flex gap-2 text-xl items-center bg-[#41bfb8] px-4 py-2 rounded-md cursor-pointer transition-all hover:brightness-110">
+                  <LuBookOpenCheck className="text-2xl text-white font-semibold" />
+                  <p className="text-white text-[16px] font-semibold">
+                    GetCourse
+                  </p>
+                </div>
               </div>
-            </div></Link>
+            </Link>
           </div>
         </div>
       </div>

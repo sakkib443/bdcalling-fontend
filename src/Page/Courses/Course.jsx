@@ -140,7 +140,7 @@ const Course = () => {
           <SectionHeading
             title={"Discover Your Next Skill"}
             description={
-              "Unlock a wide range of practical, in-demand courses designed to match your career goals. Whether you're taking your first step into tech or advancing your skills, our learning paths are crafted by industry experts to ensure you gain real-world knowledge that truly matters."
+              "Unlock a wide range of practical, in-demand courses designed to align with your career goals. Whether you’re taking your first step into tech or advancing your expertise, our learning paths are crafted by industry experts to ensure you gain real-world knowledge that truly makes a difference."
             }
           ></SectionHeading>
         </div>

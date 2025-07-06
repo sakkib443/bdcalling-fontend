@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import SeminarAndEventCard from "./SeminarAndEventComponents/seminarAndEventCard";
 import SeminarAndEventHeader from "./SeminarAndEventComponents/SeminarAndEventHeader";
 
 const SeminarAndEvent = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-[#ECFCFB] min-h-[85vh]">
       <div className="pt-6 ">

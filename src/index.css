@@ -1,20 +1,17 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-
-
 /* Poppins Font */
 .font-poppins {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
 }
 
 /* Roboto Font */
 .font-roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
-
 
 .lobster-regular {
   font-family: "Lobster", sans-serif;
@@ -43,25 +40,23 @@
   font-style: normal;
 }
 
+.cpr {
+  color: #f79952;
+}
+.csd {
+  color: #41bfb8;
+}
+.crd {
+  color: #414042;
+}
 
-.cpr{
-  color:#F79952;
-}
-.csd{
-  color:#41bfb8;
-}
-.crd{
-  color:#414042;
-}
-
-.tw{
+.tw {
   color: white;
 }
 
-
 @layer utilities {
   .animated-bg {
-    background: linear-gradient(270deg, #F79952, #41bfb8, #F79952);
+    background: linear-gradient(270deg, #f79952, #41bfb8, #f79952);
     background-size: 600% 600%;
     animation: gradientMove 20s ease infinite;
   }
