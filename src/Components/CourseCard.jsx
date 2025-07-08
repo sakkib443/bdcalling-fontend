@@ -33,9 +33,11 @@ const CourseCard = ({ id, title, category, type, image, fee, rating }) => {
                 </p>
               </div>
 
-              <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd line-clamp-2">
-                {title}
-              </h2>
+              <Link to={`${id}`}>
+                <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd line-clamp-2">
+                  {title}
+                </h2>
+              </Link>
 
               <div className="flex justify-between pr-8 items-center">
                 <p className="text-lg font-semibold text-gray-800 work">

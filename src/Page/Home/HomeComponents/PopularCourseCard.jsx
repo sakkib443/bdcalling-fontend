@@ -56,9 +56,7 @@ const PopularCourseCard = () => {
 
   const handleNext = () => {
     setStartIndex((prevIndex) =>
-      prevIndex + visibleItems >= filteredCourses.length
-        ? 0
-        : prevIndex + 1
+      prevIndex + visibleItems >= filteredCourses.length ? 0 : prevIndex + 1
     );
   };
 
@@ -106,11 +104,13 @@ const PopularCourseCard = () => {
             >
               <div className="rounded-md border border-gray-200 bg-white p-2 text-gray-800 overflow-hidden transition-all duration-700 ease-in-out">
                 <div className="relative h-52 w-full overflow-hidden rounded-xl">
-                  <img
-                    src={course.image}
-                    alt="thumbnail"
-                    className="h-full w-full rounded-xl object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-105"
-                  />
+                  <Link to={`/courses/${course.id}`}>
+                    <img
+                      src={course.image}
+                      alt="thumbnail"
+                      className="h-full w-full rounded-xl object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-105"
+                    />
+                  </Link>
                 </div>
 
                 <div className="mt-5 space-y-1 text-left pl-4">
@@ -124,9 +124,11 @@ const PopularCourseCard = () => {
                     </p>
                   </div>
 
-                  <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd">
-                    {course.title}
-                  </h2>
+                  <Link to={`/courses/${course.id}`}>
+                    <h2 className="text-[22px] font-bold w-10/12 h-17 outfit-semibold csd">
+                      {course.title}
+                    </h2>
+                  </Link>
 
                   <div className="flex justify-between pr-8 items-center">
                     <p className="text-lg font-semibold text-gray-800 work">

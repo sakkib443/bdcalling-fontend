@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="crd">
           <div>
             <h2 className="text-center outfit text-4xl mb-4 crd">
-              Our Payment Mathod
+              Our Payment Method
             </h2>
           </div>
           <div className="flex  flex-col md:flex-row items-center justify-center md:gap-18 gap-6 mb-6 ">

@@ -97,12 +97,18 @@ const Hero = () => {
 
             {/* Get Course Buttons */}
             <div className="flex gap-3 sm:gap-4 flex-wrap">
-              <Link to="/events" className="cursor-pointer">
+              <a
+                href="/events"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
                 <button className="flex gap-1 cursor-pointer text-base sm:text-lg md:text-xl items-center bg-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-[#38a8a1] transition-colors">
                   <LuBookOpenCheck className="text-xl sm:text-2xl text-white font-semibold" />
-                  <p className="text-white  work ">Join Seminar & Events</p>
+                  <p className="text-white work">Join Seminar & Events</p>
                 </button>
-              </Link>
+              </a>
+
               <Link to="/success-story">
                 <button className="flex gap-2 text-base sm:text-lg md:text-xl items-center border border-[#41bfb8] px-3 sm:px-4 py-1 sm:py-2 rounded-md hover:bg-gray-50 transition-colors cursor-pointer">
                   <LuBookOpenCheck className="text-xl sm:text-2xl text-[#41bfb8] font-semibold" />

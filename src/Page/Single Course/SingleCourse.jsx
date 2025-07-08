@@ -307,7 +307,7 @@ const SingleCourse = () => {
                 )}
 
                 {/* Instructor Tab Content */}
-                {/* {activeTab === "instructor" && (
+                {activeTab === "instructor" && (
                   <div className="space-y-4">
                     <h2 className="outfit-semibold text-2xl md:text-5xl">
                       <span className="cpr">Instructor</span>
@@ -325,11 +325,11 @@ const SingleCourse = () => {
                           {course?.instructorName}
                         </h5>
                         <p className="text-base md:text-lg">
-                          {course?.instructorEmail ||
-                            "Expert Photography Instructor"}
+                          {course.designation
+                            } | {course.subject}
                         </p>
                         <div className="flex items-center gap-2 mt-3">
-                          <div className="flex">{renderStars(4.9)}</div>
+                          <div className="flex">{renderStars(5)}</div>
                           <span className="text-gray-600">
                             ({course?.instructorReviews} Reviews)
                           </span>
@@ -347,7 +347,7 @@ const SingleCourse = () => {
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
                     </p>
                   </div>
-                )} */}
+                )}
               </div>
 
               {/* Popular Courses Sidebar */}
