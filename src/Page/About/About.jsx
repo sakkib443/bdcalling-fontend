@@ -5,6 +5,7 @@ import AboutGallery from "./AboutComponents/AboutGallery";
 import Value from "./AboutComponents/Value";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import CeoMessage from "./AboutComponents/CeoMessage";
 
 const About = () => {
   const { pathname } = useLocation();
@@ -29,7 +30,9 @@ const About = () => {
       </div>
       <AboutHero></AboutHero>
       <Count></Count>
+     
       <Mission></Mission>
+       <CeoMessage></CeoMessage>
       <Value></Value>
       <AboutGallery></AboutGallery>
     </div>
