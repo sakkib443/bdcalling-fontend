@@ -6,21 +6,13 @@ import bgImage from "../../assets/img/bgg.png";
 import bgImage2 from "../../assets/img/bg1.png";
 import SuccesHistory from "./HomeComponents/SuccesHistory";
 import WhatWeProvide from "./HomeComponents/WhatWeProvide";
-import Employe from "./HomeComponents/Employe";
 import Concerns from "./HomeComponents/Concerns";
 import SeminarAndEvent from "./HomeComponents/SeminarAndEvent";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { Link } from "react-router-dom";
-import { FaWhatsappSquare } from "react-icons/fa";
+
 
 const Home = () => {
-  // WhatsApp message and number
-  const handleWhatsAppClick = () => {
-    const phoneNumber = "01321231802"; // BDCalling Academy WhatsApp number
-    const message = "আমি bdcalling academy te course korte cai"; // pre-filled message
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
-  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -37,33 +29,7 @@ const Home = () => {
           <h3 className=" outfit-semibold uppercase">Join Seminar</h3>
         </Link>
       </div>
-      {/* WhatsApp Button */}
-      {/* <div
-        onClick={handleWhatsAppClick}
-        style={{
-          position: 'fixed',
-          zIndex: "20",
-          bottom: '20px',
-          right: '20px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '10px',
-          backgroundColor: "transparent",
-          padding: '8px 12px',
-          borderRadius: '30px',
-          cursor: 'pointer',
-        }}
-      >
-        <div>
-          <DotLottieReact
-            className="w-[150px]"
-            src="https://lottie.host/dbe74e91-d4cb-46b7-9219-54c29432d806/nBBwAAbPFi.lottie"
-            loop
-            autoplay
-          />
-          <FaWhatsappSquare  />
-        </div>
-      </div> */}
+      
 
       {/* Inline animation */}
       <style>
@@ -80,7 +46,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <div
-        className="min-h-[calc(100vh-26rem)] py-12 md:py-16 lg:py-24 bg-cover bg-center bg-no-repeat w-full relative"
+        className="max-h-[calc(100vh-8rem)] py-12 md:py-16 lg:py-24 bg-cover bg-center bg-no-repeat w-full relative"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="flex items-center 2xl:py-14">

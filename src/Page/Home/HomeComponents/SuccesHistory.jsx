@@ -4,8 +4,14 @@ import { Link } from "react-router-dom";
 
 const videoData = [
   { id: "_6cBwuHNKgI", title: "Career Transformation - John's Success Story" },
-  { id: "iqiNOsO7Yp8", title: "From Student to Professional - Sarah's Journey" },
-  { id: "2GqZBsRqaf0", title: "From Student to Professional - Sarah's Journey" },
+  {
+    id: "iqiNOsO7Yp8",
+    title: "From Student to Professional - Sarah's Journey",
+  },
+  {
+    id: "2GqZBsRqaf0",
+    title: "From Student to Professional - Sarah's Journey",
+  },
   { id: "VMWO2n9dpEY", title: "Student Feedback - Course Experience" },
 ];
 
@@ -15,48 +21,44 @@ const SuccesHistory = () => {
   return (
     <>
       <div className="lg:bg-white bg-[#ecfcfb] md:py-12">
-        <div className="bg-[#ecfcfb] py-8 md:pt-12 w-11/12 md:w-10/12 mx-auto rounded-2xl">
+        <div className="bg-[#ecfcfb] py-8 md:pt-12 container mx-auto rounded-2xl">
           <div className="lg:px-12">
             <SectionHeading
               title={"Success Stories"}
               description={
-                "At Bdcalling Academy, our students gain more than just skills — they gain opportunities. Through real client project-based training, they graduate fully prepared for real-world challenges. Many go on to secure roles within our company, supported by hands-on learning that sets them apart. Every success story begins with a single step, and we’re here to guide you every step of the way."
+                "At Bdcalling Academy, our students grow with confidence, help others, and build real careers. Their success inspires us to keep creating opportunities and changing lives through learning."
               }
             />
 
-            <div className="my-12">
-              <div className="flex justify-center gap-4 flex-wrap">
-                {videoData.map((video, index) => (
-                  <div
-                    key={index}
-                    className="cursor-pointer w-full sm:w-[480px] md:w-[560px] lg:w-[580px]"
-                    onClick={() => setSelectedVideo(video)}
-                  >
-                    <div className="relative w-full pt-[56.25%] rounded-xl overflow-hidden">
-                      <iframe
-                        src={`https://www.youtube.com/embed/${video.id}`}
-                        title={video.title}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                        className="absolute top-0 left-0 w-full h-full pointer-events-none"
-                      ></iframe>
-                    </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:px-44 md:px-4 mt-8">
+              {videoData.map((video, index) => (
+                <div
+                  key={index}
+                  onClick={() => setSelectedVideo(video)}
+                  className="cursor-pointer w-full"
+                >
+                  <div className="relative w-full pt-[56.25%] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <iframe
+                      src={`https://www.youtube.com/embed/${video.id}`}
+                      title={video.title}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                      className="absolute top-0 left-0 w-full h-full pointer-events-none rounded-xl"
+                    ></iframe>
                   </div>
-                ))}
-              </div>
-
-              <Link to="/success-story">
-                <div className="text-center mt-10">
-                  <button className="bg-[#0a98a0] hover:bg-[#088187] text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform shadow-lg hover:shadow-xl cursor-pointer">
-                    View More
-                  </button>
                 </div>
-              </Link>
+              ))}
             </div>
-
           </div>
+          <Link to="/success-story">
+            <div className="text-center mt-10">
+              <button className="bg-[#0a98a0] hover:bg-[#088187] text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform shadow-lg hover:shadow-xl cursor-pointer">
+                View More
+              </button>
+            </div>
+          </Link>
         </div>
       </div>
 

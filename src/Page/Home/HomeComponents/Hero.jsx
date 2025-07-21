@@ -25,11 +25,13 @@ const Hero = () => {
             </h1>
             <h1 className=" text-3xl sm:text-4xl md:text-6xl 2xl:text-4xl font-semibold outfit"></h1>
             <p className="mt-3 mb-3 text-xs sm:text-sm md:text-[15px] work">
-              Welcome to Bdcalling Academy, a part of Betopia Group, where you
-              can hone your skills and reach for the sky to achieve your dreams.
-              We offer a wide range of courses to boost your tech skills and
-              advance your career. Learn from expert instructors and turn your
-              IT knowledge into a pathway toward success.
+              Welcome to Bdcalling Academy — a leading IT training institute in
+              Bangladesh and a proud part of Betopia Group. We specialize in
+              career-oriented education designed to help you develop practical
+              digital skills and grow professionally. Our expert instructors,
+              hands-on learning approach, and personalized support will guide
+              you toward real career success in today’s competitive tech
+              landscape
             </p>
 
             {/* Stats */}
