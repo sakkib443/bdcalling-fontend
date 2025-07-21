@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-      {showModal && <OfferModal onClose={() => setShowModal(false)} />}
+     
 
       <div className={showModal && location.pathname === "/" ? "" : ""}>
         <Routes>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import SectionHeading from "../../../Components/Shared/SectionHeading";
 import bgImage from "../../../assets/img/bg1.png";
@@ -161,8 +162,6 @@ const Concerns = () => {
     { id: 47, category: "Member Of", src: MemberOfimg3 },
   ];
 
-
-
   const [selectedCategory, setSelectedCategory] = useState("Our Concern");
 
   const filteredImages = images.filter(
@@ -174,7 +173,7 @@ const Concerns = () => {
       <div>
         <div className="bg-white py-12 md:py-12 relative">
           <div
-            className="relative w-11/12 lg:w-10/12 border border-gray-200 bg-cover mx-auto py-12 px-6 rounded-2xl"
+            className="relative container border border-gray-200 bg-cover mx-auto py-12 px-6 rounded-2xl"
             style={{ backgroundImage: `url(${bgImage})` }}
           >
             {/* Background Overlay */}
@@ -197,10 +196,11 @@ const Concerns = () => {
                     >
                       <p
                         onClick={() => setSelectedCategory(cat)}
-                        className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${selectedCategory === cat
-                          ? "bg-[#41bfb8] text-white"
-                          : "bg-[#ecfcfb] dark:text-gray-500"
-                          }`}
+                        className={`fieldset-label btn rounded-md cursor-pointer shadow-2xl transition dark:border-gray-300 dark:shadow-none ${
+                          selectedCategory === cat
+                            ? "bg-[#41bfb8] text-white"
+                            : "bg-[#ecfcfb] dark:text-gray-500"
+                        }`}
                       >
                         {cat}
                       </p>
@@ -211,8 +211,8 @@ const Concerns = () => {
 
               {/* All Images (no pagination) */}
               <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
-                <div className="w-full lg:w-3/4 relative">
-                  <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-6 gap-2">
+                <div className="w-full lg:w-3/4">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                     {filteredImages.length > 0 ? (
                       filteredImages.map((image, index) => (
                         <motion.div
@@ -222,21 +222,29 @@ const Concerns = () => {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.4, delay: index * 0.05 }}
                         >
-                          <a href={image.link} target="_blank">
-                            <div className="lg:w-44 lg:h-36 w-24 h-18 flex justify-center items-center object-cover p-4 shadow-sm border-gray-200 bg-white rounded-xl">
-
+                          <a
+                            href={image.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div className="w-full max-w-[200px] aspect-[4/3] flex justify-center items-center p-4 shadow-sm border border-gray-200 bg-white rounded-xl">
                               <img
                                 src={image.src}
                                 alt={`Image ${image.id}`}
-                                className="w-28"
+                                className={`object-contain w-full h-full ${
+                                  image.category === "Colaboration With"
+                                    ? "p-2"
+                                    : "p-0"
+                                }`}
                               />
-
                             </div>
                           </a>
                         </motion.div>
                       ))
                     ) : (
-                      <p>No images to display. Select a category.</p>
+                      <p className="text-center col-span-full text-gray-500">
+                        No images to display. Select a category.
+                      </p>
                     )}
                   </div>
                 </div>
