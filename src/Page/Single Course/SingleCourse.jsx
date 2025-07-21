@@ -156,7 +156,7 @@ const SingleCourse = () => {
                         ratings)
                       </p>
                       <p className="text-gray-600 text-base lg:text-lg outfit-semibold">
-                        {course?.totalStudentsEnroll} students
+                        {course?.totalStudentsEnroll}+ students
                       </p>
                     </div>
                   </div>

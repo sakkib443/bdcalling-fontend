@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="bg-gray-50 border-t border-gray-200">
           <div></div>
-          <div className="w-11/12 md:w-10/11 lg:w-9/12 mx-auto">
+          <div className="container px-4 mx-auto">
             <div className="space-y-6 md:space-y-8">
               <div className="py-6 md:py-10 grid grid-cols-1 md:grid-cols-6 justify-between gap-12">
                 {/* Logo + Description + Socials */}
