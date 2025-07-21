@@ -34,11 +34,7 @@ const SeminarAndEvent = () => {
                 <span className="csd"> World of IT</span> <br />
               </h1>
               <p className="work crd mt-2">
-                Whether you're a student or a professional, our seminars and
-                events are designed to inspire, educate, and prepare you for a
-                successful career in tech. Connect with industry experts, expand
-                your knowledge, and gain practical insights into the latest
-                technology trends.
+                Whether you're a student or a working professional, our interactive seminars and industry events are crafted to educate, motivate, and equip you for a successful career in the tech industry. Gain valuable insights from experienced professionals, stay updated with emerging technology trends, and build the knowledge you need to thrive in today’s digital economy.
               </p>
             </div>
 
